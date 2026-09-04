@@ -8,6 +8,7 @@ export const instructors = [
     about: "Go alanında 15 yılı aşkın tecrübeye sahiptir ve Türkiye Go Milli Takımı oyuncusudur.",
     leagueSlug: 'aydinlanma',
     leagueTitle: 'Aydınlanma Ligi (Dan Seviyesi)',
+    privateLessons: true,
   },
   {
     id: 'oguzerdogan',
@@ -18,6 +19,7 @@ export const instructors = [
     about: "4 yıldır go oynuyor. Hem Goizm'de hem de İytego'da başkanlık yapmış, turnuvalar organize etmiş ve hâlâ İytego'da aktif eğitimler veriyor.",
     leagueSlug: 'gelisim',
     leagueTitle: 'Gelişim Ligi',
+    privateLessons: true,
   },
   {
     id: 'alikarakaya',
@@ -28,6 +30,7 @@ export const instructors = [
     about: "2 yıllık Go deneyimiyle Ali, İzmir Go Oyuncuları Derneği'nde aktif rol almış, çeşitli turnuvalarda hakemlik yapmıştır. Oyuncuların Go ile tanışmasından sonra sağlam bir temel oluşturmasına odaklanmaktadır.",
     leagueSlug: 'temel-taslar',
     leagueTitle: 'Temel Taşlar Ligi',
+    privateLessons: true,
   },
   {
     id: 'doganergezen',

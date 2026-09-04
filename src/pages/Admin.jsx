@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Navigate } from 'react-router-dom'
-import { UserPlus, Trash2, ShieldCheck, Megaphone, UserCheck, Mail, Phone, X } from 'lucide-react'
+import { UserPlus, Trash2, ShieldCheck, Megaphone, UserCheck, Mail, Phone, X, MessageSquare, GraduationCap, CheckCheck } from 'lucide-react'
 import { useAuth } from '../contexts/AuthContext'
 import {
   fetchLeaguesForAdmin,
@@ -13,6 +13,7 @@ import {
   dismissRegistration,
 } from '../lib/adminData'
 import { fetchSeasonAnnouncement, updateSeasonAnnouncement } from '../lib/seasonAnnouncement'
+import { fetchInstructorMessages, markInstructorMessageRead, deleteInstructorMessage } from '../lib/instructorMessages'
 
 export function Admin() {
   const { user, profile, loading } = useAuth()
@@ -28,18 +29,35 @@ export function Admin() {
   const [announcement, setAnnouncement] = useState(null)
   const [announcementSaving, setAnnouncementSaving] = useState(false)
 
+  const [instructorMessages, setInstructorMessages] = useState([])
+
   async function reload() {
     const data = await fetchLeaguesForAdmin()
     setLeagues(data)
     if (!activeLeagueId && data[0]) setActiveLeagueId(data[0].id)
   }
 
+  function reloadMessages() {
+    fetchInstructorMessages().then(setInstructorMessages)
+  }
+
   useEffect(() => {
     if (profile?.is_admin) {
       reload()
       fetchSeasonAnnouncement().then(({ announcement }) => setAnnouncement(announcement))
+      reloadMessages()
     }
   }, [profile])
+
+  async function handleToggleMessageRead(msg) {
+    await markInstructorMessageRead(msg.id, !msg.is_read)
+    reloadMessages()
+  }
+
+  async function handleDeleteMessage(id) {
+    await deleteInstructorMessage(id)
+    reloadMessages()
+  }
 
   async function handleSaveAnnouncement(e) {
     e.preventDefault()
@@ -165,6 +183,56 @@ export function Admin() {
           </form>
         </section>
       )}
+
+      <section className="rounded-3xl bg-white/70 dark:bg-white/5 border border-primary-blue/10 dark:border-white/10 shadow-card p-6 mb-8">
+        <h2 className="flex items-center gap-2 font-extrabold text-ink dark:text-white mb-4">
+          <MessageSquare size={18} className="text-accent-blue" /> Eğitmen Mesajları
+          {instructorMessages.some((m) => !m.is_read) && (
+            <span className="text-xs font-black px-2 py-0.5 rounded-full bg-heart text-white">
+              {instructorMessages.filter((m) => !m.is_read).length} yeni
+            </span>
+          )}
+        </h2>
+        {instructorMessages.length === 0 ? (
+          <p className="text-sm text-ink/40 dark:text-ice-white/40">Henüz mesaj yok.</p>
+        ) : (
+          <div className="flex flex-col gap-3">
+            {instructorMessages.map((m) => (
+              <div
+                key={m.id}
+                className={`rounded-2xl border p-4 ${m.is_read ? 'bg-primary-blue/[0.02] border-primary-blue/10 dark:border-white/10' : 'bg-accent-blue/[0.06] border-accent-blue/25'}`}
+              >
+                <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+                  <div className="flex items-center gap-2 text-xs font-bold text-accent-blue">
+                    <GraduationCap size={14} /> {m.instructor_name}
+                    <span className="text-ink/30 dark:text-ice-white/30 font-normal">
+                      · {new Date(m.created_at).toLocaleString('tr-TR')}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <button
+                      onClick={() => handleToggleMessageRead(m)}
+                      title={m.is_read ? 'Okunmadı yap' : 'Okundu işaretle'}
+                      className={`p-1.5 rounded-full ${m.is_read ? 'text-ink/30 hover:bg-ink/5' : 'text-success hover:bg-success/10'}`}
+                    >
+                      <CheckCheck size={16} />
+                    </button>
+                    <button onClick={() => handleDeleteMessage(m.id)} title="Sil" className="p-1.5 rounded-full text-heart hover:bg-heart/10">
+                      <Trash2 size={16} />
+                    </button>
+                  </div>
+                </div>
+                <p className="text-sm font-bold text-ink dark:text-white mb-1">{m.sender_name}</p>
+                <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-ink/50 dark:text-ice-white/50 mb-2">
+                  <a href={`mailto:${m.sender_email}`} className="flex items-center gap-1 hover:text-accent-blue"><Mail size={12} /> {m.sender_email}</a>
+                  {m.sender_phone && <a href={`tel:${m.sender_phone}`} className="flex items-center gap-1 hover:text-accent-blue"><Phone size={12} /> {m.sender_phone}</a>}
+                </div>
+                <p className="text-sm text-ink/70 dark:text-ice-white/70 whitespace-pre-line">{m.body}</p>
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
 
       <div className="flex gap-2 mb-8 flex-wrap">
         {leagues.map((l) => (

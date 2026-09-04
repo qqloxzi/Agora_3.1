@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { ArrowRight, Trophy, Puzzle, Users, Flame, Megaphone, CalendarDays } from 'lucide-react'
+import { ArrowRight, Trophy, Puzzle, Users, Flame, Megaphone, CalendarDays, Globe } from 'lucide-react'
 import { supabase } from '../lib/supabase'
 import { useAuth } from '../contexts/AuthContext'
-import { WORKSHOP_SECTIONS } from '../data/workshopCatalog'
 import { LeagueJoinForm } from '../components/LeagueJoinForm'
 import { Modal } from '../components/ui/Modal'
 import { FAQ } from '../components/FAQ'
@@ -102,6 +101,25 @@ export function Home() {
         </div>
       </section>
 
+      {/* Agora Online Ligi — prominent, free, standalone from the 3 mentored leagues */}
+      <section className="max-w-6xl mx-auto px-4 md:px-6">
+        <Link
+          to="/agora-online-ligi"
+          className="magnetic-btn flex flex-col sm:flex-row items-center gap-5 rounded-3xl agora-gradient-surface text-white p-6 md:p-8 shadow-card"
+        >
+          <div className="w-14 h-14 rounded-2xl bg-white/15 flex items-center justify-center shrink-0">
+            <Globe size={26} />
+          </div>
+          <div className="flex-1 text-center sm:text-left">
+            <p className="font-black text-xl mb-1">Agora Online Ligi</p>
+            <p className="text-sm opacity-80">Tamamen ücretsiz, herkese açık — OGS üzerinden oyna, kayıtlı oyuncular listesine katıl.</p>
+          </div>
+          <span className="shrink-0 flex items-center gap-1.5 font-extrabold text-sm bg-white text-primary-blue px-5 py-3 rounded-xl">
+            Hemen Kayıt Ol <ArrowRight size={16} />
+          </span>
+        </Link>
+      </section>
+
       {/* Leagues — text left, cards right */}
       <section className="max-w-6xl mx-auto px-4 md:px-6 py-16">
         <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.3fr)] gap-10 items-center">
@@ -138,21 +156,18 @@ export function Home() {
       {/* Workshops preview — cards left, text right */}
       <section className="max-w-6xl mx-auto px-4 md:px-6 py-16">
         <div className="grid lg:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)] gap-10 items-center">
-          <div className="flex flex-col gap-4 lg:order-1 order-2">
-            {WORKSHOP_SECTIONS.map((section) => (
-              <Link
-                key={section.id}
-                to="/atolyeler"
-                className="magnetic-btn rounded-2xl agora-gradient-surface text-white p-5 flex items-center gap-4 shadow-card"
-              >
-                <Puzzle size={22} className="opacity-90 shrink-0" />
-                <div className="flex-1 min-w-0">
-                  <h3 className="font-extrabold">{section.title}</h3>
-                  <p className="text-xs opacity-80 font-data">{section.levelLabel}</p>
-                </div>
-                <ArrowRight size={16} className="shrink-0" />
-              </Link>
-            ))}
+          <div className="flex flex-col lg:order-1 order-2">
+            <Link
+              to="/atolyeler"
+              className="magnetic-btn rounded-2xl agora-gradient-surface text-white p-8 flex items-center gap-5 shadow-card"
+            >
+              <Puzzle size={32} className="opacity-90 shrink-0" />
+              <div className="flex-1 min-w-0">
+                <h3 className="font-black text-xl mb-1">Atölyeler</h3>
+                <p className="text-sm opacity-80">Temel Taşlar'dan Aydınlanma'ya, tüm beceri ağacı burada.</p>
+              </div>
+              <ArrowRight size={20} className="shrink-0" />
+            </Link>
           </div>
           <div className="text-center lg:text-left lg:order-2 order-1">
             <span className="text-accent-blue font-bold tracking-[0.2em] uppercase text-xs">Oyunlaştırılmış Öğrenim</span>

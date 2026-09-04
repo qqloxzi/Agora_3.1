@@ -40,12 +40,11 @@ export function GoPuzzle({ sgfRaw, validationMode, onSolved }) {
       <div className="mt-4 flex flex-col gap-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 text-sm font-bold text-ink/70 dark:text-ice-white/70">
-            {puzzle.done ? (
-              <span className="text-success">Sıra tamamlandı</span>
-            ) : turnLabel ? (
+            {turnLabel ? (
               <>
                 <span className={`w-3 h-3 rounded-full ${puzzle.toPlay === 'B' ? 'bg-ink dark:bg-white' : 'bg-white border border-ink/30'}`} />
                 Sıra: {turnLabel}
+                {puzzle.done && <span className="text-success font-bold">· serbest oyun</span>}
               </>
             ) : (
               <span className="text-ink/40">Bu pozisyonda hazırlanmış devam yok.</span>

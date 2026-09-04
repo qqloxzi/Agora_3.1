@@ -52,7 +52,7 @@ function groupLiberties(board, group, size) {
   return libs.size
 }
 
-function playMove(board, x, y, color, size) {
+export function playMove(board, x, y, color, size) {
   board[y][x] = color
   const opponent = color === BLACK ? WHITE : BLACK
   for (const [nx, ny] of neighbors(x, y, size)) {

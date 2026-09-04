@@ -10,6 +10,9 @@ import {
   commentOf,
   xyToCoord,
   coordToXY,
+  playMove,
+  BLACK,
+  WHITE,
 } from '../lib/sgfEngine'
 import { playStoneSound } from '../lib/stoneSound'
 
@@ -38,6 +41,9 @@ export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } =
   const [feedback, setFeedback] = useState(null)
   const [done, setDone] = useState(false)
   const [showHint, setShowHint] = useState(false)
+  const [freeBoard, setFreeBoard] = useState(null)
+  const [freeLastMove, setFreeLastMove] = useState(null)
+  const [freeTurn, setFreeTurn] = useState(null)
   const timeouts = useRef([])
   // playChain runs a synchronous recursive sequence across setTimeouts; a
   // ref (rather than the `path` state closure, which goes stale between
@@ -55,14 +61,20 @@ export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } =
     setFeedback(null)
     setDone(false)
     setShowHint(false)
+    setFreeBoard(null)
+    setFreeLastMove(null)
+    setFreeTurn(null)
     return () => timeouts.current.forEach(clearTimeout)
   }, [root])
 
   const current = path[path.length - 1]
-  const { board, lastMove } = useMemo(() => replayPath(path, size), [path, size])
+  const { board: pathBoard, lastMove: pathLastMove } = useMemo(() => replayPath(path, size), [path, size])
+  const board = freeBoard ?? pathBoard
+  const lastMove = freeLastMove ?? pathLastMove
   const labels = useMemo(() => labelsOf(current), [current])
-  const toPlay = useMemo(() => nextColorOf(current), [current])
-  const canInteract = !busy && !done && (current?.children?.length ?? 0) > 0
+  const pathToPlay = useMemo(() => nextColorOf(current), [current])
+  const toPlay = freeBoard ? freeTurn : pathToPlay
+  const canInteract = !busy && (done || (current?.children?.length ?? 0) > 0)
   const branchPoints = useMemo(
     () => (current?.children ?? []).map((c) => coordToXY(moveCoordOf(c))).filter(Boolean),
     [current],
@@ -80,6 +92,10 @@ export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } =
       setFeedback(commentOf(finalNode))
       if (!finalNode.children || finalNode.children.length === 0) {
         setDone(true)
+        const finalBoard = replayPath(pathRef.current, size).board
+        setFreeBoard(finalBoard.map((row) => [...row]))
+        const lastColor = finalNode.data?.B ? BLACK : finalNode.data?.W ? WHITE : null
+        setFreeTurn(lastColor === BLACK ? WHITE : BLACK)
         onSolved?.()
       }
       return
@@ -98,8 +114,25 @@ export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } =
     schedule(() => playChain(chain, index + 1), STEP_DELAY_MS)
   }
 
+  // Bulmaca çözüldükten sonra serbest oynama — tahtayı istediği gibi doldurmaya devam edebilir.
+  function handleFreeClick(x, y) {
+    if (!freeBoard || freeBoard[y][x] !== null) return
+    const next = freeBoard.map((row) => [...row])
+    const before = countStones(next)
+    playMove(next, x, y, freeTurn, size)
+    const after = countStones(next)
+    playStoneSound({ capture: after < before + 1 })
+    setFreeBoard(next)
+    setFreeLastMove({ x, y })
+    setFreeTurn(freeTurn === BLACK ? WHITE : BLACK)
+  }
+
   function handlePointClick(x, y) {
     if (!canInteract) return
+    if (done) {
+      handleFreeClick(x, y)
+      return
+    }
     const coord = xyToCoord(x, y)
     const match = current.children.find((child) => moveCoordOf(child) === coord)
 
@@ -146,6 +179,9 @@ export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } =
     setFeedback(null)
     setDone(false)
     setShowHint(false)
+    setFreeBoard(null)
+    setFreeLastMove(null)
+    setFreeTurn(null)
   }
 
   function hint() {

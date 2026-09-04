@@ -40,10 +40,11 @@ function navLinkClass({ isActive }) {
   }`
 }
 
-function AuthActions({ compact = false }) {
+function AuthActions({ compact = false, onNavigate }) {
   const { user, profile, signOut } = useAuth()
   const { theme, toggleTheme } = useTheme()
   const navigate = useNavigate()
+  const close = () => onNavigate?.()
 
   return (
     <div className="flex flex-col gap-3">
@@ -63,7 +64,7 @@ function AuthActions({ compact = false }) {
               <StreakFlame count={profile.streak_count} size="sm" />
             </div>
           </div>
-          <Link to="/profil" className="flex items-center gap-3 px-3.5 py-2.5 rounded-xl bg-primary-blue/5 dark:bg-white/5 hover:bg-primary-blue/10 transition-colors">
+          <Link to="/profil" onClick={close} className="flex items-center gap-3 px-3.5 py-2.5 rounded-xl bg-primary-blue/5 dark:bg-white/5 hover:bg-primary-blue/10 transition-colors">
             {profile.avatar_url ? (
               <img src={profile.avatar_url} alt="" className="w-7 h-7 rounded-full object-cover" referrerPolicy="no-referrer" />
             ) : (
@@ -74,12 +75,13 @@ function AuthActions({ compact = false }) {
             <span className="text-sm font-bold text-ink dark:text-white truncate">{profile.username || 'Profilim'}</span>
           </Link>
           {profile.is_admin && (
-            <Link to="/admin" className="flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-sm font-bold text-success hover:bg-success/10 transition-colors">
+            <Link to="/admin" onClick={close} className="flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-sm font-bold text-success hover:bg-success/10 transition-colors">
               <ShieldCheck size={18} /> Yönetim
             </Link>
           )}
           <button
             onClick={async () => {
+              close()
               await signOut()
               navigate('/')
             }}
@@ -90,10 +92,10 @@ function AuthActions({ compact = false }) {
         </>
       ) : (
         <>
-          <Link to="/giris" className="px-3.5 py-2.5 rounded-xl text-sm font-bold text-ink dark:text-white hover:bg-primary-blue/5 transition-colors">
+          <Link to="/giris" onClick={close} className="px-3.5 py-2.5 rounded-xl text-sm font-bold text-ink dark:text-white hover:bg-primary-blue/5 transition-colors">
             Giriş Yap
           </Link>
-          <Link to="/kayit" className="magnetic-btn px-3.5 py-2.5 rounded-xl text-sm font-bold text-center text-white agora-gradient-surface shadow-card">
+          <Link to="/kayit" onClick={close} className="magnetic-btn px-3.5 py-2.5 rounded-xl text-sm font-bold text-center text-white agora-gradient-surface shadow-card">
             Ücretsiz Başla
           </Link>
         </>
@@ -135,7 +137,7 @@ export function Navbar() {
               </NavLink>
             ))}
             <div className="h-px bg-primary-blue/10 dark:bg-white/10 my-2" />
-            <AuthActions compact />
+            <AuthActions compact onNavigate={() => setOpen(false)} />
           </div>
         )}
       </header>

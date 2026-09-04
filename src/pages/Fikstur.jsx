@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
-import { Trophy, Medal } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { Trophy, Medal, ArrowRight, Globe } from 'lucide-react'
 import { fetchLeagues, computeStandings } from '../lib/leagueData'
 import { LeagueJoinForm } from '../components/LeagueJoinForm'
 import { Modal } from '../components/ui/Modal'
@@ -26,6 +27,22 @@ export function Fikstur() {
         <h1 className="text-4xl md:text-5xl font-black text-primary-blue dark:text-white mt-3 mb-4">Lig Fikstürü</h1>
         <p className="text-ink/60 dark:text-ice-white/60">Güncel puan durumu, haftalık eşleşmeler ve sıralama — her lig en fazla 8 oyuncu.</p>
       </div>
+
+      <Link
+        to="/agora-online-ligi"
+        className="magnetic-btn mb-10 flex flex-col sm:flex-row items-center gap-5 rounded-3xl agora-gradient-surface text-white p-6 md:p-8"
+      >
+        <div className="w-12 h-12 rounded-2xl bg-white/15 flex items-center justify-center shrink-0">
+          <Globe size={22} />
+        </div>
+        <div className="flex-1 text-center sm:text-left">
+          <p className="font-extrabold text-lg mb-0.5">Agora Online Ligi</p>
+          <p className="text-sm opacity-80">Bu 3 ligden bağımsız, tamamen ücretsiz ve herkese açık — OGS üzerinden oyna.</p>
+        </div>
+        <span className="shrink-0 flex items-center gap-1.5 font-bold text-sm bg-white/15 px-4 py-2.5 rounded-xl">
+          Kayıt Ol <ArrowRight size={15} />
+        </span>
+      </Link>
 
       {loading && <p className="text-center text-ink/40">Yükleniyor...</p>}
 

@@ -20,6 +20,7 @@ export function Footer() {
             <li><Link to="/atolyeler" className="hover:text-accent-blue transition-colors">Atölyeler</Link></li>
             <li><Link to="/ligler" className="hover:text-accent-blue transition-colors">Ligler</Link></li>
             <li><Link to="/fikstur" className="hover:text-accent-blue transition-colors">Fikstür</Link></li>
+            <li><Link to="/agora-online-ligi" className="hover:text-accent-blue transition-colors">Agora Online Ligi</Link></li>
             <li><Link to="/bulmacalar" className="hover:text-accent-blue transition-colors">Bulmacalar</Link></li>
             <li><Link to="/liderlik-tablosu" className="hover:text-accent-blue transition-colors">Liderlik Tablosu</Link></li>
           </ul>
@@ -49,6 +50,9 @@ export function Footer() {
             </a>
             <a href="https://www.youtube.com/@Agoragoakademisi" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full border border-primary-blue/20 dark:border-white/20 flex items-center justify-center text-ink/70 dark:text-white/70 hover:bg-accent-blue hover:text-white hover:border-transparent transition-all">
               <YoutubeIcon size={16} />
+            </a>
+            <a href="https://online-go.com/group/15895" target="_blank" rel="noopener noreferrer" title="OGS Topluluk Grubu" className="w-9 h-9 rounded-full border border-primary-blue/20 dark:border-white/20 flex items-center justify-center p-1.5 hover:bg-accent-blue hover:border-transparent transition-all [&_img]:hover:brightness-0 [&_img]:hover:invert">
+              <img src="/goyabaslarken/ogs.svg" alt="OGS" className="w-full h-full object-contain" />
             </a>
           </div>
         </div>
