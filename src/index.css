@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-ice-white text-ink font-sans antialiased;
+}
+
+html.dark body {
+  @apply bg-ink text-ice-white;
+}
+
+.font-drama {
+  @apply font-display italic;
+}
+
+.font-data {
+  @apply font-mono;
+}
+
+/* Flat navy used across hero/CTA surfaces — solid, no gradients */
+.agora-gradient-surface {
+  background: #1e3a5f;
+}
+
+.agora-gradient-page {
+  background: #f5f5f5;
+}
+
+html.dark .agora-gradient-page {
+  background: #1a1a1a;
+}
+
+/* Buttons that lift slightly toward the cursor on hover */
+.magnetic-btn {
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.35s ease;
+}
+.magnetic-btn:hover {
+  transform: scale(1.03) translateY(-2px);
+}
+.magnetic-btn:active {
+  transform: scale(0.98) translateY(0);
+}
+
+/* Duolingo-style "pressable" 3D button used for primary gamified CTAs */
+.press-btn {
+  box-shadow: 0 4px 0 0 rgb(0 0 0 / 0.15);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.press-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 0 rgb(0 0 0 / 0.15);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(30, 58, 95, 0.35);
+  border-radius: 999px;
+}

@@ -1,0 +1,24 @@
+# Hostinger / Apache / LiteSpeed — dist içeriği public_html köküne yüklenecek.
+# 1) Mobil OAuth köprüsü: /auth/mobile-callback → gerçek statik HTML (SPA'ya düşmesin).
+#    Supabase Dashboard Redirect URLs bu tam yolu (uzantısız) bekliyor.
+# 2) Sondaki / her zaman kaldırılır (kanonik URL).
+# 3) Yol gerçek bir dosya/klasör değilse index.html'e düşer (React Router SPA).
+
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  RewriteRule ^index\.html$ - [L]
+
+  RewriteRule ^auth/mobile-callback/?$ /auth/mobile-callback.html [L]
+
+  RewriteCond %{REQUEST_URI} !^/$
+  RewriteCond %{REQUEST_URI} ^/(.+)/$
+  RewriteRule ^ /%1 [R=301,L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
