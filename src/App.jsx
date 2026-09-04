@@ -4,7 +4,6 @@ import { Home } from './pages/Home'
 import { Login } from './pages/Login'
 import { Signup } from './pages/Signup'
 import { AuthCallback } from './pages/AuthCallback'
-import { Onboarding } from './pages/Onboarding'
 import { Profile } from './pages/Profile'
 import { Admin } from './pages/Admin'
 import { Workshops } from './pages/Workshops'
@@ -13,6 +12,7 @@ import { WorkshopLesson } from './pages/WorkshopLesson'
 import { Leagues } from './pages/Leagues'
 import { LeagueDetail } from './pages/LeagueDetail'
 import { Fikstur } from './pages/Fikstur'
+import { AgoraOnlineLeague } from './pages/AgoraOnlineLeague'
 import { Leaderboard } from './pages/Leaderboard'
 import { Puzzles } from './pages/Puzzles'
 import { Bots } from './pages/Bots'
@@ -32,7 +32,6 @@ function App() {
         <Route path="/giris" element={<Login />} />
         <Route path="/kayit" element={<Signup />} />
         <Route path="/auth/callback" element={<AuthCallback />} />
-        <Route path="/onboarding" element={<Onboarding />} />
         <Route path="/profil" element={<Profile />} />
         <Route path="/admin" element={<Admin />} />
 
@@ -44,6 +43,7 @@ function App() {
         <Route path="/lig/:slug" element={<LeagueDetail />} />
 
         <Route path="/fikstur" element={<Fikstur />} />
+        <Route path="/agora-online-ligi" element={<AgoraOnlineLeague />} />
         <Route path="/liderlik-tablosu" element={<Leaderboard />} />
 
         <Route path="/bulmacalar" element={<Puzzles />} />

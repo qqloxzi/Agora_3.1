@@ -34,7 +34,7 @@ export function Profile() {
           </div>
         )}
         <div className="flex-1 min-w-0">
-          <h1 className="text-2xl md:text-3xl font-black truncate">{profile?.username || profile?.preferred_name || 'Oyuncu'}</h1>
+          <h1 className="text-2xl md:text-3xl font-black truncate">{profile?.username || 'Oyuncu'}</h1>
           <p className="opacity-80 font-data text-sm">{profile?.rank}</p>
         </div>
         <button onClick={signOut} className="p-2.5 rounded-full bg-white/10 hover:bg-white/20 transition-colors shrink-0" aria-label="Çıkış yap">
@@ -61,26 +61,6 @@ export function Profile() {
           </Link>
         </div>
       </div>
-
-      {(profile?.current_level || profile?.target_league_level) && (
-        <div className="rounded-3xl bg-white/70 dark:bg-white/5 border border-primary-blue/10 dark:border-white/10 shadow-card p-6 md:p-8 mb-8">
-          <h3 className="font-extrabold text-lg text-ink dark:text-white mb-4">Öğrenme Profilin</h3>
-          <div className="grid sm:grid-cols-2 gap-4 text-sm">
-            {profile.current_level && (
-              <div><span className="text-ink/40 dark:text-ice-white/40 block text-xs uppercase font-bold tracking-wider mb-1">Mevcut Seviye</span>{profile.current_level}</div>
-            )}
-            {profile.target_league_level && (
-              <div><span className="text-ink/40 dark:text-ice-white/40 block text-xs uppercase font-bold tracking-wider mb-1">Hedef Seviye</span>{profile.target_league_level}</div>
-            )}
-            {profile.weekly_study_hours && (
-              <div><span className="text-ink/40 dark:text-ice-white/40 block text-xs uppercase font-bold tracking-wider mb-1">Haftalık Çalışma</span>{profile.weekly_study_hours}</div>
-            )}
-            {profile.club_membership && (
-              <div><span className="text-ink/40 dark:text-ice-white/40 block text-xs uppercase font-bold tracking-wider mb-1">Kulüp</span>{profile.club_membership}</div>
-            )}
-          </div>
-        </div>
-      )}
 
       <div className="rounded-3xl bg-white/70 dark:bg-white/5 border border-primary-blue/10 dark:border-white/10 shadow-card p-6 md:p-8">
         <h3 className="flex items-center gap-2 font-extrabold text-lg text-ink dark:text-white mb-4">

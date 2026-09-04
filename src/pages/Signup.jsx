@@ -11,7 +11,7 @@ export function Signup() {
 
   async function handleGoogle() {
     setError('')
-    const { error } = await supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.origin + '/onboarding' } })
+    const { error } = await supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.origin + '/' } })
     if (error) setError('Kayıt başarısız: ' + error.message)
   }
 
@@ -29,7 +29,7 @@ export function Signup() {
       setError(error.message)
       return
     }
-    navigate('/onboarding', { replace: true })
+    navigate('/', { replace: true })
   }
 
   return (

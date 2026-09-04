@@ -32,14 +32,13 @@ export function Login() {
       return
     }
     setLoading(true)
-    const { data, error } = await supabase.auth.signInWithPassword({ email: email.trim(), password })
+    const { error } = await supabase.auth.signInWithPassword({ email: email.trim(), password })
     setLoading(false)
     if (error) {
       setError(error.message === 'Invalid login credentials' ? 'E-posta veya şifre hatalı.' : error.message)
       return
     }
-    const { data: profile } = await supabase.from('profiles').select('onboarding_completed_at').eq('id', data.user.id).maybeSingle()
-    navigate(profile?.onboarding_completed_at ? '/' : '/onboarding', { replace: true })
+    navigate('/', { replace: true })
   }
 
   return (
