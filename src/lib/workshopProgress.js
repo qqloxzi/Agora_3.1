@@ -1,19 +1,5 @@
 import { supabase } from './supabase'
-import { LESSON_XP_REWARD, LESSON_TOKEN_REWARD, MAX_HEARTS, nextStreak } from './gamification'
-
-// Spends one heart on a wrong puzzle attempt. Starts the regen timer only
-// when hearts were previously full — losing a second heart shouldn't reset
-// an already-ticking regen clock.
-export async function spendHeart({ user, profile, setProfile }) {
-  if (!user || !profile || profile.hearts <= 0) return
-  const wasFull = profile.hearts >= MAX_HEARTS
-  const updates = {
-    hearts: profile.hearts - 1,
-    ...(wasFull ? { hearts_refill_at: new Date().toISOString() } : {}),
-  }
-  const { data } = await supabase.from('profiles').update(updates).eq('id', user.id).select().single()
-  if (data) setProfile(data)
-}
+import { LESSON_XP_REWARD, LESSON_TOKEN_REWARD, nextStreak } from './gamification'
 
 const LOCAL_KEY = 'agora_completed_lessons'
 
@@ -33,7 +19,7 @@ function setLocalCompleted(set) {
 export async function fetchCourseLessons(courseSlug) {
   const { data } = await supabase
     .from('go_problems')
-    .select('id, lesson_title, initial_description, sort_order, module_title, sgf_raw, validation_mode')
+    .select('id, lesson_title, initial_description, sort_order, module_title, sgf_raw, validation_mode, tag, rank')
     .eq('course_slug', courseSlug)
     .order('sort_order', { ascending: true })
 
@@ -44,6 +30,8 @@ export async function fetchCourseLessons(courseSlug) {
     moduleTitle: row.module_title,
     sgfRaw: row.sgf_raw,
     validationMode: row.validation_mode,
+    tag: row.tag,
+    rank: row.rank,
   }))
 }
 
@@ -70,7 +58,10 @@ export async function fetchCompletedLessonIds(userId) {
 
 // Marks a lesson complete: always cached locally, and synced + rewarded
 // server-side when logged in. Idempotent — repeat calls award nothing extra.
-export async function completeLesson({ user, profile, setProfile, lesson, course }) {
+// `xpOverride`/`tokensOverride` let callers (e.g. puzzle tier-based XP) use a
+// different reward than the flat workshop-lesson defaults; `extraProfileUpdates`
+// lets a caller piggyback additional profile columns onto the same write.
+export async function completeLesson({ user, profile, setProfile, lesson, course, xpOverride, tokensOverride, extraProfileUpdates }) {
   const local = getLocalCompleted()
   const alreadyLocal = local.has(lesson.id)
   local.add(lesson.id)
@@ -87,6 +78,9 @@ export async function completeLesson({ user, profile, setProfile, lesson, course
 
   if (existing) return { xpGained: 0, tokensGained: 0, alreadyDone: true }
 
+  const xpReward = xpOverride ?? LESSON_XP_REWARD
+  const tokenReward = tokensOverride ?? LESSON_TOKEN_REWARD
+
   await supabase.from('atolye_lesson_progress').insert({
     user_id: user.id,
     course_id: course.slug,
@@ -95,18 +89,19 @@ export async function completeLesson({ user, profile, setProfile, lesson, course
     level_band: course.section?.id ?? null,
     lesson_id: lesson.id,
     lesson_title: lesson.title,
-    xp_earned: LESSON_XP_REWARD,
+    xp_earned: xpReward,
     stars: 3,
   })
 
   const streak = nextStreak(profile)
   const updates = {
-    xp: (profile?.xp ?? 0) + LESSON_XP_REWARD,
-    tokens: (profile?.tokens ?? 0) + LESSON_TOKEN_REWARD,
+    xp: (profile?.xp ?? 0) + xpReward,
+    tokens: (profile?.tokens ?? 0) + tokenReward,
     ...streak,
+    ...extraProfileUpdates,
   }
   const { data: updated } = await supabase.from('profiles').update(updates).eq('id', user.id).select().single()
   if (updated) setProfile(updated)
 
-  return { xpGained: LESSON_XP_REWARD, tokensGained: LESSON_TOKEN_REWARD, alreadyDone: false }
+  return { xpGained: xpReward, tokensGained: tokenReward, alreadyDone: false }
 }

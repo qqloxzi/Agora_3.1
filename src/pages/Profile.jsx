@@ -1,9 +1,93 @@
 import { useEffect, useState } from 'react'
 import { Link, Navigate } from 'react-router-dom'
-import { User, LogOut, ArrowRight, History } from 'lucide-react'
+import { User, LogOut, ArrowRight, History, Pencil, Check, X } from 'lucide-react'
 import { useAuth } from '../contexts/AuthContext'
 import { supabase } from '../lib/supabase'
+import { rankForXp } from '../lib/gamification'
 import { ProfileSummaryCard } from '../components/ProfileSummaryCard'
+
+function UsernameEditor({ username, onSaved }) {
+  const { user, setProfile } = useAuth()
+  const [editing, setEditing] = useState(false)
+  const [value, setValue] = useState(username || '')
+  const [saving, setSaving] = useState(false)
+  const [error, setError] = useState('')
+
+  function startEditing() {
+    setValue(username || '')
+    setError('')
+    setEditing(true)
+  }
+
+  async function save() {
+    const trimmed = value.trim()
+    if (!trimmed) {
+      setError('Kullanıcı adı boş olamaz.')
+      return
+    }
+    setSaving(true)
+    setError('')
+    const { error: updateError } = await supabase
+      .from('profiles')
+      .update({ username: trimmed })
+      .eq('id', user.id)
+    setSaving(false)
+    if (updateError) {
+      setError('Kaydedilemedi, tekrar dene.')
+      return
+    }
+    setProfile((prev) => (prev ? { ...prev, username: trimmed } : prev))
+    onSaved?.(trimmed)
+    setEditing(false)
+  }
+
+  if (editing) {
+    return (
+      <div className="flex flex-col gap-1.5">
+        <div className="flex items-center gap-2">
+          <input
+            autoFocus
+            value={value}
+            onChange={(e) => setValue(e.target.value)}
+            onKeyDown={(e) => e.key === 'Enter' && save()}
+            maxLength={32}
+            className="flex-1 min-w-0 px-3 py-1.5 rounded-xl bg-white/20 border border-white/40 text-white placeholder-white/50 text-xl md:text-2xl font-black focus:outline-none focus:ring-2 focus:ring-white/50"
+          />
+          <button
+            onClick={save}
+            disabled={saving}
+            className="p-2 rounded-full bg-white/15 hover:bg-white/25 transition-colors shrink-0 disabled:opacity-50"
+            aria-label="Kaydet"
+          >
+            <Check size={16} />
+          </button>
+          <button
+            onClick={() => setEditing(false)}
+            disabled={saving}
+            className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors shrink-0"
+            aria-label="Vazgeç"
+          >
+            <X size={16} />
+          </button>
+        </div>
+        {error && <p className="text-xs text-white/90 font-bold">{error}</p>}
+      </div>
+    )
+  }
+
+  return (
+    <div className="flex items-center gap-2 min-w-0">
+      <h1 className="text-2xl md:text-3xl font-black truncate">{username || 'Oyuncu'}</h1>
+      <button
+        onClick={startEditing}
+        className="p-1.5 rounded-full bg-white/10 hover:bg-white/20 transition-colors shrink-0"
+        aria-label="Kullanıcı adını değiştir"
+      >
+        <Pencil size={14} />
+      </button>
+    </div>
+  )
+}
 
 export function Profile() {
   const { user, profile, loading, signOut } = useAuth()
@@ -34,8 +118,8 @@ export function Profile() {
           </div>
         )}
         <div className="flex-1 min-w-0">
-          <h1 className="text-2xl md:text-3xl font-black truncate">{profile?.username || 'Oyuncu'}</h1>
-          <p className="opacity-80 font-data text-sm">{profile?.rank}</p>
+          <UsernameEditor username={profile?.username} />
+          <p className="opacity-80 font-data text-sm">{rankForXp(profile?.xp ?? 0)}</p>
         </div>
         <button onClick={signOut} className="p-2.5 rounded-full bg-white/10 hover:bg-white/20 transition-colors shrink-0" aria-label="Çıkış yap">
           <LogOut size={18} />

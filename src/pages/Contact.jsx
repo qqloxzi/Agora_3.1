@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { MapPin, Mail, Send } from 'lucide-react'
-import { InstagramIcon, FacebookIcon, YoutubeIcon } from '../components/ui/SocialIcons'
+import { InstagramIcon, YoutubeIcon } from '../components/ui/SocialIcons'
 
 export function Contact() {
   const [result, setResult] = useState('')
@@ -68,7 +68,6 @@ export function Contact() {
           </div>
           <div className="pt-4 border-t border-primary-blue/10 dark:border-white/10 flex gap-3">
             <a href="https://www.instagram.com/agoragoakademisi/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-primary-blue/20 dark:border-white/20 flex items-center justify-center hover:bg-accent-blue hover:text-white transition-colors"><InstagramIcon size={16} /></a>
-            <a href="https://www.facebook.com/profile.php?id=61583449484168" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-primary-blue/20 dark:border-white/20 flex items-center justify-center hover:bg-accent-blue hover:text-white transition-colors"><FacebookIcon size={16} /></a>
             <a href="https://www.youtube.com/@Agoragoakademisi" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-primary-blue/20 dark:border-white/20 flex items-center justify-center hover:bg-accent-blue hover:text-white transition-colors"><YoutubeIcon size={16} /></a>
           </div>
           <div className="w-full h-56 rounded-2xl overflow-hidden border border-primary-blue/10 dark:border-white/10">

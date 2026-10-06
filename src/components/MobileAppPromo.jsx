@@ -1,23 +1,22 @@
-import { Smartphone, Flame, Trophy } from 'lucide-react'
-
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.agoragoakademisi.app'
+
+const SCREENSHOTS = [
+  { src: '/mobile-app/screenshot-1.webp', alt: 'Go öğrenmeye başla — Ana Sayfa' },
+  { src: '/mobile-app/screenshot-2.webp', alt: '340+ bulmaca' },
+  { src: '/mobile-app/screenshot-3.webp', alt: 'Kendi hızında çöz' },
+  { src: '/mobile-app/screenshot-4.webp', alt: 'Keşfedecek çok şey var' },
+]
 
 export function MobileAppPromo() {
   return (
     <section className="max-w-6xl mx-auto px-4 md:px-6 py-16">
       <div className="grid lg:grid-cols-2 gap-10 items-center">
-        <div className="order-2 lg:order-1 flex justify-center">
-          <div className="relative w-56 aspect-[9/19] rounded-[2.5rem] agora-gradient-surface p-2 shadow-2xl">
-            <div className="w-full h-full rounded-[2rem] bg-ice-white dark:bg-ink flex flex-col items-center justify-center gap-4 p-6">
-              <div className="w-16 h-16 rounded-2xl agora-gradient-surface flex items-center justify-center shadow-card">
-                <Smartphone className="text-white" size={28} />
-              </div>
-              <p className="font-display italic font-bold text-lg text-primary-blue dark:text-white text-center">Go Akademisi</p>
-              <div className="flex items-center gap-2 text-xs font-bold text-ink/50 dark:text-ice-white/50">
-                <Flame size={13} className="text-streak" /> Seri <Trophy size={13} className="text-token ml-1" /> Ligler
-              </div>
+        <div className="order-2 lg:order-1 grid grid-cols-2 gap-4 max-w-xs mx-auto lg:max-w-none lg:mx-0">
+          {SCREENSHOTS.map((shot) => (
+            <div key={shot.src} className="rounded-[1.75rem] overflow-hidden shadow-2xl">
+              <img src={shot.src} alt={shot.alt} className="w-full h-auto block" loading="lazy" />
             </div>
-          </div>
+          ))}
         </div>
 
         <div className="order-1 lg:order-2 text-center lg:text-left">

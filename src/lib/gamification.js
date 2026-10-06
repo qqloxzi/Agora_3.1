@@ -2,8 +2,6 @@
 // Kept deliberately simple: counters live directly on `profiles`,
 // there is no separate ledger table (see plan doc — MVP scope).
 
-export const MAX_HEARTS = 5
-export const HEART_REGEN_MINUTES = 30
 export const STARTING_TOKENS = 50
 
 export const RANK_LADDER = [
@@ -41,32 +39,6 @@ export function nextRankProgress(xp = 0) {
   const span = next.minXp - current.minXp
   const into = xp - current.minXp
   return { current, next, percent: Math.min(100, Math.round((into / span) * 100)) }
-}
-
-// Hearts regenerate passively over time, Duolingo-style. We don't need a
-// server cron for this MVP: we lazily "settle" the regen on read, based on
-// how much time passed since `hearts_refill_at`.
-export function settleHearts(profile) {
-  if (!profile) return { hearts: MAX_HEARTS, hearts_refill_at: new Date().toISOString() }
-  const hearts = profile.hearts ?? MAX_HEARTS
-  if (hearts >= MAX_HEARTS) return { hearts, hearts_refill_at: profile.hearts_refill_at }
-
-  const refillAt = profile.hearts_refill_at ? new Date(profile.hearts_refill_at) : new Date()
-  const minutesPassed = (Date.now() - refillAt.getTime()) / 60000
-  const regained = Math.floor(minutesPassed / HEART_REGEN_MINUTES)
-  if (regained <= 0) return { hearts, hearts_refill_at: profile.hearts_refill_at }
-
-  const newHearts = Math.min(MAX_HEARTS, hearts + regained)
-  const leftoverMinutes = minutesPassed - regained * HEART_REGEN_MINUTES
-  const newRefillAt = new Date(Date.now() - leftoverMinutes * 60000).toISOString()
-  return { hearts: newHearts, hearts_refill_at: newHearts >= MAX_HEARTS ? null : newRefillAt }
-}
-
-export function minutesUntilNextHeart(profile) {
-  if (!profile?.hearts_refill_at || profile.hearts >= MAX_HEARTS) return 0
-  const refillAt = new Date(profile.hearts_refill_at)
-  const elapsed = (Date.now() - refillAt.getTime()) / 60000
-  return Math.max(0, Math.ceil(HEART_REGEN_MINUTES - elapsed))
 }
 
 export function todayStr() {

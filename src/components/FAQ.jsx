@@ -12,16 +12,8 @@ const faqs = [
     answer: 'Atölyeler herkese açık ve ücretsizdir, kendi hızında ilerlersin. Ligler ise eğitmen eşliğinde yürütülen, gerçek rakiplerle eşleştiğin 6 haftalık ücretli programlardır.',
   },
   {
-    question: 'Can (kalp) sistemi nedir, canlarım biterse ne olur?',
-    answer: 'Alıştırmalarda yanlış bir hamle bir can götürür. Canların zamanla kendiliğinden yenilenir; tükendiğinde bir sonraki canını bekleyip devam edebilirsin.',
-  },
-  {
     question: 'Ödeme nasıl yapılıyor?',
-    answer: 'Lig ödemeleri için PayTR entegrasyonu yakında aktif olacak. Şu an bir lige ödeme yapmak istersen İletişim sayfasından bize ulaşabilirsin.',
-  },
-  {
-    question: 'Mobil uygulamanız var mı?',
-    answer: "Evet, Go Akademisi adıyla yayınladığımız mobil uygulama şu an yalnızca Google Play'de mevcut.",
+    answer: 'Lig ödemeleri Shopier üzerinden güvenle alınır. "Ödeme ile Kaydol" butonuna tıkladığında Shopier ödeme sayfasına yönlendirilirsin.',
   },
 ]
 

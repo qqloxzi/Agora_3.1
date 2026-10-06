@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   parseSgf,
   boardSizeOf,
+  boardCropOf,
   replayPath,
   collectChain,
   labelsOf,
@@ -9,8 +10,7 @@ import {
   moveCoordOf,
   commentOf,
   xyToCoord,
-  coordToXY,
-  playMove,
+  attemptMove,
   BLACK,
   WHITE,
 } from '../lib/sgfEngine'
@@ -22,7 +22,7 @@ function countStones(board) {
   return n
 }
 
-const STEP_DELAY_MS = 550
+const STEP_DELAY_MS = 200
 
 // Drives one interactive SGF position: setup replay, branch-matching on
 // click, auto-playing forced single-line continuations, and (in
@@ -32,6 +32,7 @@ const STEP_DELAY_MS = 550
 export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } = {}) {
   const root = useMemo(() => parseSgf(sgfRaw), [sgfRaw])
   const size = useMemo(() => boardSizeOf(root), [root])
+  const crop = useMemo(() => boardCropOf(root, size), [root, size])
   const strict = validationMode === 'sgf_marks'
 
   const [path, setPath] = useState(() => (root ? collectChain(root) : []))
@@ -40,15 +41,20 @@ export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } =
   const [lastResult, setLastResult] = useState(null)
   const [feedback, setFeedback] = useState(null)
   const [done, setDone] = useState(false)
-  const [showHint, setShowHint] = useState(false)
   const [freeBoard, setFreeBoard] = useState(null)
   const [freeLastMove, setFreeLastMove] = useState(null)
   const [freeTurn, setFreeTurn] = useState(null)
+  // Serbest mod, bulmaca ilk açıldığında kilitli — kullanıcı bir kez doğru
+  // çözene kadar. Sonrasında "Baştan başla" ile sıfırlansa bile açık kalır.
+  const [hasSolvedOnce, setHasSolvedOnce] = useState(false)
   const timeouts = useRef([])
   // playChain runs a synchronous recursive sequence across setTimeouts; a
   // ref (rather than the `path` state closure, which goes stale between
   // steps) is what we advance for each step's before/after stone counts.
   const pathRef = useRef(path)
+  // Board-state history for the current free-play session, used to enforce
+  // the ko rule (a move may not recreate a position that already occurred).
+  const freeHistoryRef = useRef([])
 
   useEffect(() => {
     timeouts.current.forEach(clearTimeout)
@@ -60,10 +66,11 @@ export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } =
     setLastResult(null)
     setFeedback(null)
     setDone(false)
-    setShowHint(false)
     setFreeBoard(null)
     setFreeLastMove(null)
     setFreeTurn(null)
+    setHasSolvedOnce(false)
+    freeHistoryRef.current = []
     return () => timeouts.current.forEach(clearTimeout)
   }, [root])
 
@@ -75,10 +82,6 @@ export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } =
   const pathToPlay = useMemo(() => nextColorOf(current), [current])
   const toPlay = freeBoard ? freeTurn : pathToPlay
   const canInteract = !busy && (done || (current?.children?.length ?? 0) > 0)
-  const branchPoints = useMemo(
-    () => (current?.children ?? []).map((c) => coordToXY(moveCoordOf(c))).filter(Boolean),
-    [current],
-  )
 
   function schedule(fn, delay) {
     const id = setTimeout(fn, delay)
@@ -92,7 +95,13 @@ export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } =
       setFeedback(commentOf(finalNode))
       if (!finalNode.children || finalNode.children.length === 0) {
         setDone(true)
+        setHasSolvedOnce(true)
+        if (strict) {
+          setLastResult('correct')
+          schedule(() => setLastResult(null), 1200)
+        }
         const finalBoard = replayPath(pathRef.current, size).board
+        freeHistoryRef.current = []
         setFreeBoard(finalBoard.map((row) => [...row]))
         const lastColor = finalNode.data?.B ? BLACK : finalNode.data?.W ? WHITE : null
         setFreeTurn(lastColor === BLACK ? WHITE : BLACK)
@@ -114,15 +123,17 @@ export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } =
     schedule(() => playChain(chain, index + 1), STEP_DELAY_MS)
   }
 
-  // Bulmaca çözüldükten sonra serbest oynama — tahtayı istediği gibi doldurmaya devam edebilir.
+  // Bulmaca çözüldükten sonra veya serbest moda geçince tahtayı istediği gibi
+  // oynayabilir. Dolu bir noktaya, intihar hamlesine (esir almıyorsa) veya ko
+  // kuralını ihlal eden bir hamleye tıklamak oyun kuralları gereği zaten
+  // mümkün değil — üçü de sessizce yok sayılır, "yanlış hamle" sayılmaz.
   function handleFreeClick(x, y) {
-    if (!freeBoard || freeBoard[y][x] !== null) return
-    const next = freeBoard.map((row) => [...row])
-    const before = countStones(next)
-    playMove(next, x, y, freeTurn, size)
-    const after = countStones(next)
-    playStoneSound({ capture: after < before + 1 })
-    setFreeBoard(next)
+    if (!freeBoard) return
+    const result = attemptMove(freeBoard, x, y, freeTurn, size, freeHistoryRef.current)
+    if (!result.ok) return
+    freeHistoryRef.current = [...freeHistoryRef.current, JSON.stringify(freeBoard)]
+    playStoneSound({ capture: result.captured })
+    setFreeBoard(result.board)
     setFreeLastMove({ x, y })
     setFreeTurn(freeTurn === BLACK ? WHITE : BLACK)
   }
@@ -133,15 +144,17 @@ export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } =
       handleFreeClick(x, y)
       return
     }
+    if (board[y]?.[x]) return
     const coord = xyToCoord(x, y)
     const match = current.children.find((child) => moveCoordOf(child) === coord)
 
     if (!match) {
       if (strict) {
-        setFlash({ x, y, type: 'wrong' })
+        setFlash({ x, y, type: 'wrong', color: toPlay })
         setLastResult('wrong')
         onWrongMove?.()
-        schedule(() => setFlash(null), 700)
+        schedule(() => setFlash(null), 900)
+        schedule(() => setLastResult(null), 1200)
       } else {
         setFeedback('Bu nokta için hazırlanmış bir devam yok — işaretli noktalardan birini dene.')
       }
@@ -149,25 +162,23 @@ export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } =
     }
 
     if (strict && match.data.BM) {
-      setFlash({ x, y, type: 'wrong' })
+      setFlash({ x, y, type: 'wrong', color: toPlay })
       setLastResult('wrong')
       onWrongMove?.()
-      schedule(() => setFlash(null), 700)
+      schedule(() => setFlash(null), 900)
+      schedule(() => setLastResult(null), 1200)
       return
     }
 
-    if (strict && match.data.TE) {
-      setLastResult('correct')
-      schedule(() => setLastResult(null), 1200)
-    } else {
-      setLastResult(null)
-    }
-
+    setLastResult(null)
     setBusy(true)
     const chain = collectChain(match)
     playChain(chain, 0)
   }
 
+  // "Baştan başla" always restarts the puzzle from scratch, even if it was
+  // already solved — serbest mod is a separate, deliberate choice (see
+  // enterFreeMode below), not something restarting drops you into.
   function reset() {
     timeouts.current.forEach(clearTimeout)
     timeouts.current = []
@@ -178,20 +189,33 @@ export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } =
     setLastResult(null)
     setFeedback(null)
     setDone(false)
-    setShowHint(false)
     setFreeBoard(null)
     setFreeLastMove(null)
     setFreeTurn(null)
+    freeHistoryRef.current = []
   }
 
-  function hint() {
-    setShowHint(true)
-    schedule(() => setShowHint(false), 2200)
+  // Kullanıcı istediği an tetikleyebilir — bulmacayı çözmeye zorlamadan
+  // tahtayı serbestçe oynamaya geçmek için.
+  function enterFreeMode() {
+    if (done) return
+    timeouts.current.forEach(clearTimeout)
+    timeouts.current = []
+    setBusy(false)
+    setFlash(null)
+    setLastResult(null)
+    const currentBoard = replayPath(pathRef.current, size).board
+    freeHistoryRef.current = []
+    setFreeBoard(currentBoard.map((row) => [...row]))
+    setFreeLastMove(pathLastMove)
+    setFreeTurn(pathToPlay)
+    setDone(true)
   }
 
   return {
     ready: Boolean(root),
     size,
+    crop,
     board,
     lastMove,
     labels,
@@ -203,9 +227,9 @@ export function useSgfPuzzle(sgfRaw, validationMode, { onWrongMove, onSolved } =
     feedback,
     done,
     hasBranches: (current?.children?.length ?? 0) > 0,
-    hintPoints: showHint ? branchPoints : [],
+    hasSolvedOnce,
     handlePointClick,
     reset,
-    hint,
+    enterFreeMode,
   }
 }

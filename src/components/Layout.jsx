@@ -6,7 +6,7 @@ import { Footer } from './Footer'
 // Routes that get a fixed, footer-free "app" shell instead of the normal
 // scrolling page — used for focused, session-like screens like the
 // workshop lesson player.
-const IMMERSIVE_PREFIXES = ['/atolyeler/kurs/']
+const IMMERSIVE_PREFIXES = ['/atolyeler/kurs/', '/bulmacalar', '/joseki-sonrasi']
 
 export function Layout() {
   const { pathname } = useLocation()

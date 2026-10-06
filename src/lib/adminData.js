@@ -50,3 +50,90 @@ export async function fetchRecentMatches(leagueId) {
 export async function deleteMatch(matchId) {
   return supabase.from('league_match_results').delete().eq('id', matchId)
 }
+
+// All user comments across the site (currently only left on course pages,
+// target_type='course'), newest first, with the author's username and the
+// commented-on course resolved for display — for admin moderation.
+export async function fetchAllComments() {
+  const { data: comments } = await supabase
+    .from('comments')
+    .select('id, target_type, target_id, user_id, body, created_at')
+    .order('created_at', { ascending: false })
+  if (!comments || comments.length === 0) return []
+
+  const userIds = [...new Set(comments.map((c) => c.user_id))]
+  const courseIds = [...new Set(comments.filter((c) => c.target_type === 'course').map((c) => c.target_id))]
+
+  const [{ data: profiles }, { data: courses }] = await Promise.all([
+    supabase.from('profiles').select('id, username').in('id', userIds),
+    courseIds.length > 0
+      ? supabase.from('courses').select('id, title, slug').in('id', courseIds)
+      : Promise.resolve({ data: [] }),
+  ])
+
+  const usernameById = Object.fromEntries((profiles ?? []).map((p) => [p.id, p.username]))
+  const courseById = Object.fromEntries((courses ?? []).map((c) => [c.id, c]))
+
+  return comments.map((c) => {
+    const course = c.target_type === 'course' ? courseById[c.target_id] : null
+    return {
+      ...c,
+      authorName: usernameById[c.user_id] || 'Bilinmeyen kullanıcı',
+      targetLabel: course ? course.title : c.target_type === 'course' ? 'Silinmiş kurs' : `${c.target_type} — ${c.target_id}`,
+      targetHref: course ? `/lig/${course.slug}` : null,
+    }
+  })
+}
+
+export async function deleteComment(id) {
+  return supabase.from('comments').delete().eq('id', id)
+}
+
+export async function fetchOnlineLeagueRegistrations() {
+  const { data } = await supabase
+    .from('online_league_registrations')
+    .select('id, user_id, full_name, email, phone, ogs_nickname, kgs_nickname, egf_level, egd_pin, created_at')
+    .order('created_at', { ascending: true })
+  return data ?? []
+}
+
+export async function deleteOnlineLeagueRegistration(id) {
+  return supabase.from('online_league_registrations').delete().eq('id', id)
+}
+
+export async function addOnlineLeagueMatch({ round, player1Id, player2Id }) {
+  return supabase.from('online_league_matches').insert({
+    round,
+    player1_id: player1Id,
+    player2_id: player2Id || null,
+  })
+}
+
+export async function setOnlineLeagueMatchResult(matchId, { winnerId, isDraw }) {
+  return supabase
+    .from('online_league_matches')
+    .update({ winner_id: isDraw ? null : winnerId, is_draw: isDraw, updated_at: new Date().toISOString() })
+    .eq('id', matchId)
+}
+
+export async function deleteOnlineLeagueMatch(id) {
+  return supabase.from('online_league_matches').delete().eq('id', id)
+}
+
+// Lig (kurs) takvimi — mobil "Lig Detayı" sayfasındaki Durum ve Tarih
+// Aralığı satırları bu alanlardan okunur.
+export async function fetchCoursesForAdmin() {
+  const { data } = await supabase
+    .from('courses')
+    .select('id, title, status, course_start, course_end')
+    .order('course_start', { ascending: true })
+  return data ?? []
+}
+
+export async function updateCourseSchedule(id, { status, course_start, course_end }) {
+  return supabase
+    .from('courses')
+    .update({ status: status?.trim() || null, course_start: course_start || null, course_end: course_end || null })
+    .eq('id', id)
+    .select('id')
+}

@@ -20,7 +20,7 @@ export function Footer() {
             <li><Link to="/atolyeler" className="hover:text-accent-blue transition-colors">Atölyeler</Link></li>
             <li><Link to="/ligler" className="hover:text-accent-blue transition-colors">Ligler</Link></li>
             <li><Link to="/fikstur" className="hover:text-accent-blue transition-colors">Fikstür</Link></li>
-            <li><Link to="/agora-online-ligi" className="hover:text-accent-blue transition-colors">Agora Online Ligi</Link></li>
+            <li><Link to="/agora-online-ligi" className="hover:text-accent-blue transition-colors">Agora Çevrimiçi Turnuvası</Link></li>
             <li><Link to="/bulmacalar" className="hover:text-accent-blue transition-colors">Bulmacalar</Link></li>
             <li><Link to="/liderlik-tablosu" className="hover:text-accent-blue transition-colors">Liderlik Tablosu</Link></li>
           </ul>

@@ -106,7 +106,7 @@ export function LeagueDetail() {
 
           <div className="flex flex-col gap-2.5 mb-6 text-sm text-ink/70 dark:text-ice-white/70">
             <span className="flex items-center gap-2"><Clock size={15} className="text-accent-blue" /> {course.duration}</span>
-            <span className="flex items-center gap-2"><Users size={15} className="text-accent-blue" /> {course.students_count} öğrenci kayıtlı</span>
+            <span className="flex items-center gap-2"><Users size={15} className="text-accent-blue" /> Bu zamana kadar toplam {course.students_count} öğrenci</span>
           </div>
 
           {enrolled ? (
@@ -118,7 +118,7 @@ export function LeagueDetail() {
               <Wallet size={20} className="text-token" />
               <p className="text-sm font-extrabold text-ink dark:text-white">Ödeme Yakında</p>
               <p className="text-xs text-ink/50 dark:text-ice-white/50 px-4">
-                Bu lig için ödeme sistemi (PayTR) çok yakında aktif olacak. Şimdilik{' '}
+                Bu lig için Shopier ödeme linki çok yakında eklenecek. Şimdilik{' '}
                 <Link to="/iletisim" className="text-accent-blue font-bold hover:underline">iletişime geç</Link>.
               </p>
             </div>

@@ -45,7 +45,7 @@ export function Leagues() {
               <StarRating targetType="course" targetId={course.id} initialAvg={course.rating_avg} initialCount={course.rating_count} size={16} className="mb-4" />
               <div className="flex items-center gap-4 text-xs text-ink/50 dark:text-ice-white/50 font-bold mb-5">
                 <span className="flex items-center gap-1"><Clock size={13} /> {course.duration}</span>
-                <span className="flex items-center gap-1"><Users size={13} /> {course.students_count} öğrenci</span>
+                <span className="flex items-center gap-1"><Users size={13} /> Toplam {course.students_count} öğrenci</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-2xl font-black text-primary-blue dark:text-white">{course.price}₺</span>

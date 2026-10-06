@@ -36,7 +36,7 @@ export function Fikstur() {
           <Globe size={22} />
         </div>
         <div className="flex-1 text-center sm:text-left">
-          <p className="font-extrabold text-lg mb-0.5">Agora Online Ligi</p>
+          <p className="font-extrabold text-lg mb-0.5">Agora Çevrimiçi Turnuvası</p>
           <p className="text-sm opacity-80">Bu 3 ligden bağımsız, tamamen ücretsiz ve herkese açık — OGS üzerinden oyna.</p>
         </div>
         <span className="shrink-0 flex items-center gap-1.5 font-bold text-sm bg-white/15 px-4 py-2.5 rounded-xl">

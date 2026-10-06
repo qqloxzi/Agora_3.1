@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom'
 import { User, Trophy, GraduationCap } from 'lucide-react'
 import { useAuth } from '../contexts/AuthContext'
 import { fetchMyLeagueRegistrations, fetchWorkshopOverview } from '../lib/profileSummary'
-import { HeartsBar } from './ui/HeartsBar'
 import { TokenBadge } from './ui/TokenBadge'
 import { StreakFlame } from './ui/StreakFlame'
+import { rankForXp } from '../lib/gamification'
 import { XPProgressBar } from './ui/XPProgressBar'
 
 // Reusable "who am I, how am I doing" card — used on both the Profile page
 // and the Atölyeler overview so a logged-in user always has their status
-// (rank/XP, hearts & tokens, joined league, workshop progress) at hand.
+// (rank/XP, tokens, joined league, workshop progress) at hand.
 export function ProfileSummaryCard({ className = '' }) {
   const { user, profile } = useAuth()
   const [leagues, setLeagues] = useState([])
@@ -45,14 +45,13 @@ export function ProfileSummaryCard({ className = '' }) {
         )}
         <div className="min-w-0">
           <p className="font-extrabold text-ink dark:text-white truncate">{profile.username || 'Oyuncu'}</p>
-          <p className="text-xs text-ink/40 dark:text-ice-white/40 font-data">{profile.rank}</p>
+          <p className="text-xs text-ink/40 dark:text-ice-white/40 font-data">{rankForXp(profile.xp ?? 0)}</p>
         </div>
       </div>
 
       <XPProgressBar xp={profile.xp ?? 0} className="mb-4" />
 
       <div className="flex flex-wrap items-center gap-2 mb-5">
-        <HeartsBar hearts={profile.hearts} profile={profile} size={15} />
         <TokenBadge tokens={profile.tokens ?? 0} size="sm" />
         <StreakFlame count={profile.streak_count ?? 0} size="sm" />
       </div>

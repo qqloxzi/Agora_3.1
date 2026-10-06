@@ -50,7 +50,7 @@ html.dark .agora-gradient-page {
   transform: scale(0.98) translateY(0);
 }
 
-/* Duolingo-style "pressable" 3D button used for primary gamified CTAs */
+/* Pressable 3D button used for primary gamified CTAs */
 .press-btn {
   box-shadow: 0 4px 0 0 rgb(0 0 0 / 0.15);
   transition: transform 0.12s ease, box-shadow 0.12s ease;

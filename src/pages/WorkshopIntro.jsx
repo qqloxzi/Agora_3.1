@@ -25,10 +25,12 @@ export function WorkshopIntro() {
   const { courseSlug } = useParams()
   const navigate = useNavigate()
   const course = findCourse(courseSlug)
-  const [lessonCount, setLessonCount] = useState(null)
+  const [fetchedCount, setFetchedCount] = useState(null)
+  // Joseki boxes know their size from the catalog; the rest count go_problems rows.
+  const lessonCount = course?.joseki ? course.lessonCount ?? 0 : fetchedCount
 
   useEffect(() => {
-    if (course) fetchCourseLessons(courseSlug).then((ls) => setLessonCount(ls.length))
+    if (course && !course.joseki) fetchCourseLessons(courseSlug).then((ls) => setFetchedCount(ls.length))
   }, [courseSlug, course])
 
   if (!course) {

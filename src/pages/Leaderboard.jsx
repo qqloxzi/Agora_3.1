@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Trophy, User } from 'lucide-react'
 import { supabase } from '../lib/supabase'
 import { useAuth } from '../contexts/AuthContext'
+import { rankForXp } from '../lib/gamification'
 import { StreakFlame } from '../components/ui/StreakFlame'
 
 const MEDAL_COLORS = ['bg-token text-white', 'bg-ink/20 text-ink dark:text-white', 'bg-heart/60 text-white']
@@ -53,7 +54,7 @@ export function Leaderboard() {
             )}
             <div className="flex-1 min-w-0">
               <p className="font-bold text-ink dark:text-white truncate">{row.username || 'İsimsiz Oyuncu'}</p>
-              <p className="text-xs text-ink/40 dark:text-ice-white/40 font-data">{row.rank}</p>
+              <p className="text-xs text-ink/40 dark:text-ice-white/40 font-data">{rankForXp(row.xp ?? 0)}</p>
             </div>
             <StreakFlame count={row.streak_count} size="sm" className="hidden sm:inline-flex" />
             <span className="font-black text-primary-blue dark:text-white font-data w-16 text-right">{row.xp} XP</span>

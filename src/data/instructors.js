@@ -39,8 +39,6 @@ export const instructors = [
     avatar: '/instructorphotos/doganergezen.jpeg',
     location: 'Ankara, Türkiye',
     about: '3 yıldan beri düzenli olarak oynuyor ve kendini geliştirmeye devam ediyor. Hacettepe Go Topluluğu’nda başkanlık yaptı ve bu süreçte birçok Go turnuvası ve etkinliğinin organizasyonunda aktif rol aldı. Go’yu yalnızca rekabetçi bir oyun olarak değil, aynı zamanda insanları bir araya getiren güçlü bir topluluk olarak görüyor. Yapay zeka mühendisliği bölümünde eğitimine devam etmekte olup, sitedeki Go atölyelerinin ve Go botlarının tasarımcısı ve yazılımcısıdır.',
-    leagueSlug: 'temel-taslar',
-    leagueTitle: 'Temel Taşlar Ligi',
   },
 ]
 

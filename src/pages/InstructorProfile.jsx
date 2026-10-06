@@ -136,9 +136,11 @@ export function InstructorProfile() {
         <p className="text-ink/70 dark:text-ice-white/70 leading-relaxed mb-8">{person.about}</p>
 
         <div className="flex flex-col sm:flex-row gap-3">
-          <Link to={`/lig/${person.leagueSlug}`} className="magnetic-btn press-btn inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-primary-blue text-white font-extrabold">
-            {person.leagueTitle} <ArrowRight size={16} />
-          </Link>
+          {person.leagueSlug && person.leagueTitle && (
+            <Link to={`/lig/${person.leagueSlug}`} className="magnetic-btn press-btn inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-primary-blue text-white font-extrabold">
+              {person.leagueTitle} <ArrowRight size={16} />
+            </Link>
+          )}
           {person.privateLessons && (
             <button
               onClick={() => setLessonOpen(true)}

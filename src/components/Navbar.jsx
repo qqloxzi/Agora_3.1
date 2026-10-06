@@ -8,6 +8,7 @@ import {
   LogOut,
   User,
   ShieldCheck,
+  MessageSquare,
   Home as HomeIcon,
   GraduationCap,
   Trophy,
@@ -15,11 +16,11 @@ import {
   Puzzle,
   Award,
   Users,
-  BookOpen,
+  Globe,
+  GitBranch,
 } from 'lucide-react'
 import { useAuth } from '../contexts/AuthContext'
 import { useTheme } from '../contexts/ThemeContext'
-import { HeartsBar } from './ui/HeartsBar'
 import { TokenBadge } from './ui/TokenBadge'
 import { StreakFlame } from './ui/StreakFlame'
 
@@ -27,11 +28,12 @@ const NAV_LINKS = [
   { to: '/', label: 'Ana Sayfa', icon: HomeIcon },
   { to: '/atolyeler', label: 'Atölyeler', icon: GraduationCap },
   { to: '/ligler', label: 'Ligler', icon: Trophy },
+  { to: '/agora-online-ligi', label: 'Çevrimiçi Turnuva', icon: Globe },
   { to: '/fikstur', label: 'Fikstür', icon: CalendarDays },
   { to: '/bulmacalar', label: 'Bulmacalar', icon: Puzzle },
+  { to: '/joseki-sonrasi', label: 'Joseki Sonrası', icon: GitBranch },
   { to: '/liderlik-tablosu', label: 'Liderlik', icon: Award },
   { to: '/hakkimizda', label: 'Hakkımızda', icon: Users },
-  { to: '/blog', label: 'Kütüphane', icon: BookOpen },
 ]
 
 function navLinkClass({ isActive }) {
@@ -58,7 +60,6 @@ function AuthActions({ compact = false, onNavigate }) {
       {user && profile ? (
         <>
           <div className="flex flex-col gap-2 px-1">
-            <HeartsBar hearts={profile.hearts} profile={profile} size={15} />
             <div className="flex items-center gap-2">
               <TokenBadge tokens={profile.tokens} size="sm" />
               <StreakFlame count={profile.streak_count} size="sm" />
@@ -73,6 +74,9 @@ function AuthActions({ compact = false, onNavigate }) {
               </div>
             )}
             <span className="text-sm font-bold text-ink dark:text-white truncate">{profile.username || 'Profilim'}</span>
+          </Link>
+          <Link to="/mesajlarim" onClick={close} className="flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-sm font-bold text-ink/70 dark:text-ice-white/70 hover:bg-primary-blue/5 transition-colors">
+            <MessageSquare size={18} /> Mesajlarım
           </Link>
           {profile.is_admin && (
             <Link to="/admin" onClick={close} className="flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-sm font-bold text-success hover:bg-success/10 transition-colors">
@@ -96,7 +100,7 @@ function AuthActions({ compact = false, onNavigate }) {
             Giriş Yap
           </Link>
           <Link to="/kayit" onClick={close} className="magnetic-btn px-3.5 py-2.5 rounded-xl text-sm font-bold text-center text-white agora-gradient-surface shadow-card">
-            Ücretsiz Başla
+            Agora'ya Katıl
           </Link>
         </>
       )}

@@ -1,0 +1,2081 @@
+[
+{
+"n": 1,
+"sgf_filename": "tesuji-4-001.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-001]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][bs][cp][dp][dr][ep][fr]AW[bo][bp][co][cq][cr][dq][en][er][fo][fq][gq][gr](;B[eq]TE[1];W[ds];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 101,
+"lesson_title": "Bulmaca 101"
+},
+{
+"n": 2,
+"sgf_filename": "tesuji-4-002.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-002]SZ[19]KM[6.5]RU[Japanese]AB[co][cq][cr][do][dp][eq][fr][gq][ho]AW[bo][bp][bq][cn][cp][dq][dr][ep][er](;B[es]TE[1];W[fq];B[ds]TE[1];W[eq];B[eo]TE[1]C[Doğru çözüm!]))",
+"sort_order": 102,
+"lesson_title": "Bulmaca 102"
+},
+{
+"n": 3,
+"sgf_filename": "tesuji-4-003.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-003]SZ[19]KM[6.5]RU[Japanese]AB[dn][do][dp][ep][fo][fq][gq][hq][io][ip]AW[cq][em][eo][eq][er][fp][fr][gl][go][gp][hp][iq][ir](;B[gn]TE[1];W[fn];B[ho]TE[1];W[fo];B[fm]TE[1];W[en];B[el]TE[1]C[Doğru çözüm!]))",
+"sort_order": 103,
+"lesson_title": "Bulmaca 103"
+},
+{
+"n": 4,
+"sgf_filename": "tesuji-4-004.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-004]SZ[19]KM[6.5]RU[Japanese]AB[ar][bn][bp][br][cn][cr][do][dr][en][eo][ep][eq]AW[an][ap][bm][bo][bq][cm][cq][dm][dp][dq][er][fq][fr][hq](;B[co]TE[1];W[cp];B[aq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 104,
+"lesson_title": "Bulmaca 104"
+},
+{
+"n": 5,
+"sgf_filename": "tesuji-4-005.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-005]SZ[19]KM[6.5]RU[Japanese]AB[cq][cr][do][dp][ds][eo][eq][fo][go][ho][hp]AW[cm][co][cp][dn][dq][dr][ep][er][fp][gp][hq][hr][ip][jq](;B[fr]TE[1];W[fq];B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 105,
+"lesson_title": "Bulmaca 105"
+},
+{
+"n": 6,
+"sgf_filename": "tesuji-4-006.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-006]SZ[19]KM[6.5]RU[Japanese]AB[br][co][cq][do][ep][eq][er]AW[bq][cp][cr][dp][eo][fo][fp][fq][fr](;B[bp]TE[1];W[dq];B[dr]TE[1];W[cq];B[aq]TE[1];W[cs];B[bs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 106,
+"lesson_title": "Bulmaca 106"
+},
+{
+"n": 7,
+"sgf_filename": "tesuji-4-007.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-007]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][cr][dr][er][es][fq][go][gq][gr][hp][io][is]AW[bp][bq][br][co][do][dp][dq][eq][fr][fs][gs][hq][hr][hs][ir](;B[jr]TE[1];W[iq];B[jq]TE[1];W[js];B[ip]TE[1]C[Doğru çözüm!]))",
+"sort_order": 107,
+"lesson_title": "Bulmaca 107"
+},
+{
+"n": 8,
+"sgf_filename": "tesuji-4-008.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-008]SZ[19]KM[6.5]RU[Japanese]AB[ar][bn][bp][br][cn][cr][do][dr][en][eo][ep][eq]AW[an][bm][bo][bq][cm][cp][cq][dm][dp][dq][er][fq][fr][hq](;B[aq]TE[1];W[ap];B[co]TE[1]C[Doğru çözüm!]))",
+"sort_order": 108,
+"lesson_title": "Bulmaca 108"
+},
+{
+"n": 9,
+"sgf_filename": "tesuji-4-009.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-009]SZ[19]KM[6.5]RU[Japanese]AB[aq][bo][bq][cp][cr][dr][eq][fo][fp][fq]AW[bp][br][bs][cq][dm][dp][dq][ep][er][fr][gq][hq](;B[eo]TE[1];W[co];B[do]TE[1]C[Doğru çözüm!]))",
+"sort_order": 109,
+"lesson_title": "Bulmaca 109"
+},
+{
+"n": 10,
+"sgf_filename": "tesuji-4-010.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-010]SZ[19]KM[6.5]RU[Japanese]AB[bn][br][cn][cp][cr][dn][dq][dr][en][eq][fo][fp]AW[ar][bo][bq][co][cq][dp][ep][er][fq][fr][gp][hq](;B[do]TE[1];W[bp];B[eo]TE[1];W[cp];B[aq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 110,
+"lesson_title": "Bulmaca 110"
+},
+{
+"n": 11,
+"sgf_filename": "tesuji-4-011.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-011]SZ[19]KM[6.5]RU[Japanese]AB[bp][bq][cp][cr][do][dr][eq][go][gq]AW[ar][br][cq][dp][dq][ep][er](;B[fp]TE[1];W[eo];B[en]TE[1];W[fq];B[fo]TE[1];W[eq];B[fr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 111,
+"lesson_title": "Bulmaca 111"
+},
+{
+"n": 12,
+"sgf_filename": "tesuji-4-012.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-012]SZ[19]KM[6.5]RU[Japanese]AB[bp][cp][cr][dp][eo][eq][er][fo][fr][gp][ip][ir]AW[bo][co][dm][do][dq][dr][ep][fm][fp][fq][go][gq](;B[hq]TE[1];W[gr];B[gs]TE[1];W[hp];B[hr]TE[1];W[gp];B[gn]TE[1]C[Doğru çözüm!]))",
+"sort_order": 112,
+"lesson_title": "Bulmaca 112"
+},
+{
+"n": 13,
+"sgf_filename": "tesuji-4-013.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-013]SZ[19]KM[6.5]RU[Japanese]AB[bo][bq][cq][cr][do][dq][ep][fo][fp][fq]AW[bp][co][cp][dp][dr][eo][eq][er][fr][gp][gq](;B[cn]TE[1];W[dn];B[ap]TE[1];W[do];B[dm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 113,
+"lesson_title": "Bulmaca 113"
+},
+{
+"n": 14,
+"sgf_filename": "tesuji-4-014.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-014]SZ[19]KM[6.5]RU[Japanese]AB[bq][cq][dp][ep][fp][fq][fs][gr]AW[bp][cn][cp][do][dq][eo][eq][er][es][fr][gn][ho][hq][iq](;B[dr]TE[1];W[gs];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 114,
+"lesson_title": "Bulmaca 114"
+},
+{
+"n": 15,
+"sgf_filename": "tesuji-4-015.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-015]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][cr][do][dr][eo][fn][go][gp][gq][gr]AW[bo][bp][bq][br][co][dp][dq][ep][er](;B[eq]TE[1];W[fq];B[fp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 115,
+"lesson_title": "Bulmaca 115"
+},
+{
+"n": 16,
+"sgf_filename": "tesuji-4-016.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-016]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][bq][cp][dm][dq][em][en][eq][fq][gp][ho]AW[bn][br][cl][cm][co][cq][cr][dn][dp][ep][fp](;B[do]TE[1];W[eo];B[fo]TE[1]C[Doğru çözüm!]))",
+"sort_order": 116,
+"lesson_title": "Bulmaca 116"
+},
+{
+"n": 17,
+"sgf_filename": "tesuji-4-017.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-017]SZ[19]KM[6.5]RU[Japanese]AB[aq][bp][br][co][cq][cr][do][dr][ds][eo][es]AW[bn][bo][cm][cp][dp][dq][er][fq][fs][hq](;B[eq]TE[1];W[ep];B[fp]TE[1];W[eq];B[gq]TE[1];W[fr];B[gp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 117,
+"lesson_title": "Bulmaca 117"
+},
+{
+"n": 18,
+"sgf_filename": "tesuji-4-018.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-018]SZ[19]KM[6.5]RU[Japanese]AB[br][bs][cp][cq][cs][dp][ep][fp][fq]AW[bo][bp][bq][cr][dq][dr][eq][fr][gp][gq](;B[er]TE[1];W[es];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 118,
+"lesson_title": "Bulmaca 118"
+},
+{
+"n": 19,
+"sgf_filename": "tesuji-4-019.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-019]SZ[19]KM[6.5]RU[Japanese]AB[bq][cn][cq][dn][dp][em][ep][eq][er][fp][gq][gr]AW[br][co][cp][cr][dq][dr][es][fq][fr][fs][gp][hp][hq][ir](;B[ds]TE[1];W[cs];B[gs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 119,
+"lesson_title": "Bulmaca 119"
+},
+{
+"n": 20,
+"sgf_filename": "tesuji-4-020.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-020]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][do][dr][er][fr][gp][gq]AW[dp][dq][em][eo][eq][fq][gm][gr][hr][iq](;B[ep]TE[1];W[fp];B[fo]TE[1]C[Doğru çözüm!]))",
+"sort_order": 120,
+"lesson_title": "Bulmaca 120"
+},
+{
+"n": 21,
+"sgf_filename": "tesuji-4-021.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-021]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][dp][en][ep][fq][fr][fs]AW[bq][cr][dq][eq][er][fp][gp][gq][hr](;B[es]TE[1];W[dr];B[br]TE[1];W[bs];B[ar]TE[1];W[aq];B[cs]TE[1];W[as];B[br]TE[1]C[Doğru çözüm!]))",
+"sort_order": 121,
+"lesson_title": "Bulmaca 121"
+},
+{
+"n": 22,
+"sgf_filename": "tesuji-4-022.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-022]SZ[19]KM[6.5]RU[Japanese]AB[bp][br][cq][do][dp][eo][fo][gp][gq][gr]AW[cr][dq][ep][er][fp][go][hp][hq][hr](;B[eq]TE[1];W[fq];B[fr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 122,
+"lesson_title": "Bulmaca 122"
+},
+{
+"n": 23,
+"sgf_filename": "tesuji-4-023.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-023]SZ[19]KM[6.5]RU[Japanese]AB[ar][bn][br][co][cr][dn][do][dp][dr][ep][eq]AW[bm][bo][bq][cm][cn][cp][cq][cs][dq][ds][er][fr][gq](;B[bp]TE[1];W[ap];B[aq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 123,
+"lesson_title": "Bulmaca 123"
+},
+{
+"n": 24,
+"sgf_filename": "tesuji-4-024.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-024]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][cr][do][eo][fp][fr][gp]AW[bo][co][dm][dp][ep][er][fn][fo][fq][ho][hp][hq](;B[eq]TE[1];W[dq];B[dr]TE[1];W[eq];B[gq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 124,
+"lesson_title": "Bulmaca 124"
+},
+{
+"n": 25,
+"sgf_filename": "tesuji-4-025.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-025]SZ[19]KM[6.5]RU[Japanese]AB[bo][cn][cp][dp][dq][ep][fp][gq][gr][gs]AW[bp][bq][cq][dr][eq][fq][fr][gp][hp][hq][iq][ir](;B[er]TE[1];W[es];B[fs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 125,
+"lesson_title": "Bulmaca 125"
+},
+{
+"n": 26,
+"sgf_filename": "tesuji-4-026.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-026]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][cr][do][eo][fo][fp][gq][hq][hr]AW[bo][bp][bq][br][co][dp][ep][er][fq][gr](;B[eq]TE[1];W[dq];B[dr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 126,
+"lesson_title": "Bulmaca 126"
+},
+{
+"n": 27,
+"sgf_filename": "tesuji-4-027.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-027]SZ[19]KM[6.5]RU[Japanese]AB[cn][cp][cq][dp][ds][eq][er][es]AW[aq][as][bq][bs][cr][dq][dr][ep][fp][fq][gr](;B[br]TE[1];W[ar];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 127,
+"lesson_title": "Bulmaca 127"
+},
+{
+"n": 28,
+"sgf_filename": "tesuji-4-028.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-028]SZ[19]KM[6.5]RU[Japanese]AB[br][cp][cq][dp][eo][fo][gp][gq]AW[cr][dn][do][dq][ep][er][fp][gn][go](;B[eq]TE[1];W[fq];B[fr]TE[1];W[eq];B[es]TE[1];W[dr];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 128,
+"lesson_title": "Bulmaca 128"
+},
+{
+"n": 29,
+"sgf_filename": "tesuji-4-029.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-029]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][cr][do][dr][eo][fo][fr][fs][go][gr][hp][hq]AW[bp][bq][br][cn][co][dp][dq][ep][er][es][fp][gp](;B[eq]TE[1];W[fq];B[gq]TE[1];W[cs];B[eq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 129,
+"lesson_title": "Bulmaca 129"
+},
+{
+"n": 30,
+"sgf_filename": "tesuji-4-030.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-030]SZ[19]KM[6.5]RU[Japanese]AB[ar][br][cq][do][dq][eo][eq][fp][fq][fr]AW[aq][bo][bq][cn][cp][cr][dp][dr][ep][er][fn][fo](;B[bp]TE[1];W[ap];B[co]TE[1]C[Doğru çözüm!]))",
+"sort_order": 130,
+"lesson_title": "Bulmaca 130"
+},
+{
+"n": 31,
+"sgf_filename": "tesuji-4-031.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-031]SZ[19]KM[6.5]RU[Japanese]AB[dp][dq][ep][fp][gn][gq][gr][gs][io][ip]AW[bq][co][cq][dr][eq][fq][fr][gp][hp][hq][iq][jq](;B[er]TE[1];W[es];B[fs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 131,
+"lesson_title": "Bulmaca 131"
+},
+{
+"n": 32,
+"sgf_filename": "tesuji-4-032.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-032]SZ[19]KM[6.5]RU[Japanese]AB[bn][bp][bq][cq][dr][er][fo][fp][fq]AW[bo][br][cp][cr][do][dq][eq][fr][gr](;B[dp]TE[1];W[ep];B[eo]TE[1];W[dp];B[dn]TE[1];W[co];B[ao]TE[1]C[Doğru çözüm!]))",
+"sort_order": 132,
+"lesson_title": "Bulmaca 132"
+},
+{
+"n": 33,
+"sgf_filename": "tesuji-4-033.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-033]SZ[19]KM[6.5]RU[Japanese]AB[cq][do][eo][fo][gp][gq][hq]AW[ep][er][fp][gn][go][hp][io][iq][ir](;B[eq]TE[1];W[fq];B[fr]TE[1];W[dq];B[dp]TE[1];W[eq];B[dr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 133,
+"lesson_title": "Bulmaca 133"
+},
+{
+"n": 34,
+"sgf_filename": "tesuji-4-034.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-034]SZ[19]KM[6.5]RU[Japanese]AB[bo][cp][cq][dq][eq][fn][fp][gp]AW[dl][dn][dp][ep][fq][gq][hq](;B[do]TE[1];W[eo];B[en]TE[1];W[co];B[fo]TE[1];W[do];B[dm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 134,
+"lesson_title": "Bulmaca 134"
+},
+{
+"n": 35,
+"sgf_filename": "tesuji-4-035.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-035]SZ[19]KM[6.5]RU[Japanese]AB[bn][cn][cr][dn][dr][eo][ep][eq]AW[bm][bp][cm][dm][do][dp][dq][em][en][er][fr][gn][gp](;B[cp]TE[1];W[cq];B[bq]TE[1];W[co];B[bo]TE[1]C[Doğru çözüm!]))",
+"sort_order": 135,
+"lesson_title": "Bulmaca 135"
+},
+{
+"n": 36,
+"sgf_filename": "tesuji-4-036.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-036]SZ[19]KM[6.5]RU[Japanese]AB[cn][cp][cq][dr][eq][er][fp][go][gp]AW[br][cr][dp][dq][en][ep][fq][fr](;B[eo]TE[1];W[do];B[dn]TE[1];W[fo];B[co]TE[1];W[eo];B[em]TE[1]C[Doğru çözüm!]))",
+"sort_order": 136,
+"lesson_title": "Bulmaca 136"
+},
+{
+"n": 37,
+"sgf_filename": "tesuji-4-037.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-037]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][bs][cp][dp][ep][fr]AW[bo][bp][co][cq][cr][en][er][fo][fq][gq][gr](;B[dr]TE[1];W[dq];B[eq]TE[1];W[ds];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 137,
+"lesson_title": "Bulmaca 137"
+},
+{
+"n": 38,
+"sgf_filename": "tesuji-4-038.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-038]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][dn][en][fn][go][ho][hp]AW[cm][cn][do][el][eo][fo][fq][gm][gn](;B[fp]TE[1];W[ep];B[eq]TE[1];W[gp];B[dp]TE[1];W[fp];B[fr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 138,
+"lesson_title": "Bulmaca 138"
+},
+{
+"n": 39,
+"sgf_filename": "tesuji-4-039.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-039]SZ[19]KM[6.5]RU[Japanese]AB[aq][bq][br][cn][cr][dp][dr][ep][eq]AW[bl][bn][bp][cl][cp][cq][dl][dq][er][fq][fr][hq](;B[bo]TE[1];W[co];B[do]TE[1];W[ao];B[ap]TE[1]C[Doğru çözüm!]))",
+"sort_order": 139,
+"lesson_title": "Bulmaca 139"
+},
+{
+"n": 40,
+"sgf_filename": "tesuji-4-040.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-040]SZ[19]KM[6.5]RU[Japanese]AB[dq][eo][fm][fo][gp][gq][gr][gs]AW[bp][br][co][dr][fp][fq][fr][go][ho][hp][ir](;B[er]TE[1];W[eq];B[ep]TE[1];W[es];B[fs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 140,
+"lesson_title": "Bulmaca 140"
+},
+{
+"n": 41,
+"sgf_filename": "tesuji-4-041.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-041]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][cr][cs][do][ds][eo][fo][fq][gm][go][gp]AW[dq][dr][ep][fr][gq][ho][hp][hq](;B[er]TE[1];W[eq];B[fp]TE[1];W[es];B[dp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 141,
+"lesson_title": "Bulmaca 141"
+},
+{
+"n": 42,
+"sgf_filename": "tesuji-4-042.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-042]SZ[19]KM[6.5]RU[Japanese]AB[bo][co][cp][dp][eo][eq][fq][gq][gr]AW[bp][bq][cq][do][dq][ep][er][fp][fr][hn](;B[go]TE[1];W[fo];B[fn]TE[1];W[en];B[gp]TE[1];W[eo];B[em]TE[1]C[Doğru çözüm!]))",
+"sort_order": 142,
+"lesson_title": "Bulmaca 142"
+},
+{
+"n": 43,
+"sgf_filename": "tesuji-4-043.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-043]SZ[19]KM[6.5]RU[Japanese]AB[bo][cn][co][cp][dq][dr][ep][er][go]AW[aq][bp][br][cq][cr][do][dp][em][fp][gn][ho][hp][hq](;B[en]TE[1];W[eo];B[fo]TE[1];W[eq];B[dn]TE[1];W[ep];B[gp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 143,
+"lesson_title": "Bulmaca 143"
+},
+{
+"n": 44,
+"sgf_filename": "tesuji-4-044.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-044]SZ[19]KM[6.5]RU[Japanese]AB[cr][do][dp][dq][ds][en][ep][fn][fq][gn][ho][io][jo]AW[dm][dn][dr][el][eo][eq][er][fo][fp][gl][go][gp][hm][hn][iq](;B[hq]TE[1];W[gq];B[gr]TE[1];W[fr];B[hp]TE[1];W[fq];B[gs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 144,
+"lesson_title": "Bulmaca 144"
+},
+{
+"n": 45,
+"sgf_filename": "tesuji-4-045.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-045]SZ[19]KM[6.5]RU[Japanese]AB[cm][dm][em][eo][fn][gn][go][in]AW[bp][cq][dl][dn][el][en][fl][fm][fo](;B[co]TE[1];W[do];B[dp]TE[1];W[ep];B[cn]TE[1];W[eo];B[eq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 145,
+"lesson_title": "Bulmaca 145"
+},
+{
+"n": 46,
+"sgf_filename": "tesuji-4-046.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-046]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][dn][fn][gn][gp][gq][ho][io]AW[cm][cn][dq][eq][fo][go][hm][hn][hp][hq][hr][jn][jp](;B[ep]TE[1];W[eo];B[do]TE[1];W[fp];B[fq]TE[1];W[dp];B[en]TE[1];W[ep];B[fr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 146,
+"lesson_title": "Bulmaca 146"
+},
+{
+"n": 47,
+"sgf_filename": "tesuji-4-047.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-047]SZ[19]KM[6.5]RU[Japanese]AB[bn][bo][cp][cq][dr][ep][eq][er][fn][fo][fr]AW[br][cn][cr][do][dp][dq][eo][fp][fq][gq][gr](;B[dn]TE[1];W[en];B[em]TE[1];W[dm];B[co]TE[1];W[dn];B[dl]TE[1]C[Doğru çözüm!]))",
+"sort_order": 147,
+"lesson_title": "Bulmaca 147"
+},
+{
+"n": 48,
+"sgf_filename": "tesuji-4-048.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-048]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][bs][cp][dp][en][ep][fp][fq][gn][go]AW[bo][bp][cm][cq][cr][dq][eq][fr][gp][gq][ho][iq](;B[er]TE[1];W[es];B[cs]TE[1];W[dr];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 148,
+"lesson_title": "Bulmaca 148"
+},
+{
+"n": 49,
+"sgf_filename": "tesuji-4-049.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-049]SZ[19]KM[6.5]RU[Japanese]AB[bn][br][cn][cr][dn][dq][dr][en][eq][fo][fp]AW[ar][bo][bq][cq][dp][ep][er][fq][fr][gp][hq](;B[cp]TE[1];W[co];B[aq]TE[1];W[ap];B[do]TE[1]C[Doğru çözüm!]))",
+"sort_order": 149,
+"lesson_title": "Bulmaca 149"
+},
+{
+"n": 50,
+"sgf_filename": "tesuji-4-050.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-050]SZ[19]KM[6.5]RU[Japanese]AB[cq][cr][do][dq][eo][fn][fr][gn][go][gq][hp][hq][jq]AW[dr][em][en][eq][er][fo][fp][fq][gp][hm][ho][im][io](;B[es]TE[1];W[gr];B[ds]TE[1];W[fs];B[cs]TE[1];W[hr];B[ep]TE[1];W[fr];B[ir]TE[1]C[Doğru çözüm!]))",
+"sort_order": 150,
+"lesson_title": "Bulmaca 150"
+},
+{
+"n": 51,
+"sgf_filename": "tesuji-4-051.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-051]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][cr][dr][er][fq][go][gq][gr][hp][io][is]AW[bp][bq][br][co][do][dp][dq][eq][fr][fs][gs][hq][hr][hs](;B[iq]TE[1];W[ir];B[jr]TE[1];W[js];B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 151,
+"lesson_title": "Bulmaca 151"
+},
+{
+"n": 52,
+"sgf_filename": "tesuji-4-052.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-052]SZ[19]KM[6.5]RU[Japanese]AB[ar][bp][bq][br][bs][co][do][dr][eo]AW[ap][bn][bo][cm][cp][cq][cr][dq][en][fm][fo][fp][gq](;B[eq]TE[1];W[er];B[dp]TE[1];W[ds];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 152,
+"lesson_title": "Bulmaca 152"
+},
+{
+"n": 53,
+"sgf_filename": "tesuji-4-053.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-053]SZ[19]KM[6.5]RU[Japanese]AB[ar][br][cl][cm][cn][cr][do][dp][dq][eo]AW[bn][bq][co][cp][cq][cs][dr][er][fq][hq](;B[bo]TE[1];W[bp];B[aq]TE[1];W[ao];B[ap]TE[1]C[Doğru çözüm!]))",
+"sort_order": 153,
+"lesson_title": "Bulmaca 153"
+},
+{
+"n": 54,
+"sgf_filename": "tesuji-4-054.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-054]SZ[19]KM[6.5]RU[Japanese]AB[bp][cp][dn][dp][eo][fn][fo][ho]AW[cn][co][cq][do][dq][ep][fp](;B[cm]TE[1];W[dm];B[bo]TE[1];W[en];B[bn]TE[1]C[Doğru çözüm!]))",
+"sort_order": 154,
+"lesson_title": "Bulmaca 154"
+},
+{
+"n": 55,
+"sgf_filename": "tesuji-4-055.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-055]SZ[19]KM[6.5]RU[Japanese]AB[dp][dq][dr][eo][er][fo][fq][go][ho][hp][iq]AW[co][cp][cq][cr][cs][do][ep][fp][fr][gp][gq](;B[gr]TE[1];W[eq];B[hq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 155,
+"lesson_title": "Bulmaca 155"
+},
+{
+"n": 56,
+"sgf_filename": "tesuji-4-056.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-056]SZ[19]KM[6.5]RU[Japanese]AB[bq][cq][cr][do][dq][ep][fp][fq]AW[bp][cp][dp][dr][eq][er][fr][gp][gq](;B[bo]TE[1];W[eo];B[fo]TE[1];W[co];B[cn]TE[1];W[dn];B[ap]TE[1];W[do];B[dm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 156,
+"lesson_title": "Bulmaca 156"
+},
+{
+"n": 57,
+"sgf_filename": "tesuji-4-057.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-057]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][bs][cp][dp][en][ep][fq][fr][gq]AW[bo][bp][cn][cq][cr][dq][ds][fs][gr][ho][hq][hr](;B[cs]TE[1];W[es];B[dr]TE[1];W[er];B[eq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 157,
+"lesson_title": "Bulmaca 157"
+},
+{
+"n": 58,
+"sgf_filename": "tesuji-4-058.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-058]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][cr][dr][er][fq][go][gq][gr][hp][io][is]AW[bp][bq][br][co][do][dp][dq][eq][fr][fs][gs][hq][hr][ir](;B[es]TE[1];W[hs];B[jr]TE[1];W[iq];B[jq]TE[1];W[js];B[ip]TE[1]C[Doğru çözüm!]))",
+"sort_order": 158,
+"lesson_title": "Bulmaca 158"
+},
+{
+"n": 59,
+"sgf_filename": "tesuji-4-059.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-059]SZ[19]KM[6.5]RU[Japanese]AB[bo][cn][co][cp][dq][dr][er][go]AW[aq][bp][br][cq][cr][dp][em][fp][gn][ho][hp][hq](;B[ep]TE[1];W[do];B[en]TE[1];W[eo];B[fo]TE[1];W[eq];B[dn]TE[1];W[ep];B[gp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 159,
+"lesson_title": "Bulmaca 159"
+},
+{
+"n": 60,
+"sgf_filename": "tesuji-4-060.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-060]SZ[19]KM[6.5]RU[Japanese]AB[bn][cn][co][dn][dp][dq][en][er][fo][go][hp][hq]AW[ap][bo][cp][cq][cr][do][eo][ep][eq][fp](;B[dr]TE[1];W[fr];B[fq]TE[1];W[gq];B[gp]TE[1];W[fq];B[gr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 160,
+"lesson_title": "Bulmaca 160"
+},
+{
+"n": 61,
+"sgf_filename": "tesuji-4-061.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-061]SZ[19]KM[6.5]RU[Japanese]AB[bp][cp][dp][eo][fn][fo][ho]AW[cn][cq][do][dq][ep][fp](;B[dn]TE[1];W[co];B[cm]TE[1];W[dm];B[bn]TE[1];W[en];B[bo]TE[1];W[dn];B[dl]TE[1]C[Doğru çözüm!]))",
+"sort_order": 161,
+"lesson_title": "Bulmaca 161"
+},
+{
+"n": 62,
+"sgf_filename": "tesuji-4-062.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-062]SZ[19]KM[6.5]RU[Japanese]AB[ar][bn][br][cn][cr][do][dr][en][eo][ep][eq]AW[an][bm][bo][bq][cm][cq][dm][dp][dq][er][fq][fr][hq](;B[bp]TE[1];W[cp];B[co]TE[1];W[ap];B[aq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 162,
+"lesson_title": "Bulmaca 162"
+},
+{
+"n": 63,
+"sgf_filename": "tesuji-4-063.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-063]SZ[19]KM[6.5]RU[Japanese]AB[bq][cq][cr][dr][er][fq][gq][hq][hs][iq][ir]AW[aq][as][bp][br][cp][dp][dq][eq][es][fr][fs][gr][hr](;B[cs]TE[1];W[ap];B[is]TE[1];W[ar];B[gs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 163,
+"lesson_title": "Bulmaca 163"
+},
+{
+"n": 64,
+"sgf_filename": "tesuji-4-064.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-064]SZ[19]KM[6.5]RU[Japanese]AB[br][cp][cq][dp][ep][eq][fr][gq]AW[bo][bp][bq][co][cr][dq][dr](;B[bs]TE[1];W[ar];B[er]TE[1]C[Doğru çözüm!]))",
+"sort_order": 164,
+"lesson_title": "Bulmaca 164"
+},
+{
+"n": 65,
+"sgf_filename": "tesuji-4-065.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-065]SZ[19]KM[6.5]RU[Japanese]AB[ar][bp][br][cp][cq][dp][ep][fp][fr][gq][gr]AW[bq][bs][cr][dq][dr][eq][fq][go][gp][hq][hr](;B[es]TE[1];W[gs];B[ds]TE[1];W[cs];B[aq]TE[1];W[hs];B[as]TE[1]C[Doğru çözüm!]))",
+"sort_order": 165,
+"lesson_title": "Bulmaca 165"
+},
+{
+"n": 66,
+"sgf_filename": "tesuji-4-066.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-066]SZ[19]KM[6.5]RU[Japanese]AB[bn][bq][cm][co][cr][dn][dp][dq][dr]AW[as][bo][bp][br][cp][cq][cs][ds][eq][er][fq][fs][gr](;B[aq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 166,
+"lesson_title": "Bulmaca 166"
+},
+{
+"n": 67,
+"sgf_filename": "tesuji-4-067.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-067]SZ[19]KM[6.5]RU[Japanese]AB[ap][bp][cp][dq][dr][fq]AW[bn][bo][bq][bs][cq][dn][do][dp](;B[br]TE[1];W[cr];B[ar]TE[1];W[cs];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 167,
+"lesson_title": "Bulmaca 167"
+},
+{
+"n": 68,
+"sgf_filename": "tesuji-4-068.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-068]SZ[19]KM[6.5]RU[Japanese]AB[br][cn][co][cp][cq]AW[bp][bq][cr][dr][eq][gq](;B[ar]TE[1];W[bs];B[bo]TE[1]C[Doğru çözüm!]))",
+"sort_order": 168,
+"lesson_title": "Bulmaca 168"
+},
+{
+"n": 69,
+"sgf_filename": "tesuji-4-069.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-069]SZ[19]KM[6.5]RU[Japanese]AB[ap][aq][bp][cp][cr][dq][eq][fq][fr]AW[ar][bn][bq][br][cn][cq][do][dp][dr][er](;B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 169,
+"lesson_title": "Bulmaca 169"
+},
+{
+"n": 70,
+"sgf_filename": "tesuji-4-070.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-070]SZ[19]KM[6.5]RU[Japanese]AB[ar][bp][bq][cp][dn][dp][dr][eq][fq][gq][hq][hr][hs]AW[br][bs][cq][cr][dq][ep][er][fp][fr][gp][gr][gs][hp][ip][jr](;B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 170,
+"lesson_title": "Bulmaca 170"
+},
+{
+"n": 71,
+"sgf_filename": "tesuji-4-071.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-071]SZ[19]KM[6.5]RU[Japanese]AB[ap][bp][cp][cq][dp][dr][ds][ep][fq][gq][gr][ir]AW[aq][as][bn][bq][br][cr][do][dq][eo][eq][er][fo][fp][fr](;B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 171,
+"lesson_title": "Bulmaca 171"
+},
+{
+"n": 72,
+"sgf_filename": "tesuji-4-072.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-072]SZ[19]KM[6.5]RU[Japanese]AB[ap][ar][bo][co][do][dp][eq][fq][fr]AW[bp][bq][bs][cp][cr][dq][dr][er](;B[br]TE[1]C[Doğru çözüm!]))",
+"sort_order": 172,
+"lesson_title": "Bulmaca 172"
+},
+{
+"n": 73,
+"sgf_filename": "tesuji-4-073.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-073]SZ[19]KM[6.5]RU[Japanese]AB[ar][br][cn][co][cp][cq]AW[bp][bq][bs][cr][dr][eq][gq](;B[ap]TE[1]C[Doğru çözüm!]))",
+"sort_order": 173,
+"lesson_title": "Bulmaca 173"
+},
+{
+"n": 74,
+"sgf_filename": "tesuji-4-074.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-074]SZ[19]KM[6.5]RU[Japanese]AB[br][cn][cp][cq][dp][eq][er]AW[ar][bq][cr][dq][dr][ep][fp][gr](;B[bs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 174,
+"lesson_title": "Bulmaca 174"
+},
+{
+"n": 75,
+"sgf_filename": "tesuji-4-075.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-075]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][cq][dq][eo][ep][er][fp][gq][hq][hr]AW[bp][cp][cr][dn][dp][dr][eq][fn][fq][fr][go][gp][gr](;B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 175,
+"lesson_title": "Bulmaca 175"
+},
+{
+"n": 76,
+"sgf_filename": "tesuji-4-076.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-076]SZ[19]KM[6.5]RU[Japanese]AB[aq][bp][bq][cp][cr][dp][eq][fq][gq][hq][hr][hs]AW[ar][br][cq][dq][dr][er][es][fr][gr][gs](;B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 176,
+"lesson_title": "Bulmaca 176"
+},
+{
+"n": 77,
+"sgf_filename": "tesuji-4-077.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-077]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][bs][cp][dp][dq][en][ep][er][fn][fp][gp][gq][hr]AW[aq][ar][bo][bp][cn][cq][cr][dr][eq][fq][fr][gn][gr][ho][hq][iq][ir](;B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 177,
+"lesson_title": "Bulmaca 177"
+},
+{
+"n": 78,
+"sgf_filename": "tesuji-4-078.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-078]SZ[19]KM[6.5]RU[Japanese]AB[ao][bn][br][cn][cp][cq][dn][do][ep][eq]AW[bo][bp][bq][bs][co][cr][dr][er][fq][gr](;B[ar]TE[1];W[cs];B[aq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 178,
+"lesson_title": "Bulmaca 178"
+},
+{
+"n": 79,
+"sgf_filename": "tesuji-4-079.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-079]SZ[19]KM[6.5]RU[Japanese]AB[ar][bp][br][cq][dq][ep][eq][fp][fs][gq][gr][gs][hr][ir][jr]AW[bs][cr][dr][er][fq][fr][gp][hp][hq][iq][is][jq][js][kq][kr](;B[ds]TE[1];W[cs];B[as]TE[1]C[Doğru çözüm!]))",
+"sort_order": 179,
+"lesson_title": "Bulmaca 179"
+},
+{
+"n": 80,
+"sgf_filename": "tesuji-4-080.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-080]SZ[19]KM[6.5]RU[Japanese]AB[aq][bq][co][cq][cs][dp][dr][ep][fp][gp][gr][hp][hq]AW[ar][br][cr][dq][eq][er][fq][fr][gq][hr][iq](;B[ds]TE[1];W[gs];B[as]TE[1]C[Doğru çözüm!]))",
+"sort_order": 180,
+"lesson_title": "Bulmaca 180"
+},
+{
+"n": 81,
+"sgf_filename": "tesuji-4-081.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-081]SZ[19]KM[6.5]RU[Japanese]AB[aq][bq][co][cq][dp][dr][ds][ep][fp][gp][gq][gr]AW[br][cr][dq][eq][es][fq][fr][gs][hp][hq][hr][hs](;B[bs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 181,
+"lesson_title": "Bulmaca 181"
+},
+{
+"n": 82,
+"sgf_filename": "tesuji-4-082.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-082]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][cp][cq][dp][eq][fq][gp]AW[aq][bo][bp][co][cr][do][dq][dr][ep][fo](;B[bs]TE[1];W[er];B[fr]TE[1];W[ar];B[fp]TE[1];W[eo];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 182,
+"lesson_title": "Bulmaca 182"
+},
+{
+"n": 83,
+"sgf_filename": "tesuji-4-083.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-083]SZ[19]KM[6.5]RU[Japanese]AB[ap][bo][br][cm][co][do][dq][dr][ep][eq][fp]AW[bp][bq][bs][cp][cr][dn][dp][eo][fo][fr][go][gp][gq](;B[ar]TE[1]C[Doğru çözüm!]))",
+"sort_order": 183,
+"lesson_title": "Bulmaca 183"
+},
+{
+"n": 84,
+"sgf_filename": "tesuji-4-084.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-084]SZ[19]KM[6.5]RU[Japanese]AB[ar][bo][bq][cp][do][dq][dr][ds][eo][er][fo][fp][gp][hp][ip][iq][ir][js][kr]AW[br][bs][cq][cr][dp][ep][eq][fq][fr][fs][gq][hq][hr][hs][is](;B[gr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 184,
+"lesson_title": "Bulmaca 184"
+},
+{
+"n": 85,
+"sgf_filename": "tesuji-4-085.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-085]SZ[19]KM[6.5]RU[Japanese]AB[ar][bo][bq][cp][do][dq][dr][ds][eo][er][fo][fp][gp][hp][ip][iq][ir][js][kr]AW[br][bs][cq][cr][dp][ep][eq][fq][fr][gq][gs][hq][hr][hs][is](;B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 185,
+"lesson_title": "Bulmaca 185"
+},
+{
+"n": 86,
+"sgf_filename": "tesuji-4-086.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-086]SZ[19]KM[6.5]RU[Japanese]AB[dr][er][fq][fr][fs][gp][hp][hs][ip][jq][jr]AW[cq][cr][dq][ds][ep][eq][fp][gq][gr][hq][ir][is](;B[iq]TE[1];W[cs];B[gs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 186,
+"lesson_title": "Bulmaca 186"
+},
+{
+"n": 87,
+"sgf_filename": "tesuji-4-087.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-087]SZ[19]KM[6.5]RU[Japanese]AB[cr][dq][eq][fq][fr][gq][hp][ip][iq][kq]AW[br][cp][cq][dp][dr][ep][fp][gp][gr][hq][hr](;B[fs]TE[1];W[er];B[hs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 187,
+"lesson_title": "Bulmaca 187"
+},
+{
+"n": 88,
+"sgf_filename": "tesuji-4-088.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-088]SZ[19]KM[6.5]RU[Japanese]AB[bs][cr][dr][eq][fq][gq][hq][hr]AW[bq][br][cn][cq][dq][er][fr][gr](;B[es]TE[1];W[ds];B[cs]TE[1];W[ar];B[fs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 188,
+"lesson_title": "Bulmaca 188"
+},
+{
+"n": 89,
+"sgf_filename": "tesuji-4-089.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-089]SZ[19]KM[6.5]RU[Japanese]AB[bq][cq][cr][dr][er][fq][gq][hq][hs][iq][ir]AW[aq][bp][br][cp][dp][dq][eq][es][fr][fs][gr][hr](;B[ar]TE[1];W[as];B[cs]TE[1];W[ap];B[is]TE[1];W[ar];B[gs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 189,
+"lesson_title": "Bulmaca 189"
+},
+{
+"n": 90,
+"sgf_filename": "tesuji-4-090.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-090]SZ[19]KM[6.5]RU[Japanese]AB[aq][bq][cq][cr][dq][ep][fp][fq][hq]AW[ap][bp][bs][cp][dn][dp][dr][eo][eq][er](;B[cs]TE[1];W[ar];B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 190,
+"lesson_title": "Bulmaca 190"
+},
+{
+"n": 91,
+"sgf_filename": "tesuji-4-091.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-091]SZ[19]KM[6.5]RU[Japanese]AB[ar][bp][br][cq][dq][ep][eq][fp][gq][gr][gs][hr][ir][jr]AW[bs][cr][dr][er][fq][fr][gp][hp][hq][iq][jq][js][kq][kr](;B[ds]TE[1];W[is];B[fs]TE[1];W[cs];B[as]TE[1]C[Doğru çözüm!]))",
+"sort_order": 191,
+"lesson_title": "Bulmaca 191"
+},
+{
+"n": 92,
+"sgf_filename": "tesuji-4-092.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-092]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][bs][cq][dp][ep][eq][fp][gp][gq][gr][ir]AW[aq][bp][cn][cp][cr][do][dq][dr][er][fq][fr](;B[fs]TE[1];W[ar];B[es]TE[1];W[ap];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 192,
+"lesson_title": "Bulmaca 192"
+},
+{
+"n": 93,
+"sgf_filename": "tesuji-4-093.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-093]SZ[19]KM[6.5]RU[Japanese]AB[aq][bq][co][cq][dp][dr][ep][fp][gp][gr][hp][hq]AW[ar][br][cr][dq][eq][fq][fr][gq][hr][iq](;B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 193,
+"lesson_title": "Bulmaca 193"
+},
+{
+"n": 94,
+"sgf_filename": "tesuji-4-094.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-094]SZ[19]KM[6.5]RU[Japanese]AB[aq][bq][co][cq][dp][dr][ep][fp][gp][gq][gr]AW[br][cr][dq][eq][fq][fr][gs][hp][hq][hr][hs](;B[ds]TE[1];W[es];B[bs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 194,
+"lesson_title": "Bulmaca 194"
+},
+{
+"n": 95,
+"sgf_filename": "tesuji-4-095.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-095]SZ[19]KM[6.5]RU[Japanese]AB[ap][bp][cp][cq][dp][dr][ds][ep][fq][gq][gr][ir]AW[aq][bn][bq][br][cr][do][dq][eo][eq][er][fo][fp][fr](;B[ar]TE[1];W[as];B[cs]TE[1];W[co];B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 195,
+"lesson_title": "Bulmaca 195"
+},
+{
+"n": 96,
+"sgf_filename": "tesuji-4-096.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-096]SZ[19]KM[6.5]RU[Japanese]AB[ar][bp][bq][cp][dn][dp][eq][fq][gq][hq][hr][hs]AW[br][bs][cq][dq][ep][er][fp][fr][gp][gr][gs][hp][ip][jr](;B[dr]TE[1];W[cr];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 196,
+"lesson_title": "Bulmaca 196"
+},
+{
+"n": 97,
+"sgf_filename": "tesuji-4-097.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-097]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][bs][co][cq][dp][ep][fq][gr]AW[aq][bo][bp][cn][cp][cr][dq][dr](;B[ds]TE[1];W[ar];B[eq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 197,
+"lesson_title": "Bulmaca 197"
+},
+{
+"n": 98,
+"sgf_filename": "tesuji-4-098.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-098]SZ[19]KM[6.5]RU[Japanese]AB[aq][bq][cq][cr][dq][ep][fp][fq][hq]AW[ap][ar][bp][cp][dn][dp][dr][eo][eq][er](;B[cs]TE[1];W[bs];B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 198,
+"lesson_title": "Bulmaca 198"
+},
+{
+"n": 99,
+"sgf_filename": "tesuji-4-099.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-099]SZ[19]KM[6.5]RU[Japanese]AB[dr][er][fq][fr][gp][hp][hs][ip][jq][jr]AW[cq][cr][dq][ep][eq][fp][gq][gr][hq][ir][is](;B[fs]TE[1];W[ds];B[iq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 199,
+"lesson_title": "Bulmaca 199"
+},
+{
+"n": 100,
+"sgf_filename": "tesuji-4-100.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-100]SZ[19]KM[6.5]RU[Japanese]AB[ar][bo][bq][cp][do][dq][dr][eo][er][fo][fp][gp][hp][ip][iq][ir][js][kr]AW[br][bs][cq][cr][dp][ep][eq][fq][fr][gq][hq][hr][hs][is](;B[ds]TE[1];W[gs];B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 200,
+"lesson_title": "Bulmaca 200"
+},
+{
+"n": 101,
+"sgf_filename": "tesuji-4-101.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-101]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][cq][dq][eo][ep][fp][gq][hq][hr]AW[bp][cp][cr][dn][dp][dr][eq][fn][fq][go][gp][gr](;B[er]TE[1];W[fr];B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 201,
+"lesson_title": "Bulmaca 201"
+},
+{
+"n": 102,
+"sgf_filename": "tesuji-4-102.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-102]SZ[19]KM[6.5]RU[Japanese]AB[bq][cq][cr][cs][dp][ep][eq][fq][gq][gr]AW[aq][bp][br][cn][cp][dq][dr][en][er][fr](;B[ar]TE[1];W[as](;B[ds]TE[1]C[Doğru çözüm!])(;B[es]TE[1]C[Doğru çözüm!])(;B[fs]TE[1]C[Doğru çözüm!])))",
+"sort_order": 202,
+"lesson_title": "Bulmaca 202"
+},
+{
+"n": 103,
+"sgf_filename": "tesuji-4-103.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-103]SZ[19]KM[6.5]RU[Japanese]AB[cq][dq][dr][ds][eo][ep][fq][gq][hr][iq]AW[bp][bq][cm][cp][cr][dp][eq][er][fr][gr](;B[br]TE[1];W[bs];B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 203,
+"lesson_title": "Bulmaca 203"
+},
+{
+"n": 104,
+"sgf_filename": "tesuji-4-104.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-104]SZ[19]KM[6.5]RU[Japanese]AB[cq][dq][dr][ds][eo][ep][fq][gq][hr][iq]AW[bp][bq][cm][cp][cs][dp][eq][er][fr][gr](;B[br]TE[1];W[bs];B[fs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 204,
+"lesson_title": "Bulmaca 204"
+},
+{
+"n": 105,
+"sgf_filename": "tesuji-4-105.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-105]SZ[19]KM[6.5]RU[Japanese]AB[bn][br][cn][cp][cq][dn][do][dp]AW[bo][bp][bq][co][cr][dq][dr][fq](;B[ar]TE[1];W[bs];B[aq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 205,
+"lesson_title": "Bulmaca 205"
+},
+{
+"n": 106,
+"sgf_filename": "tesuji-4-106.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-106]SZ[19]KM[6.5]RU[Japanese]AB[ap][aq][bp][cp][dq][en][eo][ep][eq][fr]AW[ar][bn][bq][cn][cq][do][dp][dr][er][fo][fp][fq][gr](;B[cr]TE[1];W[br];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 206,
+"lesson_title": "Bulmaca 206"
+},
+{
+"n": 107,
+"sgf_filename": "tesuji-4-107.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-107]SZ[19]KM[6.5]RU[Japanese]AB[bo][cn][co][cq][dp][dq][eq][er][fr]AW[bp][bq][cp][cr][do][dr][en][ep][fp][fq][gq][hq](;B[br]TE[1];W[ar];B[bs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 207,
+"lesson_title": "Bulmaca 207"
+},
+{
+"n": 108,
+"sgf_filename": "tesuji-4-108.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-108]SZ[19]KM[6.5]RU[Japanese]AB[bq][bs][cr][dq][eq][er][es][fp][gp][hq][ir][jq]AW[ar][bp][br][cp][cq][dp][ep][fq][fr][gr][hr](;B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 208,
+"lesson_title": "Bulmaca 208"
+},
+{
+"n": 109,
+"sgf_filename": "tesuji-4-109.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-109]SZ[19]KM[6.5]RU[Japanese]AB[aq][bq][cp][cq][dp][dr][ep][er][go][hp][hq][ir][is]AW[ar][br][bs][cr][dq][eq][fq][fs][gq][hr][hs](;B[fr]TE[1];W[gr];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 209,
+"lesson_title": "Bulmaca 209"
+},
+{
+"n": 110,
+"sgf_filename": "tesuji-4-110.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-110]SZ[19]KM[6.5]RU[Japanese]AB[bq][bs][cr][dq][eq][er][fp][gp][hq][hs][ir][jq]AW[ar][bp][br][cp][cq][dp][ep][fq][fr][gr][hr](;B[es]TE[1];W[ds];B[fs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 210,
+"lesson_title": "Bulmaca 210"
+},
+{
+"n": 111,
+"sgf_filename": "tesuji-4-111.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-111]SZ[19]KM[6.5]RU[Japanese]AB[bp][bq][br][bs][co][do][eo][er][fo][fp][fq][gr]AW[cp][cq][cr][cs][dp][ep][eq][fr][fs][gq][hr](;B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 211,
+"lesson_title": "Bulmaca 211"
+},
+{
+"n": 112,
+"sgf_filename": "tesuji-4-112.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-112]SZ[19]KM[6.5]RU[Japanese]AB[bp][bq][br][cp][dp][eq][er][fr]AW[bs][cq][cr][dq][ep][fp][fq][fs][gr][hq](;B[ds]TE[1];W[cs];B[ar]TE[1]C[Doğru çözüm!]))",
+"sort_order": 212,
+"lesson_title": "Bulmaca 212"
+},
+{
+"n": 113,
+"sgf_filename": "tesuji-4-113.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-113]SZ[19]KM[6.5]RU[Japanese]AB[bq][cp][cr][cs][dp][ep][fq][fr]AW[dq][dr][eq][fp][gp][gq][gr](;B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 213,
+"lesson_title": "Bulmaca 213"
+},
+{
+"n": 114,
+"sgf_filename": "tesuji-4-114.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-114]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][cr][cs][dp][dr][en][eo][fp][gp][gq][gr][ir]AW[bp][bq][br][bs][cm][co][do][ep][eq][fq][fr][gs](;B[es]TE[1];W[er];B[hs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 214,
+"lesson_title": "Bulmaca 214"
+},
+{
+"n": 115,
+"sgf_filename": "tesuji-4-115.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-115]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][bs][cp][do][dp][en][er][fp][fq][hq][hr]AW[aq][bn][bp][co][cq][cr][dm][dn][dq][eq][fr][gr](;B[ds]TE[1];W[dr];B[es]TE[1];W[fs];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 215,
+"lesson_title": "Bulmaca 215"
+},
+{
+"n": 116,
+"sgf_filename": "tesuji-4-116.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-116]SZ[19]KM[6.5]RU[Japanese]AB[bp][cn][cp][cr][cs][do][dq][dr][eo][fp][gp][gq][gr]AW[ar][bq][br][bs][cq][dp][ep][eq][fq][fr][gs][hq][hr](;B[es]TE[1];W[fs];B[ap]TE[1]C[Doğru çözüm!]))",
+"sort_order": 216,
+"lesson_title": "Bulmaca 216"
+},
+{
+"n": 117,
+"sgf_filename": "tesuji-4-117.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-117]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][bq][br][cn][cr][dn][eo][eq][fo][fq][fr][go][gp]AW[cp][cq][dp][dr][ep][fp][gq][gr][hp][iq](;B[es]TE[1];W[ds];B[cs]TE[1];W[dq];B[do]TE[1];W[gs];B[co]TE[1]C[Doğru çözüm!]))",
+"sort_order": 217,
+"lesson_title": "Bulmaca 217"
+},
+{
+"n": 118,
+"sgf_filename": "tesuji-4-118.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-118]SZ[19]KM[6.5]RU[Japanese]AB[cn][co][cp][dq][dr][eo][es][fo][gp][gq][gr]AW[bo][bp][cq][cr][dp][ep][fq][fr][fs](;B[do]TE[1];W[er];B[fp]TE[1];W[ds];B[eq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 218,
+"lesson_title": "Bulmaca 218"
+},
+{
+"n": 119,
+"sgf_filename": "tesuji-4-119.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-119]SZ[19]KM[6.5]RU[Japanese]AB[ap][bn][bq][cn][cq][dn][dq][eo][er][fo][fp][fr]AW[ao][bo][br][co][cr][dp][dr][ep][eq](;B[do]TE[1];W[cp];B[fq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 219,
+"lesson_title": "Bulmaca 219"
+},
+{
+"n": 120,
+"sgf_filename": "tesuji-4-120.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-120]SZ[19]KM[6.5]RU[Japanese]AB[br][cp][cq][cr][dp][ep][fq][fr][gq]AW[bs][cs][dq][dr][eq][fp][gp][gr][hp][hq][hr](;B[es]TE[1];W[ds];B[ar]TE[1];W[gs];B[as]TE[1]C[Doğru çözüm!]))",
+"sort_order": 220,
+"lesson_title": "Bulmaca 220"
+},
+{
+"n": 121,
+"sgf_filename": "tesuji-4-121.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-121]SZ[19]KM[6.5]RU[Japanese]AB[an][bn][bq][cn][cq][dn][dq][en][eo][ep]AW[ao][bo][br][co][cr][do][dp][dr][eq][fq](;B[ap]TE[1];W[ar];B[cp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 221,
+"lesson_title": "Bulmaca 221"
+},
+{
+"n": 122,
+"sgf_filename": "tesuji-4-122.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-122]SZ[19]KM[6.5]RU[Japanese]AB[aq][ar][bp][cp][dp][dr][ep][er][fp][fq]AW[bq][br][bs][cq][dq][eq][fr][gq][gr](;B[cs]TE[1];W[es];B[ap]TE[1]C[Doğru çözüm!]))",
+"sort_order": 222,
+"lesson_title": "Bulmaca 222"
+},
+{
+"n": 123,
+"sgf_filename": "tesuji-4-123.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-123]SZ[19]KM[6.5]RU[Japanese]AB[bq][bs][cq][cr][dp][ep][es][fp][gq][hq][ip][ir][jr]AW[ar][bp][cn][cp][do][dq][dr][ds][eq][fq][gr][hr](;B[fr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 223,
+"lesson_title": "Bulmaca 223"
+},
+{
+"n": 124,
+"sgf_filename": "tesuji-4-124.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-124]SZ[19]KM[6.5]RU[Japanese]AB[cq][cr][dp][ep][fp][fq][fr][hr][ir]AW[bq][br][co][cp][dq][eq][er][fs][hs](;B[ds]TE[1];W[es];B[bs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 224,
+"lesson_title": "Bulmaca 224"
+},
+{
+"n": 125,
+"sgf_filename": "tesuji-4-125.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-125]SZ[19]KM[6.5]RU[Japanese]AB[bn][bq][cn][cq][do][dp][dq][gq]AW[ap][bm][bp][cm][co][cp][dn][en](;B[ao]TE[1];W[am];B[aq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 225,
+"lesson_title": "Bulmaca 225"
+},
+{
+"n": 126,
+"sgf_filename": "tesuji-4-126.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-126]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][dp][dq][dr][ep][fq][gq][gr]AW[cr][ds][eq][er][fp][gp][hp][hq][hr](;B[fs]TE[1];W[es];B[bs]TE[1];W[hs];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 226,
+"lesson_title": "Bulmaca 226"
+},
+{
+"n": 127,
+"sgf_filename": "tesuji-4-127.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-127]SZ[19]KM[6.5]RU[Japanese]AB[br][co][cq][cr][dp][eo][fn][fp][fr][gp][gq][hp]AW[cs][dq][dr][ds][ep][eq][fq][gr][hq][hr][ip][jq](;B[es]TE[1];W[gs];B[bs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 227,
+"lesson_title": "Bulmaca 227"
+},
+{
+"n": 128,
+"sgf_filename": "tesuji-4-128.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-128]SZ[19]KM[6.5]RU[Japanese]AB[cq][cr][ep][eq][er][fp][gp][hq][hr]AW[br][dr][es][fq][fr][gq][hp][ip][iq][ir](;B[gs]TE[1];W[fs];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 228,
+"lesson_title": "Bulmaca 228"
+},
+{
+"n": 129,
+"sgf_filename": "tesuji-4-129.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-129]SZ[19]KM[6.5]RU[Japanese]AB[bp][bq][cp][ds][eq][er]AW[cq][cr][cs][ep][fp][fq][fr][gq](;B[dp]TE[1];W[dr];B[dq]TE[1];W[es]C[Doğru çözüm!]))",
+"sort_order": 229,
+"lesson_title": "Bulmaca 229"
+},
+{
+"n": 130,
+"sgf_filename": "tesuji-4-130.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-130]SZ[19]KM[6.5]RU[Japanese]AB[do][dq][dr][ds][eo][ep][gp][gr][ho][hq][iq]AW[bp][br][cn][cp][dp][eq][er][es][fq][gq][hr](;B[fs]TE[1];W[cq];B[fp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 230,
+"lesson_title": "Bulmaca 230"
+},
+{
+"n": 131,
+"sgf_filename": "tesuji-4-131.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-131]SZ[19]KM[6.5]RU[Japanese]AB[cn][cp][cq][dp][ds][eq][er]AW[aq][ar][as][bq][bs][cr][dq][dr][ep][fp][gr](;B[es]TE[1];W[cs];B[bp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 231,
+"lesson_title": "Bulmaca 231"
+},
+{
+"n": 132,
+"sgf_filename": "tesuji-4-132.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-132]SZ[19]KM[6.5]RU[Japanese]AB[cn][cp][cq][dp][ds][eq][er]AW[aq][as][bq][bs][cr][dq][dr][ep][fp][gr](;B[br]TE[1];W[ar];B[es]TE[1];W[cs];B[bp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 232,
+"lesson_title": "Bulmaca 232"
+},
+{
+"n": 133,
+"sgf_filename": "tesuji-4-133.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-133]SZ[19]KM[6.5]RU[Japanese]AB[ar][br][cn][cp][cq][dp][eq][er]AW[aq][bq][bs][cr][dq][dr][ep][fp][gr](;B[es]TE[1];W[as];B[br]TE[1];W[ar];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 233,
+"lesson_title": "Bulmaca 233"
+},
+{
+"n": 134,
+"sgf_filename": "tesuji-4-134.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-134]SZ[19]KM[6.5]RU[Japanese]AB[br][cn][cp][cq][dp][eq][er]AW[bq][bs][cr][dq][dr][ep][fp][gr](;B[ar]TE[1];W[aq];B[es]TE[1];W[as];B[br]TE[1]C[Doğru çözüm!]))",
+"sort_order": 234,
+"lesson_title": "Bulmaca 234"
+},
+{
+"n": 135,
+"sgf_filename": "tesuji-4-135.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-135]SZ[19]KM[6.5]RU[Japanese]AB[cn][cp][cq][dp][eq][er]AW[bq][cr][dq][dr][ep][fp][gr](;B[br]TE[1];W[bs];B[ar]TE[1];W[aq];B[es]TE[1];W[as];B[br]TE[1]C[Doğru çözüm!]))",
+"sort_order": 235,
+"lesson_title": "Bulmaca 235"
+},
+{
+"n": 136,
+"sgf_filename": "tesuji-4-136.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-136]SZ[19]KM[6.5]RU[Japanese]AB[cn][cp][dp][eq][er]AW[bq][dq][dr][ep][fp][gr](;B[cq]TE[1];W[cr];B[br]TE[1];W[bs];B[ar]TE[1];W[aq];B[es]TE[1];W[as];B[br]TE[1];W[ar];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 236,
+"lesson_title": "Bulmaca 236"
+},
+{
+"n": 137,
+"sgf_filename": "tesuji-4-137.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-137]SZ[19]KM[6.5]RU[Japanese]AB[bo][co][cp][cr][dr][ep][er][fp][fq]AW[ap][ar][bp][br][cq][dq][eq][fr][gr][hq](;B[bq]TE[1];W[aq];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 237,
+"lesson_title": "Bulmaca 237"
+},
+{
+"n": 139,
+"sgf_filename": "tesuji-4-139.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-139]SZ[19]KM[6.5]RU[Japanese]AB[bo][bq][co][cr][dr][ep][er][fp][fq]AW[bp][br][cq][dq][eq][fr][gr][hq](;B[aq]TE[1];W[ap];B[cp]TE[1];W[ar];B[bq]TE[1];W[aq];B[ao]TE[1]C[Doğru çözüm!]))",
+"sort_order": 239,
+"lesson_title": "Bulmaca 239"
+},
+{
+"n": 140,
+"sgf_filename": "tesuji-4-140.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-140]SZ[19]KM[6.5]RU[Japanese]AB[bo][co][cr][dr][ep][er][fp][fq]AW[br][cq][dq][eq][fr][gr][hq](;B[bq]TE[1];W[bp];B[aq]TE[1];W[ap];B[cp]TE[1];W[ar];B[bq]TE[1];W[aq];B[dp]TE[1];W[bq];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 240,
+"lesson_title": "Bulmaca 240"
+},
+{
+"n": 141,
+"sgf_filename": "tesuji-4-141.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-141]SZ[19]KM[6.5]RU[Japanese]AB[bo][co][dr][ep][er][fp][fq]AW[cq][dq][eq][fr][gr][hq](;B[cr]TE[1];W[br];B[bq]TE[1];W[bp];B[aq]TE[1];W[ap];B[cp]TE[1];W[ar];B[bq]TE[1];W[aq];B[bs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 241,
+"lesson_title": "Bulmaca 241"
+},
+{
+"n": 142,
+"sgf_filename": "tesuji-4-142.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-142]SZ[19]KM[6.5]RU[Japanese]AB[bo][co][ep][er][fp][fq]AW[dq][eq][fr][gr][hq](;B[dr]TE[1];W[cq];B[cr]TE[1];W[br];B[bq]TE[1];W[bp];B[aq]TE[1];W[ap];B[cp]TE[1];W[ar];B[bq]TE[1];W[aq];B[dp]TE[1];W[bq]C[Doğru çözüm!]))",
+"sort_order": 242,
+"lesson_title": "Bulmaca 242"
+},
+{
+"n": 143,
+"sgf_filename": "tesuji-4-143.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-143]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][cq][dn][dp][ds][eq][er]AW[aq][as][bq][bs][cr][dq][dr][eo][ep][gp][gr](;B[br]TE[1];W[ar];B[es]TE[1];W[cs];B[bp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 243,
+"lesson_title": "Bulmaca 243"
+},
+{
+"n": 144,
+"sgf_filename": "tesuji-4-144.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-144]SZ[19]KM[6.5]RU[Japanese]AB[ar][br][co][cp][cq][dn][dp][eq][er]AW[aq][bq][bs][cr][dq][dr][eo][ep][gp][gr](;B[es]TE[1];W[as];B[br]TE[1];W[ar];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 244,
+"lesson_title": "Bulmaca 244"
+},
+{
+"n": 145,
+"sgf_filename": "tesuji-4-145.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-145]SZ[19]KM[6.5]RU[Japanese]AB[br][co][cp][cq][dn][dp][eq][er]AW[bq][bs][cr][dq][dr][eo][ep][gp][gr](;B[ar]TE[1];W[aq];B[es]TE[1];W[as];B[br]TE[1];W[ar];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 245,
+"lesson_title": "Bulmaca 245"
+},
+{
+"n": 146,
+"sgf_filename": "tesuji-4-146.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-146]SZ[19]KM[6.5]RU[Japanese]AB[br][co][cq][dn][dp][eq][er]AW[bq][cr][dq][dr][eo][ep][gp][gr](;B[cp]TE[1];W[bs];B[ar]TE[1];W[aq];B[es]TE[1];W[as];B[br]TE[1];W[ar];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 246,
+"lesson_title": "Bulmaca 246"
+},
+{
+"n": 147,
+"sgf_filename": "tesuji-4-147.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-147]SZ[19]KM[6.5]RU[Japanese]AB[co][cq][dn][dp][eq][er]AW[cr][dq][dr][eo][ep][gp][gr](;B[br]TE[1];W[bq];B[cp]TE[1];W[bs];B[ar]TE[1];W[aq];B[es]TE[1];W[as];B[br]TE[1];W[ar];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 247,
+"lesson_title": "Bulmaca 247"
+},
+{
+"n": 148,
+"sgf_filename": "tesuji-4-148.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-148]SZ[19]KM[6.5]RU[Japanese]AB[co][dn][dp][eq][er]AW[dq][dr][eo][ep][gp][gr](;B[cq]TE[1];W[cr];B[br]TE[1];W[bq];B[cp]TE[1];W[bs];B[ar]TE[1];W[aq];B[es]TE[1];W[as];B[br]TE[1];W[ar];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 248,
+"lesson_title": "Bulmaca 248"
+},
+{
+"n": 149,
+"sgf_filename": "tesuji-4-149.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-149]SZ[19]KM[6.5]RU[Japanese]AB[dq][dr][eq][fp][fq][go][gr][gs][ho][iq][jq]AW[bq][cp][dp][ep][er][fn][fo][fr][gp][gq][hr][hs](;B[hq]TE[1];W[fs];B[gr]TE[1];W[gs];B[hp]TE[1];W[gr];B[ir]TE[1];W[cr];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 249,
+"lesson_title": "Bulmaca 249"
+},
+{
+"n": 151,
+"sgf_filename": "tesuji-4-151.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-151]SZ[19]KM[6.5]RU[Japanese]AB[dq][dr][eq][fp][fq][go][ho][iq][jq]AW[bq][cp][dp][ep][er][fn][fo][fr][gp][gq](;B[gr]TE[1];W[hr];B[gs]TE[1];W[hs];B[hq]TE[1];W[fs];B[gr]TE[1];W[gs];B[hp]TE[1];W[gr];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 250,
+"lesson_title": "Bulmaca 250"
+},
+{
+"n": 152,
+"sgf_filename": "tesuji-4-152.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-152]SZ[19]KM[6.5]RU[Japanese]AB[ap][bo][br][bs][cm][co][do][dq][dr][ep][eq][fp]AW[ar][bp][bq][cp][cr][cs][dn][dp][eo][fo][fr][go][gp][gq](;B[ao]TE[1];W[ds];B[aq]TE[1];W[as];B[br]TE[1]C[Doğru çözüm!]))",
+"sort_order": 251,
+"lesson_title": "Bulmaca 251"
+},
+{
+"n": 153,
+"sgf_filename": "tesuji-4-153.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-153]SZ[19]KM[6.5]RU[Japanese]AB[ap][bo][br][cm][co][do][dq][dr][ep][eq][fp]AW[ar][bp][bq][cp][cr][dn][dp][eo][fo][fr][go][gp][gq](;B[bs]TE[1];W[cs];B[cq]TE[1];W[as];B[ao]TE[1];W[ds];B[br]TE[1]C[Doğru çözüm!]))",
+"sort_order": 252,
+"lesson_title": "Bulmaca 252"
+},
+{
+"n": 154,
+"sgf_filename": "tesuji-4-154.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-154]SZ[19]KM[6.5]RU[Japanese]AB[ap][bo][cm][co][do][dq][dr][ep][eq][fp]AW[bp][bq][cp][cr][dn][dp][eo][fo][fr][go][gp][gq](;B[br]TE[1];W[ar];B[bs]TE[1];W[cs];B[ao]TE[1];W[ds];B[cq]TE[1];W[as];B[aq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 253,
+"lesson_title": "Bulmaca 253"
+},
+{
+"n": 155,
+"sgf_filename": "tesuji-4-155.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-155]SZ[19]KM[6.5]RU[Japanese]AB[bn][bo][br][cm][cp][cq][dq][em][eq]AW[ar][bp][bq][co][cr][do][dp][fp][fr][gq](;B[bs]TE[1];W[cs];B[ap]TE[1];W[as];B[br]TE[1];W[bs];B[ao]TE[1];W[er];B[aq]TE[1];W[dr];B[br]TE[1]C[Doğru çözüm!]))",
+"sort_order": 254,
+"lesson_title": "Bulmaca 254"
+},
+{
+"n": 156,
+"sgf_filename": "tesuji-4-156.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-156]SZ[19]KM[6.5]RU[Japanese]AB[bn][bo][cm][cp][cq][dq][em][eq]AW[bp][bq][co][cr][do][dp][fp][fr][gq](;B[br]TE[1];W[ar];B[bs]TE[1];W[cs];B[ap]TE[1];W[as];B[br]TE[1];W[bs];B[ao]TE[1];W[er];B[aq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 255,
+"lesson_title": "Bulmaca 255"
+},
+{
+"n": 157,
+"sgf_filename": "tesuji-4-157.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-157]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][cq][dq][er][fn][fo][fq][gp][gq]AW[dp][dr][ep][eq][fp][fr][go][ho][ip][iq](;B[es]TE[1];W[fs];B[gr]TE[1];W[ds];B[er]TE[1]C[Doğru çözüm!]))",
+"sort_order": 256,
+"lesson_title": "Bulmaca 256"
+},
+{
+"n": 158,
+"sgf_filename": "tesuji-4-158.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-158]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][cq][dq][er][fn][fo][gp][gq]AW[dp][ep][eq][fp][fr][go][ho][ip][iq](;B[fq]TE[1];W[dr];B[es]TE[1];W[fs];B[gr]TE[1];W[ds];B[er]TE[1]C[Doğru çözüm!]))",
+"sort_order": 257,
+"lesson_title": "Bulmaca 257"
+},
+{
+"n": 159,
+"sgf_filename": "tesuji-4-159.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-159]SZ[19]KM[6.5]RU[Japanese]AB[cp][cr][do][dr][er][fp][fr][gp][gq]AW[br][cq][dq][eq][fq][gr][hr][iq](;B[bq]TE[1];W[bp];B[aq]TE[1];W[ap];B[bo]TE[1];W[ar];B[bq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 258,
+"lesson_title": "Bulmaca 258"
+},
+{
+"n": 160,
+"sgf_filename": "tesuji-4-160.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-160]SZ[19]KM[6.5]RU[Japanese]AB[cp][do][dr][er][fp][fr][gp][gq]AW[cq][dq][eq][fq][gr][hr][iq](;B[cr]TE[1];W[br];B[bq]TE[1];W[bp];B[aq]TE[1];W[ap];B[bo]TE[1];W[ar];B[bq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 259,
+"lesson_title": "Bulmaca 259"
+},
+{
+"n": 161,
+"sgf_filename": "tesuji-4-161.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-161]SZ[19]KM[6.5]RU[Japanese]AB[bo][cp][cr][dp][dr][ds][eq][fq][gq][gr][hs]AW[bq][br][bs][cq][cs][dq][er][fr][gs](;B[es]TE[1];W[fs];B[dr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 260,
+"lesson_title": "Bulmaca 260"
+},
+{
+"n": 162,
+"sgf_filename": "tesuji-4-162.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-162]SZ[19]KM[6.5]RU[Japanese]AB[ar][as][bs][cq][dq][eq][es][fq][fr][fs]AW[aq][bo][bq][cp][cr][dr][ds][er](;B[br]TE[1];W[cs];B[br]TE[1]C[Doğru çözüm!]))",
+"sort_order": 261,
+"lesson_title": "Bulmaca 261"
+},
+{
+"n": 163,
+"sgf_filename": "tesuji-4-163.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-163]SZ[19]KM[6.5]RU[Japanese]AB[aq][ar][bp][bq][cr][dr][eq][es][fq][fr]AW[ao][ap][bo][br][bs][co][cp][cq][dq][ep](;B[cs]TE[1];W[as];B[bq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 262,
+"lesson_title": "Bulmaca 262"
+},
+{
+"n": 164,
+"sgf_filename": "tesuji-4-164.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-164]SZ[19]KM[6.5]RU[Japanese]AB[cr][cs][dr][ds][fq][fr][fs][gr][hr][hs]AW[bq][br][bs][cq][dq][ep][er][fp][gq][hq][ip][ir](;B[eq]TE[1];W[es];B[dr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 263,
+"lesson_title": "Bulmaca 263"
+},
+{
+"n": 165,
+"sgf_filename": "tesuji-4-165.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-165]SZ[19]KM[6.5]RU[Japanese]AB[bp][co][cr][cs][ds][eq][es][fq][gq][hq][hr][hs]AW[br][bs][cq][dq][er][fr][gr][gs](;B[dr]TE[1];W[fs];B[dr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 264,
+"lesson_title": "Bulmaca 264"
+},
+{
+"n": 166,
+"sgf_filename": "tesuji-4-166.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-166]SZ[19]KM[6.5]RU[Japanese]AB[ar][bq][cq][cr][cs][dq][ep][fp][gq][gr][iq]AW[bn][bp][bs][co][dp][dr][eq][er][fo][fq][gp](;B[es]TE[1];W[eo];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 265,
+"lesson_title": "Bulmaca 265"
+},
+{
+"n": 167,
+"sgf_filename": "tesuji-4-167.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-167]SZ[19]KM[6.5]RU[Japanese]AB[cp][dp][dq][ep][hq]AW[cn][eo][eq][fo][fp][ho](;B[fr]TE[1];W[fq];B[er]TE[1]C[Doğru çözüm!]))",
+"sort_order": 266,
+"lesson_title": "Bulmaca 266"
+},
+{
+"n": 168,
+"sgf_filename": "tesuji-4-168.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-168]SZ[19]KM[6.5]RU[Japanese]AB[bn][bo][cm][cp][cq][cr][cs][ds][eq][er][es][hq][hr]AW[bp][bq][br][co][do][dp][dq][dr][ep][fs][gp][gr](;B[fr]TE[1];W[gq];B[gs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 267,
+"lesson_title": "Bulmaca 267"
+},
+{
+"n": 169,
+"sgf_filename": "tesuji-4-169.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-169]SZ[19]KM[6.5]RU[Japanese]AB[bp][bq][br][cn][co][cs][dq][dr][gp][gq]AW[cp][cq][cr][do][dp][eq][fo][hn][ho][hp][iq](;B[er]TE[1]C[Doğru çözüm!]))",
+"sort_order": 268,
+"lesson_title": "Bulmaca 268"
+},
+{
+"n": 170,
+"sgf_filename": "tesuji-4-170.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-170]SZ[19]KM[6.5]RU[Japanese]AB[bq][cq][dp][ep][fr][hq][iq]AW[co][cp][do][eo][er][fp][hp](;B[fq]TE[1];W[eq];B[dq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 269,
+"lesson_title": "Bulmaca 269"
+},
+{
+"n": 171,
+"sgf_filename": "tesuji-4-171.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-171]SZ[19]KM[6.5]RU[Japanese]AB[bn][bo][cm][cp][cq][cr][cs][ds][eq][er][es][gq][hq][hr]AW[bp][bq][br][co][do][dp][dq][dr][ep][fq][gp][gr][gs](;B[fr]TE[1];W[fp];B[bs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 270,
+"lesson_title": "Bulmaca 270"
+},
+{
+"n": 172,
+"sgf_filename": "tesuji-4-172.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-172]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][cn][cq][cr][dr][en][fr][fs][gn][gq][gr][ho]AW[bq][br][bs][cp][dp][dq][ep][er][fp][fq](;B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 271,
+"lesson_title": "Bulmaca 271"
+},
+{
+"n": 173,
+"sgf_filename": "tesuji-4-173.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-173]SZ[19]KM[6.5]RU[Japanese]AB[co][do][dp][eo][eq][er][es][gr][hr][ir][jp][jq]AW[bp][br][cp][dq][dr][ds][ep][fp][fr][gq][ho][hq][io][iq](;B[gs]TE[1];W[fq];B[fs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 272,
+"lesson_title": "Bulmaca 272"
+},
+{
+"n": 174,
+"sgf_filename": "tesuji-4-174.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-174]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][cq][do][dq][fo][fp][gq][hq][ip]AW[cn][cp][dn][dp][en][eq][fq][gn][go][gp][gr](;B[co]TE[1];W[ep];B[eo]TE[1]C[Doğru çözüm!]))",
+"sort_order": 273,
+"lesson_title": "Bulmaca 273"
+},
+{
+"n": 175,
+"sgf_filename": "tesuji-4-175.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-175]SZ[19]KM[6.5]RU[Japanese]AB[br][co][cr][do][dp][dq][eo][er][gp][hp][hq][hs][ir][jq]AW[ar][bo][bq][cn][cp][dn][en][ep][eq][fn][fo][fp][fr][gq][gr][hr](;B[fs]TE[1];W[fq];B[gs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 274,
+"lesson_title": "Bulmaca 274"
+},
+{
+"n": 176,
+"sgf_filename": "tesuji-4-176.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-176]SZ[19]KM[6.5]RU[Japanese]AB[aq][bm][bo][bq][cm][cp][cq][dm][dr][eq][er]AW[ar][bn][br][co][cr][do][dp][dq][fo][gq](;B[ap]TE[1];W[cn];B[an]TE[1]C[Doğru çözüm!]))",
+"sort_order": 275,
+"lesson_title": "Bulmaca 275"
+},
+{
+"n": 177,
+"sgf_filename": "tesuji-4-177.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-177]SZ[19]KM[6.5]RU[Japanese]AB[bn][bo][co][cp][dr][fq][hp]AW[bm][cl][cn][cq][dn][do][dp](;B[bq]TE[1];W[dq];B[cr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 276,
+"lesson_title": "Bulmaca 276"
+},
+{
+"n": 178,
+"sgf_filename": "tesuji-4-178.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-178]SZ[19]KM[6.5]RU[Japanese]AB[aq][bp][br][cq][cr][dr][fr][gp][gq][gr][gs]AW[bo][cp][dp][dq][ds][ep][er][fo][fp][fq][fs][go][ho][ip][ir](;B[cs]TE[1];W[eq];B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 277,
+"lesson_title": "Bulmaca 277"
+},
+{
+"n": 179,
+"sgf_filename": "tesuji-4-179.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-179]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][cq][cr][dq][ep][gp][gq][ho][ip]AW[ar][bn][bo][cn][dn][do][dp][dr][eq][fo][fp][go](;B[er]TE[1];W[fq];B[fr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 278,
+"lesson_title": "Bulmaca 278"
+},
+{
+"n": 180,
+"sgf_filename": "tesuji-4-180.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-180]SZ[19]KM[6.5]RU[Japanese]AB[aq][bp][br][cq][cr][dr][eq][gp][gq][gr][gs]AW[bo][cp][dp][dq][ds][er][fo][fp][fq][fs][go][ho][ip][ir](;B[fr]TE[1];W[ep];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 279,
+"lesson_title": "Bulmaca 279"
+},
+{
+"n": 181,
+"sgf_filename": "tesuji-4-181.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-181]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][cq][cr][ep][fq][gp][gq][ho][ip]AW[ar][bn][bo][cn][dn][do][dp][dr][eq][fo][fp][go](;B[er]TE[1];W[dq];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 280,
+"lesson_title": "Bulmaca 280"
+},
+{
+"n": 182,
+"sgf_filename": "tesuji-4-182.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-182]SZ[19]KM[6.5]RU[Japanese]AB[bp][cp][cr][dp][dq][en][eo][es][fp][fq][gq]AW[bm][co][dm][do][dr][em][ep][eq][er][fm][fo][fr][go][hm][ip][iq](;B[gr]TE[1];W[fn];B[ds]TE[1];W[dn];B[gs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 281,
+"lesson_title": "Bulmaca 281"
+},
+{
+"n": 183,
+"sgf_filename": "tesuji-4-183.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-183]SZ[19]KM[6.5]RU[Japanese]AB[bn][bo][co][cp][dr][fq][hp]AW[bm][cl][cn][dn][do][dp][dq](;B[cr]TE[1];W[cq];B[bq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 282,
+"lesson_title": "Bulmaca 282"
+},
+{
+"n": 184,
+"sgf_filename": "tesuji-4-184.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-184]SZ[19]KM[6.5]RU[Japanese]AB[ar][bp][bq][cp][dp][ep][er][fq][fr][hp][hq][hr]AW[br][bs][cq][dq][dr][eq][fp][gp][gq][gr](;B[ds]TE[1];W[cr];B[gs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 283,
+"lesson_title": "Bulmaca 283"
+},
+{
+"n": 185,
+"sgf_filename": "tesuji-4-185.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-185]SZ[19]KM[6.5]RU[Japanese]AB[cq][cr][cs][dp][ep][fo][fr][gp]AW[bp][bq][br][bs][cp][do][dq][eo](;B[es]TE[1];W[eq];B[fp]TE[1];W[er];B[fq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 284,
+"lesson_title": "Bulmaca 284"
+},
+{
+"n": 186,
+"sgf_filename": "tesuji-4-186.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-186]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][cq][cr][dn][ds][er][fq][gq][gr]AW[dp][dq][dr][ep][eq][fp][fr][fs][gp][hp][ip][ir](;B[gs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 285,
+"lesson_title": "Bulmaca 285"
+},
+{
+"n": 187,
+"sgf_filename": "tesuji-4-187.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-187]SZ[19]KM[6.5]RU[Japanese]AB[bq][cq][dp][ep][fr][hq][iq]AW[co][cp][do][eo][fp][fq][hp](;B[er]TE[1];W[eq];B[dq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 286,
+"lesson_title": "Bulmaca 286"
+},
+{
+"n": 188,
+"sgf_filename": "tesuji-4-188.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-188]SZ[19]KM[6.5]RU[Japanese]AB[aq][bp][br][cq][cr][dr][eq][gp][gq][gr][gs]AW[bo][cp][dp][dq][ds][er][fo][fp][fq][go][ho][ip][ir](;B[es]TE[1];W[fs];B[fr]TE[1];W[ep];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 287,
+"lesson_title": "Bulmaca 287"
+},
+{
+"n": 189,
+"sgf_filename": "tesuji-4-189.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-189]SZ[19]KM[6.5]RU[Japanese]AB[ar][bn][bo][br][cn][cr][dn][dq][fn]AW[bp][bq][co][cq][do][dp][dr][er][fq](;B[ap]TE[1];W[eq];B[aq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 288,
+"lesson_title": "Bulmaca 288"
+},
+{
+"n": 190,
+"sgf_filename": "tesuji-4-190.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-190]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][cr][cs][fq][go][gq]AW[bp][co][dn][dr][eo][ep][eq](;B[er]TE[1];W[fr];B[es]TE[1];W[dq];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 289,
+"lesson_title": "Bulmaca 289"
+},
+{
+"n": 191,
+"sgf_filename": "tesuji-4-191.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-191]SZ[19]KM[6.5]RU[Japanese]AB[bq][cq][dp][ep][fr][hq][iq]AW[co][cp][do][eo][eq][fp][hp](;B[dq]TE[1];W[fq];B[er]TE[1]C[Doğru çözüm!]))",
+"sort_order": 290,
+"lesson_title": "Bulmaca 290"
+},
+{
+"n": 192,
+"sgf_filename": "tesuji-4-192.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-192]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][cq][cr][ep][gp][gq][ho][ip]AW[ar][bn][bo][cn][dn][do][dr][eq][fo][fp][go](;B[fq]TE[1];W[dp];B[er]TE[1];W[dq];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 291,
+"lesson_title": "Bulmaca 291"
+},
+{
+"n": 193,
+"sgf_filename": "tesuji-4-193.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-193]SZ[19]KM[6.5]RU[Japanese]AB[bp][cp][dp][dq][en][eo][es][fp][fq][gq]AW[bm][co][dm][do][dr][em][ep][eq][er][fm][fo][go][hm][ip][iq](;B[cr]TE[1];W[fr];B[gr]TE[1];W[fn];B[fs]TE[1];W[dn];B[eo]TE[1];W[en];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 292,
+"lesson_title": "Bulmaca 292"
+},
+{
+"n": 194,
+"sgf_filename": "tesuji-4-194.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-194]SZ[19]KM[6.5]RU[Japanese]AB[aq][bp][br][cq][cr][dr][gp][gq][gr][gs]AW[bo][cp][dp][dq][ds][er][fo][fp][fs][go][ho][ip][ir](;B[eq]TE[1];W[fq];B[fr]TE[1];W[ep];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 293,
+"lesson_title": "Bulmaca 293"
+},
+{
+"n": 195,
+"sgf_filename": "tesuji-4-195.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-195]SZ[19]KM[6.5]RU[Japanese]AB[bp][co][cp][cq][cr][ep][gp][gq][ho][ip]AW[bn][bo][cn][dn][do][dp][dr][eq][fo][go](;B[dq]TE[1];W[fp];B[er]TE[1];W[fq];B[fr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 294,
+"lesson_title": "Bulmaca 294"
+},
+{
+"n": 196,
+"sgf_filename": "tesuji-4-196.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-196]SZ[19]KM[6.5]RU[Japanese]AB[bn][bo][cm][cp][cq][cr][cs][ds][eq][er][es][hq][hr]AW[bp][bq][br][co][do][dp][dq][dr][ep][fr][gp][gr](;B[gs]TE[1];W[fq];B[fs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 295,
+"lesson_title": "Bulmaca 295"
+},
+{
+"n": 197,
+"sgf_filename": "tesuji-4-197.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-197]SZ[19]KM[6.5]RU[Japanese]AB[bn][bo][co][cp][fq][hp]AW[bm][cl][cn][dn][do][dp](;B[dr]TE[1];W[dq];B[cr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 296,
+"lesson_title": "Bulmaca 296"
+},
+{
+"n": 198,
+"sgf_filename": "tesuji-4-198.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-198]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][cq][dp][go][gp][gq]AW[bn][cn][do][dq][eo][ep][fp](;B[er]TE[1];W[eq];B[dr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 297,
+"lesson_title": "Bulmaca 297"
+},
+{
+"n": 199,
+"sgf_filename": "tesuji-4-199.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-199]SZ[19]KM[6.5]RU[Japanese]AB[bp][br][cn][cp][cq][dp][gp][gq][hq][iq]AW[cr][do][dq][ep][fp][go][ho][hp][jn][jp][jq][jr](;B[er]TE[1];W[eq];B[dr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 298,
+"lesson_title": "Bulmaca 298"
+},
+{
+"n": 200,
+"sgf_filename": "tesuji-4-200.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-200]SZ[19]KM[6.5]RU[Japanese]AB[ar][br][cr][gp][gq][gr]AW[bo][bq][cq][dq][eq][fq](;B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 299,
+"lesson_title": "Bulmaca 299"
+},
+{
+"n": 201,
+"sgf_filename": "tesuji-4-201.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-201]SZ[19]KM[6.5]RU[Japanese]AB[bm][bq][cm][cq][dm][dq]AW[cn][co][cp][eo][eq][er][go](;B[an]TE[1]C[Doğru çözüm!]))",
+"sort_order": 300,
+"lesson_title": "Bulmaca 300"
+},
+{
+"n": 202,
+"sgf_filename": "tesuji-4-202.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-202]SZ[19]KM[6.5]RU[Japanese]AB[bp][bq][br][gp][gq][gr][gs]AW[bo][co][cq][do][dq][eq][fq](;B[es]TE[1];W[ds];B[dr]TE[1];W[cr];B[cs]TE[1];W[er];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 301,
+"lesson_title": "Bulmaca 301"
+},
+{
+"n": 203,
+"sgf_filename": "tesuji-4-203.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-203]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][co][cp][eo][fr][gn][gq][gs][ho][hp]AW[cq][dq][eq][fp][gp][hq][iq][jn][jo][jp][jq](;B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 302,
+"lesson_title": "Bulmaca 302"
+},
+{
+"n": 204,
+"sgf_filename": "tesuji-4-204.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-204]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][co][cp][eo][fn][gq][gr][gs][hn][hq][io][ip]AW[cq][dq][eq][fp][gp][hp][iq][ir][jn][jo][jp][jq](;B[es]TE[1];W[ds];B[dr]TE[1];W[er];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 303,
+"lesson_title": "Bulmaca 303"
+},
+{
+"n": 205,
+"sgf_filename": "tesuji-4-205.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-205]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][co][cp][eo][fn][gq][gs][hn][hq][io][ip]AW[cq][dq][eq][fp][gp][hp][iq][ir][jn][jo][jp][jq](;B[es]TE[1];W[fr];B[fs]TE[1];W[gr];B[hr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 304,
+"lesson_title": "Bulmaca 304"
+},
+{
+"n": 206,
+"sgf_filename": "tesuji-4-206.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-206]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][cq][dq][fo][fp][gq][hq][ip]AW[cn][cp][dn][en][eq][fq][gn][go][gp][gr](;B[do]TE[1];W[dp];B[co]TE[1];W[ep];B[eo]TE[1]C[Doğru çözüm!]))",
+"sort_order": 305,
+"lesson_title": "Bulmaca 305"
+},
+{
+"n": 207,
+"sgf_filename": "tesuji-4-207.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-207]SZ[19]KM[6.5]RU[Japanese]AB[bo][co][cp][eq][fq][fr][go][gp][hq]AW[bp][bq][cm][cq][dn][dq][dr][er][fn][fp](;B[eo]TE[1];W[dp];B[do]TE[1]C[Doğru çözüm!]))",
+"sort_order": 306,
+"lesson_title": "Bulmaca 306"
+},
+{
+"n": 208,
+"sgf_filename": "tesuji-4-208.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-208]SZ[19]KM[6.5]RU[Japanese]AB[cm][dn][dp][dq][fp][fr][ho][hp][hq]AW[eo][ep][fq][gn][go][gp][gr](;B[gq]TE[1];W[eq];B[er]TE[1]C[Doğru çözüm!]))",
+"sort_order": 307,
+"lesson_title": "Bulmaca 307"
+},
+{
+"n": 209,
+"sgf_filename": "tesuji-4-209.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-209]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][dq][dr][eq][go][gp][hq][iq][jq]AW[dn][dp][er][fn][fq][gq][hn][ho][hp][hr](;B[eo]TE[1];W[fo];B[fp]TE[1];W[do];B[gn]TE[1];W[gm];B[ep]TE[1]C[Doğru çözüm!]))",
+"sort_order": 308,
+"lesson_title": "Bulmaca 308"
+},
+{
+"n": 210,
+"sgf_filename": "tesuji-4-210.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-210]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][cq][cr][do][ep][es][fo][go][gq][gr][ho][hp]AW[bo][bp][cn][dn][dp][dq][en][eo][er][fp][fq][fs][gp](;B[fr]TE[1];W[eq];B[gs]TE[1];W[ds];B[dr]TE[1];W[fs];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 309,
+"lesson_title": "Bulmaca 309"
+},
+{
+"n": 211,
+"sgf_filename": "tesuji-4-211.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-211]SZ[19]KM[6.5]RU[Japanese]AB[cm][cn][cp][cq][cr][dr][gq]AW[do][dp][dq][em][er][jp][jq](;B[fr]TE[1];W[eq];B[es]TE[1]C[Doğru çözüm!]))",
+"sort_order": 310,
+"lesson_title": "Bulmaca 310"
+},
+{
+"n": 212,
+"sgf_filename": "tesuji-4-212.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-212]SZ[19]KM[6.5]RU[Japanese]AB[bp][cp][dp][dq][en][eo][fp][fq][gq]AW[bm][co][dm][do][em][ep][eq][er][fm][fo][go][hm][ip][iq](;B[es]TE[1];W[dr];B[cr]TE[1];W[fr];B[gr]TE[1];W[fn];B[fs]TE[1];W[dn];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 311,
+"lesson_title": "Bulmaca 311"
+},
+{
+"n": 213,
+"sgf_filename": "tesuji-4-213.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-213]SZ[19]KM[6.5]RU[Japanese]AB[br][co][cr][do][dp][dq][eo][fq][gp][hp][hq][hs][ir][jq]AW[ar][bo][bq][cn][cp][dn][en][ep][eq][fn][fo][fp][gq][gr][hr](;B[er]TE[1];W[fr];B[fs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 312,
+"lesson_title": "Bulmaca 312"
+},
+{
+"n": 214,
+"sgf_filename": "tesuji-4-214.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-214]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][cq][cr][ep][gp][gq][ho][ip]AW[bo][cn][dn][do][dr][eq][fo][fp][go](;B[bp]TE[1];W[bn];B[fq]TE[1];W[dp];B[er]TE[1];W[dq];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 313,
+"lesson_title": "Bulmaca 313"
+},
+{
+"n": 215,
+"sgf_filename": "tesuji-4-215.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-215]SZ[19]KM[6.5]RU[Japanese]AB[aq][bp][br][cq][cr][dr][gp][gq][gr][gs]AW[bo][cp][dp][dq][ds][er][fo][fp][go][ho][ip][ir](;B[es]TE[1];W[fs];B[eq]TE[1];W[fq];B[fr]TE[1];W[ep];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 314,
+"lesson_title": "Bulmaca 314"
+},
+{
+"n": 216,
+"sgf_filename": "tesuji-4-216.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-216]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][cq][ds][er][fq][gq][gr]AW[dp][dr][ep][eq][fp][fr][fs][gp][hp][ip][ir](;B[gs]TE[1];W[dq];B[cr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 315,
+"lesson_title": "Bulmaca 315"
+},
+{
+"n": 217,
+"sgf_filename": "tesuji-4-217.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-217]SZ[19]KM[6.5]RU[Japanese]AB[cq][cr][dq][gq][gr][gs][ho][hp][iq]AW[bp][br][cp][dp][dr][eo][eq][fq][gn][go][gp](;B[ds]TE[1];W[er];B[es]TE[1];W[bq];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 316,
+"lesson_title": "Bulmaca 316"
+},
+{
+"n": 218,
+"sgf_filename": "tesuji-4-218.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-218]SZ[19]KM[6.5]RU[Japanese]AB[cn][co][cp][dn][dq][eq][er][fm][fq][gn]AW[bq][cq][cr][do][dp][dr][fp][go][ho][hq](;B[fo]TE[1];W[gp];B[ep]TE[1]C[Doğru çözüm!]))",
+"sort_order": 317,
+"lesson_title": "Bulmaca 317"
+},
+{
+"n": 219,
+"sgf_filename": "tesuji-4-219.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-219]SZ[19]KM[6.5]RU[Japanese]AB[cn][co][cp][cq][cr][dr][fn][go][gq][gr][hn]AW[do][dq][em][en][eq][er][fm](;B[eo]TE[1];W[dn];B[dp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 318,
+"lesson_title": "Bulmaca 318"
+},
+{
+"n": 220,
+"sgf_filename": "tesuji-4-220.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-220]SZ[19]KM[6.5]RU[Japanese]AB[bl][bq][br][cm][cr][dm][do][dr][em][en][eo]AW[bn][cn][co][cp][cq][dn][ep][fq][fr][hq](;B[eq]TE[1];W[fp];B[dp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 319,
+"lesson_title": "Bulmaca 319"
+},
+{
+"n": 221,
+"sgf_filename": "tesuji-4-221.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-221]SZ[19]KM[6.5]RU[Japanese]AB[bn][bq][cn][cq][dn][dq][eq][fq]AW[co][cp][ep][fo][gn](;B[eo]TE[1];W[fp];B[dp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 320,
+"lesson_title": "Bulmaca 320"
+},
+{
+"n": 222,
+"sgf_filename": "tesuji-4-222.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-222]SZ[19]KM[6.5]RU[Japanese]AB[bp][br][cn][co][cq][dn][fq][gq][hq][jq]AW[cr][do][dp][dr][en][er][fo][fr][ho](;B[ep]TE[1];W[eo];B[dq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 321,
+"lesson_title": "Bulmaca 321"
+},
+{
+"n": 223,
+"sgf_filename": "tesuji-4-223.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-223]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][cm][co][dm][do][dr][ep][er][fn][fr][gr][hp][hq]AW[bq][cp][cq][eo][eq][fq][gn][go][gp](;B[fp]TE[1];W[gq];B[dq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 322,
+"lesson_title": "Bulmaca 322"
+},
+{
+"n": 224,
+"sgf_filename": "tesuji-4-224.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-224]SZ[19]KM[6.5]RU[Japanese]AB[bo][cm][co][cp][cr][dn][dr][em][eo][fo][fr][gr]AW[bp][br][cq][do][dq][ep][gp][gq][hr][iq](;B[eq]TE[1];W[fp];B[dp]TE[1];W[bq];B[bs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 323,
+"lesson_title": "Bulmaca 323"
+},
+{
+"n": 225,
+"sgf_filename": "tesuji-4-225.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-225]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][bq][cn][eq][er][gq]AW[br][cp][cr][do][dr][eo][fo](;B[dp]TE[1];W[co];B[cq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 324,
+"lesson_title": "Bulmaca 324"
+},
+{
+"n": 226,
+"sgf_filename": "tesuji-4-226.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-226]SZ[19]KM[6.5]RU[Japanese]AB[cm][cq][dn][dq][eq][fq]AW[co][cp][ep][fo][gn](;B[eo]TE[1];W[dp];B[fp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 325,
+"lesson_title": "Bulmaca 325"
+},
+{
+"n": 227,
+"sgf_filename": "tesuji-4-227.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-227]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][bq][cn][cq][dl][dn][fq][gn][gq][hp]AW[cp][do][dq][dr][en][fm][fn][fo][gm](;B[ep]TE[1];W[eo];B[dp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 326,
+"lesson_title": "Bulmaca 326"
+},
+{
+"n": 228,
+"sgf_filename": "tesuji-4-228.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-228]SZ[19]KM[6.5]RU[Japanese]AB[ar][bq][cq][cr][cs][dp][ep][fq]AW[ap][bp][bs][cn][cp][dq][dr][es][gr][hq][jq](;B[er]TE[1];W[fs];B[ds]TE[1]C[Doğru çözüm!]))",
+"sort_order": 327,
+"lesson_title": "Bulmaca 327"
+},
+{
+"n": 229,
+"sgf_filename": "tesuji-4-229.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-229]SZ[19]KM[6.5]RU[Japanese]AB[bn][cn][co][cr][dm][dr][em][er][fp][fq][hp]AW[bo][bp][bq][dq][en][eo][ep][fm][gn](;B[dp]TE[1];W[eq];B[cq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 328,
+"lesson_title": "Bulmaca 328"
+},
+{
+"n": 230,
+"sgf_filename": "tesuji-4-230.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-230]SZ[19]KM[6.5]RU[Japanese]AB[bo][bq][cq][dq][eq][fq]AW[ar][br][cr][es][gp][gq][gr](;B[fs]TE[1];W[dr];B[er]TE[1];W[ds];B[fr]TE[1];W[bs]C[Doğru çözüm!]))",
+"sort_order": 329,
+"lesson_title": "Bulmaca 329"
+},
+{
+"n": 231,
+"sgf_filename": "tesuji-4-231.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-231]SZ[19]KM[6.5]RU[Japanese]AB[bo][co][cq][do][dq][eq][fq]AW[bp][bq][br][ds][gp][gq][gr][gs](;B[es]TE[1];W[er];B[cs]TE[1];W[fs];B[cr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 330,
+"lesson_title": "Bulmaca 330"
+},
+{
+"n": 232,
+"sgf_filename": "tesuji-4-232.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-232]SZ[19]KM[6.5]RU[Japanese]AB[ar][bq][bs][cn][co][cq][cr][dn][en][fo][fp]AW[bo][bp][cp][do][dq][eo][er][fr][gq][hp](;B[eq]TE[1];W[dr];B[dp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 331,
+"lesson_title": "Bulmaca 331"
+},
+{
+"n": 233,
+"sgf_filename": "tesuji-4-233.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-233]SZ[19]KM[6.5]RU[Japanese]AB[bo][dn][do][dp][dr][gm][gp][hm][hn][ho]AW[cm][dm][em][eo][fm][fp][fq][gn](;B[fo]TE[1];W[en];B[ep]TE[1]C[Doğru çözüm!]))",
+"sort_order": 332,
+"lesson_title": "Bulmaca 332"
+},
+{
+"n": 234,
+"sgf_filename": "tesuji-4-234.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-234]SZ[19]KM[6.5]RU[Japanese]AB[bn][bp][cp][dp][ep][fp][gp]AW[ap][bq][cq][er][gq][hq](;B[fr]TE[1];W[fq];B[dr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 333,
+"lesson_title": "Bulmaca 333"
+},
+{
+"n": 235,
+"sgf_filename": "tesuji-4-235.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-235]SZ[19]KM[6.5]RU[Japanese]AB[cp][dp][fq]AW[bp][co][cq](;B[bo]TE[1];W[bn];B[bq]TE[1];W[ao];B[cr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 334,
+"lesson_title": "Bulmaca 334"
+},
+{
+"n": 236,
+"sgf_filename": "tesuji-4-236.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-236]SZ[19]KM[6.5]RU[Japanese]AB[cp][dp][dq][fq]AW[bp][co][cq][cr](;B[bq]TE[1];W[br];B[bo]TE[1];W[aq];B[cn]TE[1]C[Doğru çözüm!]))",
+"sort_order": 335,
+"lesson_title": "Bulmaca 335"
+},
+{
+"n": 237,
+"sgf_filename": "tesuji-4-237.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-237]SZ[19]KM[6.5]RU[Japanese]AB[cn][cp][dp][dq][ep][fp][gq]AW[bq][cq][dr][eq][fq][gp][hp](;B[cr]TE[1];W[er];B[br]TE[1]C[Doğru çözüm!]))",
+"sort_order": 336,
+"lesson_title": "Bulmaca 336"
+},
+{
+"n": 238,
+"sgf_filename": "tesuji-4-238.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-238]SZ[19]KM[6.5]RU[Japanese]AB[bq][cp][dp][ep][fp][fq]AW[br][cq][dq][eq][fr][gq](;B[gr]TE[1];W[er];B[hq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 337,
+"lesson_title": "Bulmaca 337"
+},
+{
+"n": 239,
+"sgf_filename": "tesuji-4-239.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-239]SZ[19]KM[6.5]RU[Japanese]AB[cp][dp][ep][eq][fp][gp][hq]AW[cq][dq][er][fq][gq](;B[fr]TE[1];W[gr];B[dr]TE[1];W[fs];B[cr]TE[1];W[bq];B[br]TE[1]C[Doğru çözüm!]))",
+"sort_order": 338,
+"lesson_title": "Bulmaca 338"
+},
+{
+"n": 240,
+"sgf_filename": "tesuji-4-240.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-240]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][do][eo][fp][hp]AW[bq][cq][dp][ep][fq][hq][iq](;B[gq]TE[1];W[gr];B[eq]TE[1];W[gp];B[dq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 339,
+"lesson_title": "Bulmaca 339"
+},
+{
+"n": 241,
+"sgf_filename": "tesuji-4-241.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-241]SZ[19]KM[6.5]RU[Japanese]AB[cm][cq][dm][dq][em][eq][gq]AW[co][eo][go][hn](;B[do]TE[1];W[dp];B[dn]TE[1];W[ep];B[cp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 340,
+"lesson_title": "Bulmaca 340"
+},
+{
+"n": 243,
+"sgf_filename": "tesuji-4-243.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-243]SZ[19]KM[6.5]RU[Japanese]AB[bl][bq][cl][cm][cq][em][eq][fl][fq][hq]AW[bm][bn][bp][co][eo][fo][gn](;B[do]TE[1];W[dp];B[dn]TE[1];W[ep];B[cp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 341,
+"lesson_title": "Bulmaca 341"
+},
+{
+"n": 244,
+"sgf_filename": "tesuji-4-244.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-244]SZ[19]KM[6.5]RU[Japanese]AB[am][bn][cl][cm][dq][el][em][en][eq][hq]AW[bo][cn][co][eo][fl][fm][fn][go](;B[do]TE[1];W[dp];B[dn]TE[1];W[ep];B[cp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 342,
+"lesson_title": "Bulmaca 342"
+},
+{
+"n": 245,
+"sgf_filename": "tesuji-4-245.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-245]SZ[19]KM[6.5]RU[Japanese]AB[bl][bq][cl][cp][cr][dl][dp][ek][ep][fk][fl][gl][gp][hq][iq]AW[ao][bp][cm][cn][co][el][en][gn][in][ip][jp](;B[fn]TE[1];W[fo];B[fm]TE[1];W[go];B[eo]TE[1]C[Doğru çözüm!]))",
+"sort_order": 343,
+"lesson_title": "Bulmaca 343"
+},
+{
+"n": 246,
+"sgf_filename": "tesuji-4-246.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-246]SZ[19]KM[6.5]RU[Japanese]AB[cq][cr][cs][do][dp][es]AW[bp][cp][dq][dr][ds][fr](;B[fq]TE[1];W[er];B[gr]TE[1];W[fs];B[gs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 344,
+"lesson_title": "Bulmaca 344"
+},
+{
+"n": 247,
+"sgf_filename": "tesuji-4-247.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-247]SZ[19]KM[6.5]RU[Japanese]AB[cq][do][dp][dq][eq][fr][gr][hn][ho][hp][hr][iq]AW[bn][bp][bq][cr][dn][dr][em][eo][er][fq][gm][go][gq][hq](;B[fo]TE[1];W[fn];B[fp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 345,
+"lesson_title": "Bulmaca 345"
+},
+{
+"n": 248,
+"sgf_filename": "tesuji-4-248.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-248]SZ[19]KM[6.5]RU[Japanese]AB[bp][bq][cn][co][cr][dn][ds][en][er]AW[bm][bn][bo][cm][cp][cq][do][dr][eq][fo][gq][ho](;B[ep]TE[1];W[fq];B[dq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 346,
+"lesson_title": "Bulmaca 346"
+},
+{
+"n": 249,
+"sgf_filename": "tesuji-4-249.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-249]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][dn][dq][eq][er][gq]AW[bq][br][cq][cs][do][dp][dr][fp][hp][hq](;B[fo]TE[1];W[gp];B[ep]TE[1]C[Doğru çözüm!]))",
+"sort_order": 347,
+"lesson_title": "Bulmaca 347"
+},
+{
+"n": 250,
+"sgf_filename": "tesuji-4-250.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-250]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][dp][dr][eo][er][fr][gr]AW[ar][bq][bs][cr][dq][ep][eq][gq][ho][iq][ir](;B[gp]TE[1];W[hq];B[fq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 348,
+"lesson_title": "Bulmaca 348"
+},
+{
+"n": 251,
+"sgf_filename": "tesuji-4-251.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-251]SZ[19]KM[6.5]RU[Japanese]AB[cp][cq][do][en][eo][fp]AW[bo][cm][co][dn][dp][dr][ep][gq](;B[er]TE[1];W[dq];B[cr]TE[1];W[fq];B[eq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 349,
+"lesson_title": "Bulmaca 349"
+},
+{
+"n": 252,
+"sgf_filename": "tesuji-4-252.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-252]SZ[19]KM[6.5]RU[Japanese]AB[co][cp][cq][dn][en][fo][gn][gp][gq]AW[bn][bq][br][cn][cr][do][dq][eo][fq][gr][hr](;B[eq]TE[1];W[er];B[ep]TE[1]C[Doğru çözüm!]))",
+"sort_order": 350,
+"lesson_title": "Bulmaca 350"
+},
+{
+"n": 253,
+"sgf_filename": "tesuji-4-253.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-253]SZ[19]KM[6.5]RU[Japanese]AB[bn][cn][co][dm][dp][dq][er][fp]AW[bo][bp][cp][cq][cr][dn][do][dr][fo][hn][hp](;B[fn]TE[1];W[go];B[eo]TE[1]C[Doğru çözüm!]))",
+"sort_order": 351,
+"lesson_title": "Bulmaca 351"
+},
+{
+"n": 254,
+"sgf_filename": "tesuji-4-254.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-254]SZ[19]KM[6.5]RU[Japanese]AB[bm][bn][bo][cp][cq][do][dr][eo][fo][go][ho]AW[cl][cm][cn][co][dp][dq][em][fp][gm][gq][hp][im][ip][jp](;B[fq]TE[1];W[gp];B[ep]TE[1]C[Doğru çözüm!]))",
+"sort_order": 352,
+"lesson_title": "Bulmaca 352"
+},
+{
+"n": 255,
+"sgf_filename": "tesuji-4-255.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-255]SZ[19]KM[6.5]RU[Japanese]AB[bp][cm][dq][eq][er][fm][fn][fq][go][gp][iq]AW[bo][co][cq][cr][dp][dr][fo][fp][gn][hl][hn](;B[do]TE[1];W[cp];B[ep]TE[1]C[Doğru çözüm!]))",
+"sort_order": 353,
+"lesson_title": "Bulmaca 353"
+},
+{
+"n": 256,
+"sgf_filename": "tesuji-4-256.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-256]SZ[19]KM[6.5]RU[Japanese]AB[bp][co][cp][dm][dn][dq][eq][fq][gq]AW[bn][cl][cn][do][dp][fm][fp][gn][ho](;B[fo]TE[1];W[gp];B[ep]TE[1]C[Doğru çözüm!]))",
+"sort_order": 354,
+"lesson_title": "Bulmaca 354"
+},
+{
+"n": 257,
+"sgf_filename": "tesuji-4-257.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-257]SZ[19]KM[6.5]RU[Japanese]AB[cq][cr][do][dp][dr][er][fp][gq]AW[bq][br][cn][co][cp][dq][eq][fq][fr](;B[gr]TE[1];W[cs];B[fs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 355,
+"lesson_title": "Bulmaca 355"
+},
+{
+"n": 258,
+"sgf_filename": "tesuji-4-258.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-258]SZ[19]KM[6.5]RU[Japanese]AB[dn][do][ep][eq][er][fn][fr][go][gp][hq]AW[bn][cp][cr][dp][dr][eo][fo][fp][fq][gq][gr](;B[hr]TE[1];W[dq];B[gs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 356,
+"lesson_title": "Bulmaca 356"
+},
+{
+"n": 259,
+"sgf_filename": "tesuji-4-259.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-259]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][bq][cm][cq][cr][dn][dp][ep]AW[bn][br][cn][co][cp][cs][dq][dr][eq][fp][gq](;B[bm]TE[1];W[aq];B[an]TE[1]C[Doğru çözüm!]))",
+"sort_order": 357,
+"lesson_title": "Bulmaca 357"
+},
+{
+"n": 260,
+"sgf_filename": "tesuji-4-260.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-260]SZ[19]KM[6.5]RU[Japanese]AB[cp][cr][dp][dq][dr][eo][er][fo][gq]AW[bo][bp][bq][br][co][cq][do][ep][eq][fq][fr](;B[gr]TE[1];W[cs];B[fs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 358,
+"lesson_title": "Bulmaca 358"
+},
+{
+"n": 261,
+"sgf_filename": "tesuji-4-261.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-261]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][bq][cm][cp][dn][dp][en][ep][fp][gn][go]AW[bn][br][cn][co][cq][do][dq][eo][eq][fo][fq][gp][hp](;B[bm]TE[1];W[aq];B[an]TE[1]C[Doğru çözüm!]))",
+"sort_order": 359,
+"lesson_title": "Bulmaca 359"
+},
+{
+"n": 262,
+"sgf_filename": "tesuji-4-262.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-262]SZ[19]KM[6.5]RU[Japanese]AB[bo][bq][br][cm][cp][cq][dn][dq][en][ep][fp]AW[bn][bs][cn][co][cr][do][dp][dr][eq][fq][gp][hq](;B[bm]TE[1];W[ao];B[bp]TE[1];W[ar];B[an]TE[1];W[am];B[eo]TE[1]C[Doğru çözüm!]))",
+"sort_order": 360,
+"lesson_title": "Bulmaca 360"
+},
+{
+"n": 263,
+"sgf_filename": "tesuji-4-263.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-263]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][bq][br][cm][cr][dn][dq][ep][eq][fp][gp]AW[bn][cn][co][cp][cq][dl][dp][dr][er][fq][gn][gq][ho][hp][hq](;B[bm]TE[1];W[eo];B[do]TE[1]C[Doğru çözüm!]))",
+"sort_order": 361,
+"lesson_title": "Bulmaca 361"
+},
+{
+"n": 264,
+"sgf_filename": "tesuji-4-264.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-264]SZ[19]KM[6.5]RU[Japanese]AB[br][cp][cq][cr][do][dr][eo][fq]AW[bp][bq][cn][co][dn][dp][dq][eq][er][fm][gn][hp][hq][hr](;B[fr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 362,
+"lesson_title": "Bulmaca 362"
+},
+{
+"n": 265,
+"sgf_filename": "tesuji-4-265.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-265]SZ[19]KM[6.5]RU[Japanese]AB[bo][bq][cm][cp][dn][dp][en][ep][fp][gn][go]AW[bn][br][cn][co][cr][do][dq][eo][eq][fo][fq][gp][gq](;B[bm]TE[1];W[ao];B[bp]TE[1];W[aq];B[an]TE[1];W[am];B[fn]TE[1];W[an];B[al]TE[1]C[Doğru çözüm!]))",
+"sort_order": 363,
+"lesson_title": "Bulmaca 363"
+},
+{
+"n": 266,
+"sgf_filename": "tesuji-4-266.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-266]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][br][cm][cp][cq][dn][dp][en][eq][fo][fq][gp]AW[ar][bn][bs][cn][co][cr][do][dq][dr][eo][ep][er][fr][gr][hp][hq](;B[bm]TE[1];W[bq];B[an]TE[1]C[Doğru çözüm!]))",
+"sort_order": 364,
+"lesson_title": "Bulmaca 364"
+},
+{
+"n": 267,
+"sgf_filename": "tesuji-4-267.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-267]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][cm][cp][cq][cr][dm][dn][dq][eq][fo][fp]AW[bn][br][cl][cn][co][cs][dl][do][dp][dr][el][ep][er][fq][gn][gp][gr][hp](;B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 365,
+"lesson_title": "Bulmaca 365"
+},
+{
+"n": 268,
+"sgf_filename": "tesuji-4-268.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-268]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][cm][cp][dn][dp][en][eq][fo][fq]AW[bn][cn][co][cq][do][dq][dr][eo][ep][er][ho][hp][hq][hr](;B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 366,
+"lesson_title": "Bulmaca 366"
+},
+{
+"n": 269,
+"sgf_filename": "tesuji-4-269.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-269]SZ[19]KM[6.5]RU[Japanese]AB[bq][cp][cq][cr][do][dq][dr][eo][er][fr][gp][hp][hq]AW[aq][bn][bp][br][cn][co][cs][dp][em][ep][eq][fn][fq][gq][gr](;B[gs]TE[1];W[hs];B[hr]TE[1];W[fs];B[fp]TE[1];W[gs];B[is]TE[1]C[Doğru çözüm!]))",
+"sort_order": 367,
+"lesson_title": "Bulmaca 367"
+},
+{
+"n": 270,
+"sgf_filename": "tesuji-4-270.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-270]SZ[19]KM[6.5]RU[Japanese]AB[bq][cq][dn][do][dp][dq][em][er][fm][fn][fo][fp][fr][gr][hp][iq]AW[br][cm][cn][co][cr][dm][dr][en][eo][ep][eq][fq][gq][hq][hr](;B[ir]TE[1]C[Doğru çözüm!]))",
+"sort_order": 368,
+"lesson_title": "Bulmaca 368"
+},
+{
+"n": 271,
+"sgf_filename": "tesuji-4-271.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-271]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][cm][cp][dn][dp][dq][en][eq][fq][go][gp]AW[bn][bq][cn][co][cr][do][dr][eo][ep][er][fp][fr][gq][gr](;B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 369,
+"lesson_title": "Bulmaca 369"
+},
+{
+"n": 272,
+"sgf_filename": "tesuji-4-272.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-272]SZ[19]KM[6.5]RU[Japanese]AB[bp][cp][dp][dq][ep][er][fp][fr][gr][hp][iq]AW[bq][br][cq][cs][dr][eq][fq][gq][hq][hr](;B[ir]TE[1]C[Doğru çözüm!]))",
+"sort_order": 370,
+"lesson_title": "Bulmaca 370"
+},
+{
+"n": 273,
+"sgf_filename": "tesuji-4-273.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-273]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][bq][cq][dn][dp][ep]AW[br][cn][co][cp][cr][dq][eq][fq](;B[cm]TE[1];W[bn];B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 371,
+"lesson_title": "Bulmaca 371"
+},
+{
+"n": 274,
+"sgf_filename": "tesuji-4-274.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-274]SZ[19]KM[6.5]RU[Japanese]AB[bn][bo][co][dm][do][em][ep][fn][fp]AW[bp][bq][cm][cn][dn][dp][dq][en][eo][fr][gp][gq](;B[cl]TE[1];W[bm];B[bl]TE[1]C[Doğru çözüm!]))",
+"sort_order": 372,
+"lesson_title": "Bulmaca 372"
+},
+{
+"n": 275,
+"sgf_filename": "tesuji-4-275.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-275]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][bq][cq][cr][dn][dp][ep]AW[br][cn][co][cp][cs][dq][dr][eq][fn][fp][gq](;B[cm]TE[1];W[bn];B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 373,
+"lesson_title": "Bulmaca 373"
+},
+{
+"n": 276,
+"sgf_filename": "tesuji-4-276.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-276]SZ[19]KM[6.5]RU[Japanese]AB[cp][cr][dp][dq][dr][eo][er][fo]AW[bp][bq][br][co][cq][do][ep][eq][fq](;B[gq]TE[1];W[fr];B[gr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 374,
+"lesson_title": "Bulmaca 374"
+},
+{
+"n": 277,
+"sgf_filename": "tesuji-4-277.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-277]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][bq][cp][dn][dp][en][ep][fp][gn][go]AW[br][cn][co][cq][do][dq][eo][eq][fo][fq][gp][hp](;B[cm]TE[1];W[bn];B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 375,
+"lesson_title": "Bulmaca 375"
+},
+{
+"n": 278,
+"sgf_filename": "tesuji-4-278.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-278]SZ[19]KM[6.5]RU[Japanese]AB[bo][bq][br][cp][cq][dn][dq][en][ep][fp]AW[bs][cn][co][cr][do][dp][dr][eq][fq][gq](;B[cm]TE[1];W[bn];B[bm]TE[1];W[ao];B[bp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 376,
+"lesson_title": "Bulmaca 376"
+},
+{
+"n": 279,
+"sgf_filename": "tesuji-4-279.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-279]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][bq][br][cr][dn][dq][ep][eq][fp][gp]AW[cn][co][cp][cq][dl][dp][dr][er][fq][gn][gq][ho][hp][hq](;B[cm]TE[1];W[bn];B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 377,
+"lesson_title": "Bulmaca 377"
+},
+{
+"n": 280,
+"sgf_filename": "tesuji-4-280.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-280]SZ[19]KM[6.5]RU[Japanese]AB[br][cp][cq][cr][do][dr][eo]AW[bp][bq][cn][co][dn][dp][dq][eq][fm][gn][hp][hq][hr](;B[fq]TE[1];W[er];B[fr]TE[1];W[es];B[fs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 378,
+"lesson_title": "Bulmaca 378"
+},
+{
+"n": 281,
+"sgf_filename": "tesuji-4-281.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-281]SZ[19]KM[6.5]RU[Japanese]AB[bo][cq][ep][er][fr][go][gr][hp][hq][ip][ir]AW[do][dq][eq][fq][gp][gq][hr][hs][iq][jq][jr](;B[dp]TE[1];W[dr];B[cr]TE[1];W[ds];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 379,
+"lesson_title": "Bulmaca 379"
+},
+{
+"n": 282,
+"sgf_filename": "tesuji-4-282.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-282]SZ[19]KM[6.5]RU[Japanese]AB[bo][bq][cp][dn][dp][en][ep][fp][gn][go]AW[br][cn][co][cr][do][dq][eo][eq][fo][fq][gp][gq](;B[cm]TE[1];W[bn];B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 380,
+"lesson_title": "Bulmaca 380"
+},
+{
+"n": 283,
+"sgf_filename": "tesuji-4-283.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-283]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][br][cp][cq][dn][dp][en][eq][fo][fq][gp]AW[ar][bs][cn][co][cr][do][dq][dr][eo][ep][er][fr][gr][hp][hq](;B[cm]TE[1];W[bn];B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 381,
+"lesson_title": "Bulmaca 381"
+},
+{
+"n": 284,
+"sgf_filename": "tesuji-4-284.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-284]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][cp][cq][cr][dm][dn][dq][eq][fo][fp]AW[br][cl][cn][co][cs][dl][do][dp][dr][el][ep][er][fq][gn][gp][gr][hp](;B[cm]TE[1];W[bn];B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 382,
+"lesson_title": "Bulmaca 382"
+},
+{
+"n": 285,
+"sgf_filename": "tesuji-4-285.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-285]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][cp][dn][dp][en][eq][fo][fq]AW[cn][co][cq][do][dq][dr][eo][ep][er][ho][hp][hq][hr](;B[cm]TE[1];W[bn];B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 383,
+"lesson_title": "Bulmaca 383"
+},
+{
+"n": 286,
+"sgf_filename": "tesuji-4-286.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-286]SZ[19]KM[6.5]RU[Japanese]AB[bq][cp][cq][cr][do][dq][dr][eo][er][fr][gp][hp]AW[aq][bn][bp][br][cn][co][cs][dp][em][ep][eq][fn][fq][gq](;B[fp]TE[1];W[hr];B[hq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 384,
+"lesson_title": "Bulmaca 384"
+},
+{
+"n": 287,
+"sgf_filename": "tesuji-4-287.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-287]SZ[19]KM[6.5]RU[Japanese]AB[do][dp][dq][eo][er][fr][gp][gr][iq]AW[bo][cq][cr][dr][ep][eq][fq][gq][hq](;B[hp]TE[1];W[hr];B[ir]TE[1]C[Doğru çözüm!]))",
+"sort_order": 385,
+"lesson_title": "Bulmaca 385"
+},
+{
+"n": 288,
+"sgf_filename": "tesuji-4-288.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-288]SZ[19]KM[6.5]RU[Japanese]AB[bq][cq][dn][do][dp][dq][em][er][fm][fn][fo][fp][fr][gr][hp]AW[br][cm][cn][co][cr][dm][dr][en][eo][ep][eq][fq][gq][hq](;B[iq]TE[1];W[hr];B[ir]TE[1]C[Doğru çözüm!]))",
+"sort_order": 386,
+"lesson_title": "Bulmaca 386"
+},
+{
+"n": 289,
+"sgf_filename": "tesuji-4-289.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-289]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][cp][dn][dp][dq][en][eq][fq][go][gp]AW[bq][cn][co][cr][do][dr][eo][ep][er][fp][fr][gq][gr](;B[cm]TE[1];W[bn];B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 387,
+"lesson_title": "Bulmaca 387"
+},
+{
+"n": 290,
+"sgf_filename": "tesuji-4-290.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-290]SZ[19]KM[6.5]RU[Japanese]AB[bp][cp][dp][dq][ep][er][fp][fr][gr][hp]AW[bq][br][cq][cs][dr][eq][fq][gq][hq](;B[iq]TE[1];W[hr];B[ir]TE[1]C[Doğru çözüm!]))",
+"sort_order": 388,
+"lesson_title": "Bulmaca 388"
+},
+{
+"n": 291,
+"sgf_filename": "tesuji-4-291.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-291]SZ[19]KM[6.5]RU[Japanese]AB[bp][bq][cq][dn][dp][ep]AW[br][co][cp][cr][dq][eq][fq](;B[bo]TE[1];W[cn];B[cm]TE[1];W[bn];B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 389,
+"lesson_title": "Bulmaca 389"
+},
+{
+"n": 292,
+"sgf_filename": "tesuji-4-292.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-292]SZ[19]KM[6.5]RU[Japanese]AB[bo][co][dm][do][em][ep][fn][fp]AW[bp][bq][cn][dn][dp][dq][en][eo][fr][gp][gq](;B[bn]TE[1];W[cm];B[cl]TE[1];W[bm];B[bl]TE[1]C[Doğru çözüm!]))",
+"sort_order": 390,
+"lesson_title": "Bulmaca 390"
+},
+{
+"n": 293,
+"sgf_filename": "tesuji-4-293.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-293]SZ[19]KM[6.5]RU[Japanese]AB[bp][bq][cq][cr][dn][dp][ep]AW[br][co][cp][cs][dq][dr][eq][fn][fp][gq](;B[bo]TE[1];W[cn];B[cm]TE[1];W[bn];B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 391,
+"lesson_title": "Bulmaca 391"
+},
+{
+"n": 294,
+"sgf_filename": "tesuji-4-294.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-294]SZ[19]KM[6.5]RU[Japanese]AB[cp][cr][dp][dq][dr][eo][fo]AW[bp][bq][br][co][cq][do][ep][eq](;B[er]TE[1];W[fq];B[gq]TE[1];W[fr];B[gr]TE[1]C[Doğru çözüm!]))",
+"sort_order": 392,
+"lesson_title": "Bulmaca 392"
+},
+{
+"n": 295,
+"sgf_filename": "tesuji-4-295.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-295]SZ[19]KM[6.5]RU[Japanese]AB[bp][bq][cp][dn][dp][en][ep][fp][gn][go]AW[br][co][cq][do][dq][eo][eq][fo][fq][gp][hp](;B[bo]TE[1];W[cn];B[cm]TE[1];W[bn];B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 393,
+"lesson_title": "Bulmaca 393"
+},
+{
+"n": 296,
+"sgf_filename": "tesuji-4-296.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-296]SZ[19]KM[6.5]RU[Japanese]AB[bq][br][cp][cq][dn][dq][en][ep][fp]AW[bs][co][cr][do][dp][dr][eq][fq][gq](;B[bo]TE[1];W[cn];B[cm]TE[1];W[bn];B[bm]TE[1];W[ao];B[bp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 394,
+"lesson_title": "Bulmaca 394"
+},
+{
+"n": 297,
+"sgf_filename": "tesuji-4-297.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-297]SZ[19]KM[6.5]RU[Japanese]AB[bo][bp][bq][br][cr][dq][ep][eq][fp][gp]AW[cn][cp][cq][dl][dp][dr][er][fq][gn][gq][ho][hp][hq](;B[dn]TE[1];W[co];B[cm]TE[1];W[bn];B[bm]TE[1]C[Doğru çözüm!]))",
+"sort_order": 395,
+"lesson_title": "Bulmaca 395"
+},
+{
+"n": 298,
+"sgf_filename": "tesuji-4-298.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-298]SZ[19]KM[6.5]RU[Japanese]AB[br][cp][cq][cr][do][eo]AW[bp][bq][cn][co][dn][dp][dq][fm][gn][hp][hq][hr](;B[eq]TE[1]C[Doğru çözüm!]))",
+"sort_order": 396,
+"lesson_title": "Bulmaca 396"
+},
+{
+"n": 299,
+"sgf_filename": "tesuji-4-299.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-299]SZ[19]KM[6.5]RU[Japanese]AB[bo][cq][ep][fr][go][gr][hp][hq][ip][ir]AW[do][eq][fq][gp][gq][hr][hs][iq][jq][jr](;B[er]TE[1];W[dq];B[dp]TE[1];W[dr];B[cr]TE[1];W[ds];B[cs]TE[1]C[Doğru çözüm!]))",
+"sort_order": 397,
+"lesson_title": "Bulmaca 397"
+},
+{
+"n": 300,
+"sgf_filename": "tesuji-4-300.sgf",
+"sgf_raw": "(;FF[4]CA[UTF-8]GM[1]GN[tesuji-4-300]SZ[19]KM[6.5]RU[Japanese]AB[bq][cp][dn][dp][en][ep][fp][gn][go]AW[br][co][cr][do][dq][eo][eq][fo][fq][gp][gq](;B[bo]TE[1];W[cn];B[cm]TE[1];W[bn];B[bm]TE[1];W[ao];B[bp]TE[1]C[Doğru çözüm!]))",
+"sort_order": 398,
+"lesson_title": "Bulmaca 398"
+}
+]

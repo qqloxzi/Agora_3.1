@@ -1,6 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useState } from 'react'
 import { supabase } from '../lib/supabase'
-import { settleHearts } from '../lib/gamification'
 
 const AuthContext = createContext(null)
 
@@ -20,16 +19,7 @@ export function AuthProvider({ children }) {
       return
     }
 
-    const settled = settleHearts(data)
-    if (settled.hearts !== data.hearts) {
-      await supabase
-        .from('profiles')
-        .update({ hearts: settled.hearts, hearts_refill_at: settled.hearts_refill_at })
-        .eq('id', userId)
-      setProfile({ ...data, ...settled })
-    } else {
-      setProfile(data)
-    }
+    setProfile(data)
   }, [])
 
   const refreshProfile = useCallback(async () => {

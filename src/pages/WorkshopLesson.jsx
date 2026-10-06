@@ -1,14 +1,30 @@
-import { useEffect, useState } from 'react'
+import { lazy, Suspense, useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, ArrowRight, Check, Lock, PlayCircle } from 'lucide-react'
 import { findCourse } from '../data/workshopCatalog'
 import { fetchCourseLessons, fetchCompletedLessonIds, completeLesson } from '../lib/workshopProgress'
 import { useAuth } from '../contexts/AuthContext'
 import { StarRating } from '../components/ui/StarRating'
-import { HeartsBar } from '../components/ui/HeartsBar'
 import { GoPuzzle } from '../components/GoPuzzle'
+import { TagRankBadge } from '../components/ui/TagRankBadge'
+
+// Joseki boxes carry ~1 MB of joseki data, so they load as a separate chunk.
+const JosekiWorkshop = lazy(() => import('../components/joseki/JosekiWorkshop'))
 
 export function WorkshopLesson() {
+  const { courseSlug } = useParams()
+  const course = findCourse(courseSlug)
+  if (course?.joseki) {
+    return (
+      <Suspense fallback={<p className="px-6 py-8 text-ink/40">Yükleniyor...</p>}>
+        <JosekiWorkshop key={course.slug} course={course} />
+      </Suspense>
+    )
+  }
+  return <ProblemWorkshopLesson />
+}
+
+function ProblemWorkshopLesson() {
   const { courseSlug } = useParams()
   const { user, profile, setProfile } = useAuth()
   const course = findCourse(courseSlug)
@@ -52,7 +68,7 @@ export function WorkshopLesson() {
   const nextLesson = lessons[activeIdx + 1]
 
   function isUnlocked(idx) {
-    if (idx === 0) return true
+    if (idx === 0 || profile?.is_admin) return true
     return completed.has(lessons[idx - 1]?.id)
   }
 
@@ -74,7 +90,6 @@ export function WorkshopLesson() {
         </Link>
         <h1 className="text-lg font-extrabold text-ink dark:text-white mb-1">{course.title}</h1>
         <p className="text-sm text-ink/50 dark:text-ice-white/50 mb-5">{course.description}</p>
-        {user && profile && <HeartsBar hearts={profile.hearts} profile={profile} className="mb-5" />}
 
         <div className="flex flex-col gap-1.5">
           {lessons.map((lesson, idx) => {
@@ -110,31 +125,33 @@ export function WorkshopLesson() {
         </div>
       </aside>
 
-      <div className="flex-1 min-h-0 lg:h-full lg:overflow-y-auto flex flex-col px-4 md:px-8 py-6">
+      <div className="flex-1 min-h-0 flex flex-col px-4 md:px-8 py-6">
         {loading ? (
           <p className="text-ink/40">Yükleniyor...</p>
         ) : activeLesson ? (
-          <div className="flex-1 flex flex-col max-w-3xl w-full mx-auto animate-pop-in">
-            <div className="mb-5">
-              <p className="text-xs font-bold uppercase tracking-wider text-accent-blue mb-2">
+          <div className="flex-1 min-h-0 flex flex-col max-w-3xl w-full mx-auto animate-pop-in">
+            <div className="shrink-0 mb-3 flex items-center justify-between gap-2">
+              <p className="text-xs font-bold uppercase tracking-wider text-accent-blue">
                 {activeLesson.moduleTitle || 'Alıştırma'} · {activeLesson.title}
               </p>
-              <h2 className="text-2xl md:text-3xl font-black text-ink dark:text-white leading-snug">{activeLesson.description}</h2>
+              <TagRankBadge tag={activeLesson.tag} rank={activeLesson.rank} />
             </div>
 
-            <GoPuzzle sgfRaw={activeLesson.sgfRaw} validationMode={activeLesson.validationMode} onSolved={handleComplete} />
+            <div className="flex-1 min-h-0">
+              <GoPuzzle fitParent sgfRaw={activeLesson.sgfRaw} validationMode={activeLesson.validationMode} onSolved={handleComplete} />
+            </div>
 
-            <div className="flex items-center justify-between gap-3 mt-6 pt-5 border-t border-primary-blue/10 dark:border-white/10">
+            <div className="shrink-0 flex items-center justify-between gap-3 mt-3 pt-3 border-t border-primary-blue/10 dark:border-white/10">
               <button
                 disabled={!prevLesson}
                 onClick={() => prevLesson && setActiveId(prevLesson.id)}
-                className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-sm font-bold text-ink/60 dark:text-ice-white/60 disabled:opacity-30 hover:bg-primary-blue/5 transition-colors"
+                className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-bold text-ink/60 dark:text-ice-white/60 disabled:opacity-30 hover:bg-primary-blue/5 transition-colors"
               >
                 <ArrowLeft size={16} /> Önceki
               </button>
 
               {!isDone && (
-                <button onClick={handleComplete} className="press-btn magnetic-btn px-5 py-2.5 rounded-xl bg-success text-white font-extrabold text-sm">
+                <button onClick={handleComplete} className="press-btn magnetic-btn px-5 py-2 rounded-xl bg-success text-white font-extrabold text-sm">
                   Tamamlandı olarak işaretle
                 </button>
               )}
@@ -142,13 +159,13 @@ export function WorkshopLesson() {
               <button
                 disabled={!isDone || !nextLesson}
                 onClick={() => nextLesson && setActiveId(nextLesson.id)}
-                className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-sm font-bold bg-primary-blue/10 text-primary-blue dark:text-white disabled:opacity-30 disabled:bg-transparent transition-colors"
+                className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-bold bg-primary-blue/10 text-primary-blue dark:text-white disabled:opacity-30 disabled:bg-transparent transition-colors"
               >
                 Sonraki <ArrowRight size={16} />
               </button>
             </div>
 
-            <div className="mt-6">
+            <div className="shrink-0 mt-2">
               <StarRating targetType="workshop" targetId={course.slug} size={16} />
             </div>
           </div>

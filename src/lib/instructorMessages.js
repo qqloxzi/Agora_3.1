@@ -28,3 +28,20 @@ export async function markInstructorMessageRead(id, isRead = true) {
 export async function deleteInstructorMessage(id) {
   return supabase.from('instructor_messages').delete().eq('id', id)
 }
+
+export async function replyToInstructorMessage(id, replyBody) {
+  return supabase
+    .from('instructor_messages')
+    .update({ reply_body: replyBody.trim(), replied_at: new Date().toISOString() })
+    .eq('id', id)
+}
+
+export async function fetchMyInstructorMessages(userId) {
+  const { data, error } = await supabase
+    .from('instructor_messages')
+    .select('*')
+    .eq('sender_id', userId)
+    .order('created_at', { ascending: false })
+  if (error) return []
+  return data ?? []
+}

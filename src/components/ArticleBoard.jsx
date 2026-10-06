@@ -17,7 +17,7 @@ export function ArticleBoard({ sgf, description }) {
 
   return (
     <figure className="my-8">
-      <div className="w-full max-w-md mx-auto aspect-square rounded-2xl overflow-hidden border border-primary-blue/10 dark:border-white/10 shadow-floating">
+      <div className="w-full max-w-md mx-auto aspect-square overflow-hidden shadow-floating">
         <GoBoard size={size} board={board} labels={labels} interactive={false} />
       </div>
       {description && (
