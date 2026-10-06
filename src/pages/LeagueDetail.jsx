@@ -82,19 +82,6 @@ export function LeagueDetail() {
           <StarRating targetType="course" targetId={course.id} initialAvg={course.rating_avg} initialCount={course.rating_count} className="mb-6" />
           <p className="text-ink/70 dark:text-ice-white/70 leading-relaxed whitespace-pre-line mb-8">{course.description}</p>
 
-          {course.outcomes && (
-            <div className="mb-10">
-              <h3 className="font-extrabold text-lg text-ink dark:text-white mb-3">Neler kazanacaksın?</h3>
-              <ul className="flex flex-col gap-2">
-                {course.outcomes.split('\n').filter(Boolean).map((line, i) => (
-                  <li key={i} className="flex items-start gap-2 text-sm text-ink/70 dark:text-ice-white/70">
-                    <CheckCircle2 size={16} className="text-success shrink-0 mt-0.5" /> {line.replace(/^\d+[-.]?\s*/, '')}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-
           <div className="rounded-3xl bg-white/70 dark:bg-white/5 border border-primary-blue/10 dark:border-white/10 shadow-card p-6 md:p-8">
             <CommentThread targetType="course" targetId={course.id} />
           </div>
