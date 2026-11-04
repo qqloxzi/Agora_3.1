@@ -26,6 +26,7 @@ import { InstructorProfile } from './pages/InstructorProfile'
 import { Blog } from './pages/Blog'
 import { BlogPost } from './pages/BlogPost'
 import { Contact } from './pages/Contact'
+import { GoizmTournament } from './pages/GoizmTournament'
 
 // Joseki Sonrası carries ~1.8 MB of diagram JSON — load it only when visited.
 const JosekiAfter = lazy(() => import('./pages/JosekiAfter').then((m) => ({ default: m.JosekiAfter })))
@@ -35,6 +36,9 @@ import { NotFound } from './pages/NotFound'
 function App() {
   return (
     <Routes>
+      {/* GOİZM turnuva sayfası: Layout dışında — navbar/footer olmadan bağımsız sayfa */}
+      <Route path="/goizm" element={<GoizmTournament />} />
+      <Route path="/goizm/19-izmir-go-turnuvasi" element={<GoizmTournament />} />
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route path="/giris" element={<Login />} />

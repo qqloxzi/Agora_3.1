@@ -1,0 +1,41 @@
+// 1. Agora Çevrimiçi Turnuvası — resmi final sıralaması (OpenGotha, 6. tur sonrası, 2026-10-20).
+// Eşleştirme operatörü Oğuz Erdoğan'ın "6.tur standings" çıktısından birebir aktarıldı.
+// rounds: "<rakip num><sonuç>" — "5+" = 5 numaralı oyuncuyu yendi, "0-" = maç yok, "0+" = bay.
+// place aynı olan oyuncular (3. sıra) MMS, SOS ve SOSOS'ta tamamen eşit — OpenGotha ortak sıra veriyor.
+export const ONLINE_TOURNAMENT_FINAL = {
+  title: '1. Agora Çevrimiçi Go Turnuvası',
+  round: 6,
+  date: '2026-10-20',
+  standings: [
+    { num: 1, place: 1, name: 'Veysel Özbudak', rank: '2d', country: 'TR', club: 'Can', wins: 6, rounds: ['5+', '3+', '4+', '2+', '6+', '7+'], mms: 35, sos: 187, sosos: 1116 },
+    { num: 2, place: 2, name: 'Sercan Oruç', rank: '2d', country: 'NL', club: 'Delf', wins: 4, rounds: ['0-', '7+', '11+', '1-', '3+', '4+'], mms: 33, sos: 185, sosos: 1100 },
+    { num: 3, place: 3, name: 'Deniz Ekim Aydın', rank: '1d', country: 'TR', club: 'Ant', wins: 3, rounds: ['4+', '1-', '6+', '5-', '2-', '11+'], mms: 32, sos: 189, sosos: 1117 },
+    { num: 4, place: 3, name: 'Mustafa Kursat Elitok', rank: '1k', country: 'TR', club: 'Esk', wins: 3, rounds: ['3-', '5+', '1-', '6+', '11+', '2-'], mms: 32, sos: 189, sosos: 1117 },
+    { num: 5, place: 5, name: 'Oğuz Erdoğan', rank: '1k', country: 'TR', club: 'Izm', wins: 3, rounds: ['1-', '4-', '0-', '3+', '8+', '6+'], mms: 32, sos: 186, sosos: 1096 },
+    { num: 6, place: 6, name: 'Yigitcan Corduk', rank: '3k', country: 'TR', club: 'Ank', wins: 2, rounds: ['7+', '11+', '3-', '4-', '1-', '5-'], mms: 29, sos: 188, sosos: 1112 },
+    { num: 7, place: 7, name: 'Bilge Goze', rank: '3k', country: 'TR', club: 'Ist', wins: 2, rounds: ['6-', '2-', '8-', '14+', '15+', '1-'], mms: 29, sos: 179, sosos: 1059 },
+    { num: 8, place: 8, name: 'Seçkin Görüşük', rank: '5k', country: 'TR', club: 'Can', wins: 4, rounds: ['15+', '12+', '7+', '9-', '5-', '16+'], mms: 29, sos: 169, sosos: 1021 },
+    { num: 9, place: 9, name: 'Kadir Oguzhan Karagoz', rank: '4k', country: 'TR', club: 'Esk', wins: 3, rounds: ['11-', '15-', '12+', '8+', '14-', '13+'], mms: 29, sos: 164, sosos: 1009 },
+    { num: 10, place: 10, name: 'Mehmet Samed Karapınar', rank: '5k', country: 'TR', club: 'Esk', wins: 4, rounds: ['0-', '0-', '15+', '16+', '12+', '14+'], mms: 29, sos: 156, sosos: 952 },
+    { num: 11, place: 11, name: 'Aren Denktas', rank: '4k', country: 'TR', club: 'Ist', wins: 2, rounds: ['9+', '6-', '2-', '12+', '4-', '3-'], mms: 28, sos: 182, sosos: 1083 },
+    { num: 12, place: 12, name: 'Ali Karakaya', rank: '5k', country: 'TR', club: 'Izm', wins: 2, rounds: ['13+', '8-', '9-', '11-', '10-', '15+'], mms: 27, sos: 168, sosos: 1001 },
+    { num: 13, place: 13, name: 'Kerem Berdibek', rank: '6k', country: 'TR', club: 'Ank', wins: 3, rounds: ['12-', '16+', '14-', '15+', '17+', '9-'], mms: 27, sos: 160, sosos: 956 },
+    { num: 14, place: 14, name: 'Şevval Beyza Aralı', rank: '7k', country: 'TR', club: 'Izm', wins: 4, rounds: ['23+', '18+', '13+', '7-', '9+', '10-'], mms: 27, sos: 160, sosos: 935 },
+    { num: 15, place: 15, name: 'Ali Moeininajafabadi', rank: '5k', country: 'TR', club: 'Izm', wins: 1, rounds: ['8-', '9+', '10-', '13-', '7-', '12-'], mms: 26, sos: 170, sosos: 996 },
+    { num: 16, place: 16, name: 'Tufan Baran Ilıcalı', rank: '7k', country: 'TR', club: 'Izm', wins: 3, rounds: ['19+', '13-', '23+', '10-', '18+', '8-'], mms: 26, sos: 154, sosos: 900 },
+    { num: 17, place: 17, name: 'Güçlü Yılmaz', rank: '8k', country: 'TR', club: 'Izm', wins: 3, rounds: ['21+', '23+', '0-', '18-', '13-', '19+'], mms: 25, sos: 140, sosos: 843 },
+    { num: 18, place: 18, name: 'Mümine Çelik', rank: '10k', country: 'TR', club: 'Ank', wins: 4, rounds: ['27+', '14-', '19+', '17+', '16-', '21+'], mms: 24, sos: 143, sosos: 865 },
+    { num: 19, place: 19, name: 'Serhat Turktan', rank: '10k', country: 'TR', club: 'Esk', wins: 3, rounds: ['16-', '27+', '18-', '22+', '25+', '17-'], mms: 23, sos: 139, sosos: 813 },
+    { num: 20, place: 20, name: 'Mustafa Kaan Gencalp', rank: '12k', country: 'TR', club: 'Ank', wins: 5, rounds: ['22+', '24-', '28+', '27+', '21+', '30+'], mms: 23, sos: 116, sosos: 743 },
+    { num: 21, place: 21, name: 'Kaya Güvercin', rank: '10k', country: 'TR', club: 'Ist', wins: 2, rounds: ['17-', '22-', '27+', '23+', '20-', '18-'], mms: 22, sos: 136, sosos: 802 },
+    { num: 22, place: 22, name: 'Berkan Yasin Sen', rank: '11k', country: 'TR', club: 'Izm', wins: 3, rounds: ['20-', '21+', '24+', '19-', '23+', '26-'], mms: 22, sos: 134, sosos: 748 },
+    { num: 23, place: 23, name: 'Hüseyin Boyacı', rank: '9k', country: 'TR', club: 'Ank', wins: 1, rounds: ['14-', '17-', '16-', '21-', '22-', '29+'], mms: 22, sos: 133, sosos: 842 },
+    { num: 24, place: 24, name: 'Ali Fırat Bulca', rank: '12k', country: 'TR', club: 'Esk', wins: 4, rounds: ['26+', '20+', '22-', '25-', '29+', '28+'], mms: 22, sos: 119, sosos: 690 },
+    { num: 25, place: 25, name: 'Hasan Çağrı Sarıkaya', rank: '13k', country: 'TR', club: 'Ank', wins: 5, rounds: ['28+', '29+', '30+', '24+', '19-', '27+'], mms: 22, sos: 106, sosos: 730 },
+    { num: 26, place: 26, name: 'Sami Ilker Bayindir', rank: '12k', country: 'TR', club: 'Ank', wins: 4, rounds: ['24-', '28-', '29+', '30+', '27+', '22+'], mms: 22, sos: 105, sosos: 725 },
+    { num: 27, place: 27, name: 'Nesibe Senveli', rank: '10k', country: 'TR', club: 'Izm', wins: 0, rounds: ['18-', '19-', '21-', '20-', '26-', '25-'], mms: 20, sos: 136, sosos: 745 },
+    { num: 28, place: 28, name: 'Umut Persil', rank: '14k', country: 'TR', club: 'Izm', wins: 3, rounds: ['25-', '26+', '20-', '29+', '30+', '24-'], mms: 19, sos: 111, sosos: 671 },
+    { num: 29, place: 29, name: 'Alp Öcal', rank: '20k', country: 'TR', club: 'Izm', wins: 1, rounds: ['30+', '25-', '26-', '28-', '24-', '23-'], mms: 11, sos: 118, sosos: 681 },
+    { num: 30, place: 30, name: 'Beyza Paksın', rank: '20k', country: 'TR', club: 'Izm', wins: 1, rounds: ['29-', '0+', '25-', '26-', '28-', '20-'], mms: 11, sos: 107, sosos: 616 },
+  ],
+}
