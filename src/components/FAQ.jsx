@@ -9,11 +9,11 @@ const faqs = [
   },
   {
     question: 'Ligler ile Atölyeler arasındaki fark nedir?',
-    answer: 'Atölyeler herkese açık ve ücretsizdir, kendi hızında ilerlersin. Ligler ise eğitmen eşliğinde yürütülen, gerçek rakiplerle eşleştiğin 6 haftalık ücretli programlardır.',
+    answer: 'Atölyeler herkese açık ve ücretsizdir, kendi hızında ilerlersin. Ligler ise eğitmen eşliğinde yürütülen, gerçek rakiplerle eşleştiğin 6 haftalık programlardır. Lige ücretsiz katılabileceğin gibi maç analizi ve özel ders içeren paketleri de seçebilirsin.',
   },
   {
     question: 'Ödeme nasıl yapılıyor?',
-    answer: 'Lig ödemeleri Shopier üzerinden güvenle alınır. "Ödeme ile Kaydol" butonuna tıkladığında Shopier ödeme sayfasına yönlendirilirsin.',
+    answer: 'Ücretsiz katılım için "Ücretsiz Katıl" butonunu kullanabilirsin. Maç analizi ve özel ders içeren paketlerde "Kaydol" butonu seni Shopier ödeme sayfasına yönlendirir.',
   },
 ]
 

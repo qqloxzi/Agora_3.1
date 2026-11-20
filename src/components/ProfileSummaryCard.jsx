@@ -61,7 +61,7 @@ export function ProfileSummaryCard({ className = '' }) {
           <Trophy size={13} /> Katıldığın Ligler
         </p>
         {leagues.length === 0 ? (
-          <Link to="/fikstur" className="text-sm text-accent-blue font-bold hover:underline">Henüz katılmadın — bir lige göz at</Link>
+          <Link to="/ligler" className="text-sm text-accent-blue font-bold hover:underline">Henüz katılmadın — bir lige göz at</Link>
         ) : (
           <div className="flex flex-col gap-1.5">
             {leagues.map((l) => (

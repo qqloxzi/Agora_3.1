@@ -9,12 +9,19 @@ import { Footer } from './Footer'
 const IMMERSIVE_PREFIXES = ['/atolyeler/kurs/', '/bulmacalar', '/joseki-sonrasi']
 
 export function Layout() {
-  const { pathname } = useLocation()
+  const { pathname, hash } = useLocation()
   const immersive = IMMERSIVE_PREFIXES.some((p) => pathname.startsWith(p))
 
   useEffect(() => {
+    if (hash) {
+      const target = document.getElementById(hash.slice(1))
+      if (target) {
+        target.scrollIntoView()
+        return
+      }
+    }
     window.scrollTo(0, 0)
-  }, [pathname])
+  }, [pathname, hash])
 
   return (
     <div className={`agora-gradient-page lg:pl-60 ${immersive ? 'h-screen overflow-hidden flex flex-col' : 'min-h-screen flex flex-col'}`}>

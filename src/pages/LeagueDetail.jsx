@@ -1,59 +1,41 @@
 import { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
-import { CheckCircle2, Clock, Users, ArrowLeft, Wallet } from 'lucide-react'
+import { Link, useParams, useNavigate } from 'react-router-dom'
+import { Clock, Users, ArrowLeft, ArrowRight } from 'lucide-react'
 import { supabase } from '../lib/supabase'
-import { useAuth } from '../contexts/AuthContext'
+import { courseSlugForLeague, REVIEW3_PAYMENT_LINKS } from '../lib/leagueData'
 import { StarRating } from '../components/ui/StarRating'
 import { CommentThread } from '../components/ui/CommentThread'
-import { StoneCluster } from '../components/ui/StoneCluster'
-
-const STONE_COUNT_BY_SLUG = { 'temel-taslar': 1, gelisim: 2, aydinlanma: 3 }
+import { LeagueOptions } from '../components/LeagueOptions'
 
 export function LeagueDetail() {
   const { slug } = useParams()
-  const { user } = useAuth()
+  const navigate = useNavigate()
   const [course, setCourse] = useState(null)
-  const [enrolled, setEnrolled] = useState(false)
+  const [leagueId, setLeagueId] = useState(null)
   const [loading, setLoading] = useState(true)
-  const [enrolling, setEnrolling] = useState(false)
 
   useEffect(() => {
     let active = true
     async function load() {
       setLoading(true)
-      const { data: courseData } = await supabase.from('courses').select('*').eq('slug', slug).maybeSingle()
+      const [{ data: courseData }, { data: groups }] = await Promise.all([
+        supabase.from('courses').select('*').eq('slug', slug).maybeSingle(),
+        supabase.from('league_groups').select('id, name'),
+      ])
       if (!active) return
       setCourse(courseData)
-      if (courseData && user) {
-        const { data: enrollment } = await supabase
-          .from('course_enrollments')
-          .select('id')
-          .eq('course_id', courseData.id)
-          .eq('user_id', user.id)
-          .maybeSingle()
-        setEnrolled(Boolean(enrollment))
-      }
+      setLeagueId(groups?.find((group) => courseSlugForLeague(group.name) === slug)?.id ?? null)
       setLoading(false)
     }
     load()
     return () => {
       active = false
     }
-  }, [slug, user])
+  }, [slug])
 
-  const isFree = !course?.price || course.price === 'Ücretsiz'
-
-  async function handleEnroll() {
-    if (!course) return
-    if (course.payment_link) {
-      window.open(course.payment_link, '_blank', 'noopener,noreferrer')
-      return
-    }
-    if (!isFree || !user) return
-    setEnrolling(true)
-    const { error } = await supabase.from('course_enrollments').insert({ course_id: course.id, user_id: user.id })
-    setEnrolling(false)
-    if (!error) setEnrolled(true)
+  function handleFreeJoin() {
+    const query = leagueId ? `?kayit=true&leagueId=${leagueId}` : '?kayit=true'
+    navigate(`/ligler${query}`)
   }
 
   if (loading) return <p className="text-center py-24 text-ink/40">Yükleniyor...</p>
@@ -74,17 +56,13 @@ export function LeagueDetail() {
 
       <div className="grid lg:grid-cols-[1fr_320px] gap-10">
         <div>
-          <div className="w-full h-56 agora-gradient-surface rounded-3xl mb-6 flex items-center justify-center text-white">
-            <StoneCluster count={STONE_COUNT_BY_SLUG[course.slug] ?? 1} size={72} />
+          <div className="w-full h-40 mb-2 flex items-center justify-center">
+            <img src="/banners/leagues-banner.svg" alt="GO Akademisi" className="h-32 w-auto" />
           </div>
           <span className="text-xs font-bold uppercase tracking-wider text-accent-blue">{course.level}</span>
           <h1 className="text-3xl md:text-4xl font-black text-ink dark:text-white mt-2 mb-4">{course.title}</h1>
           <StarRating targetType="course" targetId={course.id} initialAvg={course.rating_avg} initialCount={course.rating_count} className="mb-6" />
           <p className="text-ink/70 dark:text-ice-white/70 leading-relaxed whitespace-pre-line mb-8">{course.description}</p>
-
-          <div className="rounded-3xl bg-white/70 dark:bg-white/5 border border-primary-blue/10 dark:border-white/10 shadow-card p-6 md:p-8">
-            <CommentThread targetType="course" targetId={course.id} />
-          </div>
         </div>
 
         <aside className="lg:sticky lg:top-20 lg:self-start rounded-3xl bg-white/70 dark:bg-white/5 border border-primary-blue/10 dark:border-white/10 shadow-card p-6">
@@ -96,29 +74,23 @@ export function LeagueDetail() {
             <span className="flex items-center gap-2"><Users size={15} className="text-accent-blue" /> Bu zamana kadar toplam {course.students_count} öğrenci</span>
           </div>
 
-          {enrolled ? (
-            <div className="flex items-center justify-center gap-2 py-3.5 rounded-2xl bg-success/10 text-success font-extrabold">
-              <CheckCircle2 size={18} /> Kayıtlısın
-            </div>
-          ) : !isFree && !course.payment_link ? (
-            <div className="flex flex-col items-center gap-2 py-4 rounded-2xl bg-token/10 text-center">
-              <Wallet size={20} className="text-token" />
-              <p className="text-sm font-extrabold text-ink dark:text-white">Ödeme Yakında</p>
-              <p className="text-xs text-ink/50 dark:text-ice-white/50 px-4">
-                Bu lig için Shopier ödeme linki çok yakında eklenecek. Şimdilik{' '}
-                <Link to="/iletisim" className="text-accent-blue font-bold hover:underline">iletişime geç</Link>.
-              </p>
-            </div>
-          ) : (
-            <button
-              onClick={handleEnroll}
-              disabled={enrolling}
-              className="w-full press-btn magnetic-btn py-3.5 rounded-2xl bg-primary-blue text-white font-extrabold disabled:opacity-60"
-            >
-              {course.payment_link ? 'Ödeme ile Kaydol' : 'Ücretsiz Kaydol'}
-            </button>
-          )}
+          <p className="text-xs font-bold uppercase tracking-wider text-ink/40 dark:text-ice-white/40 mb-3">Katılım Seçenekleri</p>
+          <LeagueOptions
+            paymentLinks={{
+              review3: REVIEW3_PAYMENT_LINKS[course.slug],
+              review6: course.payment_link,
+            }}
+            onFreeJoin={handleFreeJoin}
+          />
+
+          <Link to="/ligler" className="mt-5 flex items-center justify-center gap-1.5 text-sm font-bold text-accent-blue hover:underline">
+            Lig kaydına dön <ArrowRight size={14} />
+          </Link>
         </aside>
+      </div>
+
+      <div className="mt-8 rounded-3xl bg-white/70 dark:bg-white/5 border border-primary-blue/10 dark:border-white/10 shadow-card p-6 md:p-8">
+        <CommentThread targetType="course" targetId={course.id} />
       </div>
     </div>
   )

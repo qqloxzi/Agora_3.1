@@ -1,5 +1,41 @@
 import { supabase } from './supabase'
 
+// Deneme dersi (1 analiz) paketinin lig başına Shopier bağlantıları.
+export const REVIEW1_PAYMENT_LINKS = {
+  'temel-taslar': 'https://www.shopier.com/Agoragoakademisi/53204276',
+  gelisim: 'https://www.shopier.com/Agoragoakademisi/53204321',
+  aydinlanma: 'https://www.shopier.com/Agoragoakademisi/53204344',
+}
+
+// 3 maç analizi + özel ders paketinin lig başına Shopier bağlantıları.
+export const REVIEW3_PAYMENT_LINKS = {
+  'temel-taslar': 'https://www.shopier.com/Agoragoakademisi/53054225',
+  gelisim: 'https://www.shopier.com/Agoragoakademisi/53054192',
+  aydinlanma: 'https://www.shopier.com/Agoragoakademisi/53054000',
+}
+
+// 5 maç analizi + eğitmenle simultane paketinin lig başına Shopier bağlantıları.
+export const REVIEW5_PAYMENT_LINKS = {
+  'temel-taslar': 'https://www.shopier.com/Agoragoakademisi/42122188',
+  gelisim: 'https://www.shopier.com/Agoragoakademisi/42122246',
+  aydinlanma: 'https://www.shopier.com/Agoragoakademisi/42122300',
+}
+
+// Eğitmenin ligine göre analiz/ders paketlerinin fiyatları.
+export const REVIEW_PRICES = {
+  'temel-taslar': { 1: 600, 3: 800, 5: 1200 },
+  gelisim: { 1: 800, 3: 1000, 5: 1800 },
+  aydinlanma: { 1: 1000, 3: 1600, 5: 2400 },
+}
+
+// Fikstür ligleri ile courses tablosundaki bilgi sayfaları eşleştirilir.
+export function courseSlugForLeague(name = '') {
+  if (/temel\s*taşlar/i.test(name)) return 'temel-taslar'
+  if (/gelişim/i.test(name)) return 'gelisim'
+  if (/aydınlanma/i.test(name)) return 'aydinlanma'
+  return null
+}
+
 export async function fetchLeagues() {
   const [{ data: groups }, { data: players }, { data: results }] = await Promise.all([
     supabase.from('league_groups').select('id, name, sub, status, sort_order').order('sort_order'),

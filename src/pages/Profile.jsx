@@ -136,10 +136,10 @@ export function Profile() {
             </div>
             <ArrowRight className="text-accent-blue shrink-0" />
           </Link>
-          <Link to="/fikstur" className="magnetic-btn rounded-3xl bg-white/70 dark:bg-white/5 border border-primary-blue/10 dark:border-white/10 shadow-card p-6 flex items-center justify-between">
+          <Link to="/ligler" className="magnetic-btn rounded-3xl bg-white/70 dark:bg-white/5 border border-primary-blue/10 dark:border-white/10 shadow-card p-6 flex items-center justify-between">
             <div>
-              <p className="font-extrabold text-ink dark:text-white mb-1">Lig Durumunu Gör</p>
-              <p className="text-sm text-ink/50 dark:text-ice-white/50">Puan durumu ve haftalık eşleşmeler.</p>
+              <p className="font-extrabold text-ink dark:text-white mb-1">Lig Kaydı Yap</p>
+              <p className="text-sm text-ink/50 dark:text-ice-white/50">Yeni lig kayıt akışını başlat.</p>
             </div>
             <ArrowRight className="text-accent-blue shrink-0" />
           </Link>

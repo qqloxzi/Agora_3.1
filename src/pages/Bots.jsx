@@ -7,7 +7,7 @@ export function Bots() {
       icon={Bot}
       title="Botlarla Oyna"
       description="Farklı seviyelerde yapay zeka rakiplerine karşı pratik yapabileceğin oyun modu hazırlanıyor. Çıktığında burada karşına çıkacak."
-      cta={{ to: '/fikstur', label: 'Şimdilik liglere göz at' }}
+      cta={{ to: '/ligler', label: 'Şimdilik liglere göz at' }}
     />
   )
 }

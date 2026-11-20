@@ -15,7 +15,6 @@ import { WorkshopIntro } from './pages/WorkshopIntro'
 import { WorkshopLesson } from './pages/WorkshopLesson'
 import { Leagues } from './pages/Leagues'
 import { LeagueDetail } from './pages/LeagueDetail'
-import { Fikstur } from './pages/Fikstur'
 import { AgoraOnlineLeague } from './pages/AgoraOnlineLeague'
 import { Leaderboard } from './pages/Leaderboard'
 import { Puzzles } from './pages/Puzzles'
@@ -57,7 +56,6 @@ function App() {
         <Route path="/ligler" element={<Leagues />} />
         <Route path="/lig/:slug" element={<LeagueDetail />} />
 
-        <Route path="/fikstur" element={<Fikstur />} />
         <Route path="/agora-online-ligi" element={<AgoraOnlineLeague />} />
         <Route path="/liderlik-tablosu" element={<Leaderboard />} />
 

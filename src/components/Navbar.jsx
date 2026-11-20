@@ -12,11 +12,9 @@ import {
   Home as HomeIcon,
   GraduationCap,
   Trophy,
-  CalendarDays,
   Puzzle,
   Award,
   Users,
-  Globe,
   GitBranch,
 } from 'lucide-react'
 import { useAuth } from '../contexts/AuthContext'
@@ -27,9 +25,7 @@ import { StreakFlame } from './ui/StreakFlame'
 const NAV_LINKS = [
   { to: '/', label: 'Ana Sayfa', icon: HomeIcon },
   { to: '/atolyeler', label: 'Atölyeler', icon: GraduationCap },
-  { to: '/ligler', label: 'Ligler', icon: Trophy },
-  { to: '/agora-online-ligi', label: 'Çevrimiçi Turnuva', icon: Globe },
-  { to: '/fikstur', label: 'Fikstür', icon: CalendarDays },
+  { to: '/ligler', label: 'Agora Turnuvası', icon: Trophy },
   { to: '/bulmacalar', label: 'Bulmacalar', icon: Puzzle },
   { to: '/joseki-sonrasi', label: 'Joseki Sonrası', icon: GitBranch },
   { to: '/liderlik-tablosu', label: 'Liderlik', icon: Award },
